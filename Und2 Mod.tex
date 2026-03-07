@@ -1,0 +1,2630 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amsopn,amscd,amsthm,amssymb,xypic,rotating}
+\usepackage{thmtools}
+\usepackage[utf8]{inputenc}
+\usepackage{changebar}
+%\usepackage[dvinames]{xcolor}
+\usepackage{mathtools}
+\usepackage{hyperref}
+
+%\input{macros.tex}
+
+\title{Und2 - A Diablo 2 mod for quality of life and extending the fun duration of the game}
+\author{Juan Casanova}
+
+%\noannotations
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Goals}
+
+The mod is not aimed at necessarily modifying the game too far. Diablo 2 is a great game and most of its mechanics are intricate and have lots of factors that play into them and make them interesting. However, I feel there are a couple of things that, at least for me, make the game, specially the end-game, a bit too grindy. Similarly, I feel there are a couple of mechanics (and items) that are a bit under-used and become too useless in the end-game. The goals of this mod is to deal with both of these (related) issues at once. In particular:
+
+\begin{itemize}
+
+\item {\emph{High runes are too rare.}} This is just a reality, in my opinion. Now, other mods deal with this by increasing their drop rates, but this is a lot more complicated to do and does not interact with the other goals. By using cube recipes to produce runes I can tackle both issues at once, and also modify less files.
+
+\item {\emph{Only a subset of unique/set items are useful in the endgame}} And most are not useful at all. On one hand, this has the (positive) effect of dropping a unique not being automatically a nice thing, and adds another layer of mechanics to the game (finding the right unique). However, I feel this goes a bit too far. Making every unique useful in a direct way would be both extremely complicated, too much work and remove this aspect. Instead, adding {\bf{some}} value to every unique incentivates MF and makes the game less about getting {\emph{that one drop}}, which is nice in moderation but becomes too prevalent in endgame Diablo 2. We do this by producing another base material used in other aspects of this mod from uniques (more later).
+
+\item {\emph{The game has conceptual possibilities that cannot be exploited due to limits in itemization.}} This, I feel, particularly limits the set of metagame builds in the game quite a bit. Runewords, to a degree, add dimensionality to the game with unique effects that cannot be obtained otherwise and which change this metagame. But these are still limited and extremely rare (see high runes are too rare). By adding possibilities to obtain these unique effects (aura when equipped, add skills of other classes, casts on attack, ignore defense, piercing attack, enemies flee, etc.) in more targetted and flexible ways, we open up the possibilities for builds quite a lot. We call these Augments. These Augments are one-of-a-kind effects, in the sense that stacking multiple of them is not really benefitial (on top of being limited).
+
+\item {\emph{Magic and rare items are not good enough.}} Sometimes they are, but only in very specific cases. Now, it is dangerous to simply make them stronger because then they would overshadow uniques and sets. We combine this with the previous point to allow the adding of these unique effects to rares and magic items, but only in limited amounts / ways, to make magic and rare items more viable for endgame, while hopefully not making uniques completely irrelevant. 
+
+\item {\emph{Good magic and rare items are (a bit) too hard to find.}} The combination of affixes needed to produce a good magic or rare item is often too specific and takes large amounts of drops to obtain. The ability to reroll magic items with perfect gems helps a bit with this, but it's still very limited. We add possibilities for rerolling both magic and rare items more easily, so while there is still a random element (that distinguishes from uniques) and it's very hard to find the perfect magic/rare item, it's easier to find a pretty good one.
+
+\item {\emph{A lot of white/magical/rare items are useless while their equivalent white/magical/rare are not.}} This is a minor problem, but we add recipes to transform whites, blues and yellows into whites, blues and yellows (with random affixes in each case), add sockets more reasily, transform ethereal into non-ethereal and viceversa.
+
+\item {\emph{There is a point at which you can't really get much better.}} Diablo 2 has a balance in that it's quite easy to get close to optimal, but it's extremely hard to get optimal. This works fine, except for one reason: For people who want long-term play, it becomes a grind to find that Holy Grail that will give you the last extra push forward. In this mod, I add another type of Augments specifically for charms and jewels (while allowing large amounts of sockets for non-white items), which add power-level stats that are usually only found in uniques or limited in their sources, in very small amounts that are noticeable but not game changing. Examples include damage reduced, elemental damage, reduce enemy resistance, maximum life, maximum mana, faster cast rate, faster hit recovery, crushing blow, etc. We also give rare uniques another life by making them useful for this kind of additional push that is not build-defining.
+
+\end{itemize}
+
+We note that all of these changes are achieved almost exclusively through new Horadric Cube recipes, with a couple of exceptions. This makes the mod simple and its effects limited.
+
+\section{Runes}
+
+First, we slightly tweak the runes treasure classes to make high runes slightly more common in drops. This should also make farming for runes slightly more worth it.\\
+
+However, in order to make high runes more accessible, the main thing we do is that we add cube recipes that allow us to obtain them more easily. The basic cube recipes to obtain higher runes have the problem of being exponential (requiring multiple of each previous layer to produce). Even with small numbers, this becomes very quickly insufficient (most people never cube runes above Ort). The new recipes instead upgrade a rune to the next one using additional materials that are generally obtainable through similar means to runes themselves. In particular, Perfect Gems and Unique/Set Essences (see the section for Uniques/Sets). In particular, we add the following recipes:
+
+\begin{tabular}{|c|c|c|}
+\hline
+{\bf{Base rune}}&{\bf{Added materials}}&{\bf{Result rune}}\\
+\hline
+El&1 Perfect Gem&Eld\\
+\hline
+Eld&1 Perfect Gem&Tir\\
+\hline
+Tir&1 Perfect Gem&Nef\\
+\hline
+Nef&1 Perfect Gem&Eth\\
+\hline
+Eth&2 Perfect Gems&Ith\\
+\hline
+Ith&2 Perfect Gems&Tal\\
+\hline
+Tal&2 Perfect Gems&Ral\\
+\hline
+Ral&2 Perfect Gems&Ort\\
+\hline
+Ort&2 Perfect Gems&Thul\\
+\hline
+Thul&3 Perfect Gems&Amn\\
+\hline
+Amn&3 Perfect Gems&Sol\\
+\hline
+Sol&3 Perfect Gems&Shael\\
+\hline
+Shael&3 Perfect Gems&Dol\\
+\hline
+Dol&3 Perfect Gems&Hel\\
+\hline
+Hel&4 Perfect Gems&Io\\
+\hline
+Io&4 Perfect Gems&Lum\\
+\hline
+Lum&4 Perfect Gems&Ko\\
+\hline
+Ko&4 Perfect Gems&Fal\\
+\hline
+Fal&5 Perfect Gems&Lem\\
+\hline
+Lem&5 Perfect Gems&Pul\\
+\hline
+Pul&5 Perfect Gems&Um\\
+\hline
+Um&6 Perfect Gems,1 Unique Essence&Mal\\
+\hline
+Mal&6 Perfect Gems,1 Unique Essence&Ist\\
+\hline
+Ist&6 Perfect Gems,1 Unique Essence&Gul\\
+\hline
+Gul&7 Perfect Gems,2 Unique Essences&Vex\\
+\hline
+Vex&7 Perfect Gems,2 Unique Essences&Ohm\\
+\hline
+Ohm&7 Perfect Gems,2 Unique Essences&Lo\\
+\hline
+Lo&7 Perfect Gems,2 Unique Essences&Sur\\
+\hline
+Sur&8 Perfect Gems,3 Unique Essences&Ber\\
+\hline
+Ber&8 Perfect Gems,3 Unique Essences&Jah\\
+\hline
+Jah&8 Perfect Gems,3 Unique Essences&Cham\\
+\hline
+Cham&8 Perfect Gems,3 Unique Essences&Zod\\
+\hline
+\end{tabular}
+
+To summarize, this means that one can obtain a Zod with 1 El rune, 138 Perfect Gems and 23 Unique Essences. This is still quite expensive, but enormously less than it is in the basic game. It still gives rune drops (specially intermediate ones) a lot of value.\\
+
+On the other hand, there is no way in Diablo 2 to {\emph{downgrade}} runes, and sometimes you have runes that are higher than what you like. Similarly, we wanted a way to be able to reroll magic/rare items more easily. Runes gives us just this, using runes to reroll magics/rares while downgrading them (one step at a time, so a Zod into a Cham, all the way into an Eld into an El, and an El into nothing). This allows for quick multicasting of the cube until we get the rune/reroll that we want. It is also a good way to use extra rune drops. Now, of course higher runes take more to upgrade and have the same effect when downgrading, so it's less worthy using them for this purpose. But this is fine, this makes saving higher runes worth it to keep.
+
+%\begin{tabular}{|c|c|}
+%\hline
+%{\bf{Rune range}}&{\bf{Reroll item types allowed (all previous ones also allowed)}}\\
+%\hline
+%El and higher&Magic Basic Armor\\
+%\hline
+%Tir and higher&Magic Basic Weapons and Off-hands\\
+%\hline
+%Ith and higher&Rare Basic Armor\\
+%\hline
+%Ral and higher&Rare Basic Weapons and Off-hands\\
+%\hline
+%Amn and higher&Magic Rings and Amulets\\
+%\hline
+%Shael and higher&Magic Exceptional Armor\\
+%\hline
+%Io and higher&Magic Exceptional Weapons and Off-hands\\
+%\hline
+%Ko and higher&Rare Exceptional Armor\\
+%\hline
+%Lem and higher&Rare Exceptional Weapons and Off-hands\\
+%\hline
+%Mal and higher&Magic Jewels and Charms\\
+%\hline
+%Ist and higher&Magic Elite Armor\\
+%\hline
+%Gul and higher&Magic Elite Weapons and Off-hands\\
+%\hline
+%Vex and higher&Rare Elite Armor\\
+%\hline
+%Lo and higher&Rare Elite Weapons and Off-hands\\
+%\hline
+%Ber and higher&Rare Rings, Amulets and Jewels\\
+%\hline
+%\end{tabular}
+
+\section{Uniques (and sets)}
+
+In order to make every set and unique drop valuable, we allow to distill them into essences. Set Essences for set items and Unique Essences for unique items. Set Essences can be transformed into Unique Essences on a 2:1 ratio (2 Set Essences = 1 Unique Essence). Unique Essences are also used to upgrade higher runes, and both Set and Unique Essences are used in some Augmentation recipes. Similarly, both Set and Unique essences can be used to reroll Set or Unique items, producing a new copy of the same Set/Unique item with new stats. Not all uniques/sets are worth the same, though, and the simplest way that we measure this is based on type and level: (this is the same for Unique and Set versions, but for Unique and Set essences respectively).
+
+\begin{tabular}{|c|c|}
+\hline
+Normal Armors&1 Essence\\
+\hline
+Normal Weapons&1 Essence\\
+\hline
+Exceptional Armors&2 Essences\\
+\hline
+Exceptional Weapons&3 Essences\\
+\hline
+Elite Armors&3 Essences\\
+\hline
+Elite Weapons&5 Essences\\
+\hline
+Rings&2 Essences\\
+\hline
+Amulets&3 Essences\\
+\hline
+Charms&9 Essences\\
+\hline
+Jewels&9 Essences\\
+\hline
+\end{tabular}
+
+However, cube recipes only allow to output 3 items. Thus, to produce more, we create Concentrated Essences and Highly Concentrated Essences, which produce 3 Essences and 3 Concentrated Essences respectively when cubed. To output 12 Essences, we output 1 Highly Concentrated Essence and 1 Concentrated Essence, for example.\\
+
+To reroll a Unique/Set item, we always ask for 4 Essences of the same type, regardless of which item it is. Additionally, we add recipes for rings and amulets, which have many unique and set versions, some of which are much more rare and interesting to the others, where a set or unique ring or amulet plus 5 Essences (of the adequate type) generates a new item  of the same kind (ring/amulet and unique/set) with the same item level, but potentially a different unique or set  version. This also makes unique rings, amulets, and set amulet drops a lot more valuable by themselves.\\
+
+We also make a couple of small changes to make certain unique items or item types more interesting. First, we reduce the item level for Annihilius (unique small charm) to 94. This means that Baal, Diablo, and Nihlathak can now regularly drop it. It is still a fairly rare item, though. Similarly, we felt that ethereality was not entirely exploited in the game, and added 3 new extremely powerful unique items. All of these have an item level of 94 and are considerably more rare than existing unique versions of the same base item type. They are also ethereal and unsocketable, meaning that it is impossible to make them indestructible. In turn, this makes these unique items inherently temporary, while also being very rare and very powerful. These are the 3 items:
+
+\begin{center}
+%\makebox[0.1cm]
+%{
+%\resizebox{1.45\textwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+{\bf{Name}}&{\bf{Base item}}&{\bf{Attributes}}\\
+\hline
+Brutal Touch&Gloves&
+\begin{tabular}{@{}c@{}}
+Ethereal\\
+Crushing Blow 25-50\%\\
+Increased Attack Speed 50-75\%\\
+125-175\% Enhanced Damage\\
+125-175\% Bonus to Attack Rating\\
+\end{tabular}\\
+\hline
+Skillful Balance&Demonhide  Sash&
+\begin{tabular}{@{}c@{}}
+Ethereal\\
++3-5 All Skills\\
+50-100\% Faster Cast Rate\\
+Increase Maximum Mana 75-150\%\\
+Regenerate Mana 75-150\%\\
+\end{tabular}\\
+\hline
+Solid Step&Leather Boots&
+\begin{tabular}{@{}c@{}}
+Ethereal\\
++40-60\% Faster Run/Walk\\
++50-100 All Resistances\\
++5-15 All Max Resistances\\
+50-75\% Faster Hit Recovery\\
+15-30\% Reduced Damage\\
+Reduce Poison Duration  50-75\%\\
++500-1000 Defense\\
+Increase Maximum Health 25-75\%\\
+\end{tabular}\\
+\hline
+\end{tabular}
+%}
+%}
+\end{center}
+
+\section{Runewords}
+
+We add a few runewords mainly aimed at incentivizing or enabling unusual playstyles and builds.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\resizebox{1.45\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
+\hline
+{\bf{Name}}&{\bf{Item type}}&{\bf{Runes}}&{\bf{Attributes}}\\
+\hline
+Yodel&Primal Helms&JahSurEth&
+\begin{tabular}{@{}c@{}}
++7 to Warcries\\
++7 to War Cry\\
+45-60\% Faster Cast Rate\\
+15-30\% Faster Hit Recovery\\
+50\% Chance to cast Level 15 Taunt when Struck\\
++80-100\% Enhanced Defense\\
++300/lvl 80 mana\\
+\end{tabular}\\
+\hline
+Toxicity&Necromancer Heads&KoGul&
+\begin{tabular}{@{}c@{}}
++7 to Poison Dagger\\
++5000-10000 poison bit rate over 1500 frames\\
+(approximately 60000 poison damage over 60 seconds)\\
+100\% chance to cast level 25 Venom on strike\\
+100\% chance of open wounds\\
++250\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+See Red&Druid Pelts&ChamIthZod&
+\begin{tabular}{@{}c@{}}
+15\% L35 Firestorm on hit\\
+12\% L35 Molten Boulder on hit\\
+10\% L35 Fissure on hit\\
+7\% L35 Volcano on hit\\
+1\% L50 Armageddon on kill\\
+L15-25 Fanatism aura\\
++3-5 Werewolf\\
+\end{tabular}\\
+\hline
+Dance of the Elements&Sorceress Orbs&IstShaelZod&
+\begin{tabular}{@{}c@{}}
+20\% L35 Frozen Orb on hit\\
+20\% L35 Nova on hit\\
+20\% L35 Hydra on hit\\
+300\% bonus to attack rate\\
+Cannot be frozen\\
+50\% L50 Energy Shield when hit\\
++250 Energy\\
+\end{tabular}\\
+\hline
+Molten Core&Armor&VexEthVexRal&
+\begin{tabular}{@{}c@{}}
++1 to Fire Mastery\\
+1\% L50 Armageddon on kill\\
+Level 15-30 Holy Fire Aura\\
+5-15\% Fire Absorb\\
++200-500 Fire Damage\\
+Regenerate Mana 50\%\\
+Replenish Life +50\\
+\end{tabular}\\
+\hline
+Frozen Core&Armor&OhmElOhmThul&
+\begin{tabular}{@{}c@{}}
++1 to Cold Mastery\\
+1\% L50 Hurricane on kill\\
+Level 15-30 Holy Freeze Aura\\
+5-15\% Cold Absorb\\
++200-500 Cold Damage\\
++1500 Defense\\
++25\% chance to block\\
+\end{tabular}\\
+\hline
+Galvanized Core&Armor&LoShaelLoOrt&
+\begin{tabular}{@{}c@{}}
++1 to Lightning Mastery\\
+1\% L75 Thunderstorm on kill\\
+Level 15-30 Holy Shock Aura\\
+5-15\% Lightning Absorb\\
++1-500 Lightning Damage\\
++20\% Faster Run/Walk\\
++20\% Faster Hit Recovery\\
+\end{tabular}\\
+\hline
+Selflessness&Armor&JahJahJahJah&
+\begin{tabular}{@{}c@{}}
+Ethereal\\
+Reduce Durability by 99\%\\
++450 life\\
+Damage Reduced by 60\\
+Magic Damage Reduced by 60\\
+Physical Damage Reduced by 99\%\\
+Reduce Poison Length 99\%\\
+50\% lifesteal\\
++20\% all max res\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+}
+\end{center}
+
+\section{Changing basic properties}
+
+We add a few recipes to basically transform between:
+
+\begin{itemize}
+\item Socketed and unsocketed items
+\item Ethereal and non-ethereal items
+\item White, magic, rare, unique and set items (not {\bf{into}} unique and set though).
+\item Basic, exceptional and elite items.
+
+\end{itemize}
+
+The recipes are as follows (note the additional costs are sometimes symbolic, sometimes costly)
+
+\begin{center}
+\makebox[0.1cm]
+{
+\resizebox{1.45\textwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+{\bf{Basic item conditions}}&{\bf{Additional materials}}&{\bf{Resulting item}}\\
+\hline
+White, socketable&3 Perfect Skulls, 1 Unique Essence&Socketed version of the same item (random number of sockets)\\
+\hline
+White, magic or rare; non-ethereal, weapon or armor&2 Eths, 2 Unique Essences&Ethereal version of the same item\\
+\hline
+White, ethereal&2 Nefs, 2 Unique Essences&Non-ethereal version of the same item (removes other properties)\\
+\hline
+Weapon or armour&4 Perfect Diamonds&White version of the same item\\
+\hline
+Can have affixes&3 Perfect Sapphires, 1 Unique Essence&Random magic item of the same type\\
+\hline
+Can have affixes, not charm&2 Perfect Topazs, 2 Unique Essences&Random rare item of the same type\\
+\hline
+%Weapon or armour; white, magic or rare&4 Els&Transform base item into basic version\\
+%\hline
+Weapon or armour; white, magic or rare&4 Sols&Transform base item into exceptional version\\
+\hline
+Weapon or armour; white, magic or rare&4 Mals&Transform base item into elite version\\
+\hline
+\end{tabular}
+}
+}
+\end{center}
+
+We also add a recipe to reroll whites, but not using runes as this makes finding perfect whites with skills too easy. Instead, we require 4 flawless gems to reroll a white item. Similarly, we allow 3 flawless gems to be used to repair an item.
+
+\section{Augments - Unique abilities for magic and rare items}
+
+The last two sections detail the most ground-breaking modifications that the mod includes, that provides both another use for runes/essences and opens up the build possibilities, while also increasing how much the endgame can extend. At least, that is the hope.\\
+
+The most important type of augments are for wearable items (weapons, armor, rings and amulets), and all of them provide {\bf{abilities that do not stack by having them multiple times}}. Note that these abilities are {\bf{added}} to the base item, so finding good magic/rare bases to augment is crucial, making magic/rare item finding even more important, while uniques/runewords will still be the most useful item in many cases. Similarly, we only allow these to be used on magic/rare items, and even more, we add the rule that only one augment can be applied to rare items, and two augments to magic items. This last condition cannot be imposed easily directly through modding, so instead we add an extra property to all augments (+1\% extra experience gained) that is nice, but goes well with the spirit of the mod, and in essence counts how many augments have been applied. The player is responsible for not cheating, and never producing a rare with more than 1\% extra experience, or a magic with more than 2\% extra experience.\\
+
+The following table details all of the augments that I have considered. Note that all are applicable to magic and rare, the only difference being whether one or two of them can be applied to the same item. These are similar to runewords, but applied through the cube. The order does not matter, of course.\\
+
+(UE means Unique Essences and SE means Set Essences)
+
+Note the following legend for which applicable items each code represents:
+
+\begin{tabular}{|c|c|}
+\hline
+{\bf{Code}}&{\bf{Item type}}\\
+\hline
+H&Helms\\
+\hline
+Am&Amulets\\
+\hline
+W&Weapons\\
+\hline
+A&Body armors\\
+\hline
+S&Off-hands\\
+\hline
+G&Gloves\\
+\hline
+R&Rings\\
+\hline
+Bl&Belts\\
+\hline
+B&Boots\\
+\hline
+\end{tabular}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
+Sockets (max.)&Cham + Jah + Ber + Sur&X&&X&X&X&&&&\\
+\hline
+Slow enemies by 50\%&Ral + Tal&&&&&X&X&&X&\\
+\hline
+Piercing attacks&Io + Thul + Eth&&&X&&&&X&X&\\
+\hline
+Knockback&Dol + Dol + Ith&X&&X&&&X&&&\\
+\hline
+Ignore Defense&Lum + Nef&&X&&X&&&X&&\\
+\hline
+Freeze&Ith + Tir + El&&&X&&X&&X&&\\
+\hline
+Cannot be frozen&Cham + Lem&X&&&X&&&&&X\\
+\hline
+Indestruct./Rep. quantity&Zod + Mal + UE&X&&X&X&X&X&&X&X\\
+\hline
+Reduce poison dur. 75\%&Gul + Um + Um&X&&&&X&&&&X\\
+\hline
+Prevent monster heal&Fal + Ort&&X&X&&&&&X&\\
+\hline
+Enemies rest in peace&Um + Sol&&X&&X&&&X&&X\\
+\hline
+Hit causes flee 75\%&Gul + 2SE&X&&&&&&&X&X\\
+\hline
++3-7 Critical Strike&Jah + Vex + UE&&&X&&&X&&X&\\
+\hline
++2-5 Dodge/Avoid/Evade&Cham + Io + SE&X&&&X&X&&&&X\\
+\hline
+20\% L15 Decoy when hit&Mal + Mal + UE&&X&&X&&&X&&\\
++8-12 Decoy&&&&&&&&&&\\
+\hline
++3-7 Valkyrie&Sur + Pul&&&&&X&X&X&&\\
+\hline
++5-10 Multishot&Zod + Lo + 2UE&&&X&&X&X&&&\\
++15-20 Guided arrow&&&&&&&&&&\\
++10-15 Strafe&&&&&&&&&&\\
+\hline
++8-12 Burst of Speed&Ber + Sur + 2SE&&X&&X&X&&&&\\
+\hline
++8-12 Fade&Lo + Lo + Gul + Ist&&X&&X&X&&&&\\
+\hline
+5\% L5 Mind Blast on hit&Jah + Ber + Lo + UE&X&&&&X&&X&&\\
+15\% L5 Mind Blast when hit&&&&&&&&&&\\
++2-5 Mind Blast&&&&&&&&&&\\
+\hline
++3-7 Shadow Master&Ohm + 3UE&&&&&X&X&X&&\\
+\hline
+10\% L15 Blade Shield when hit&Ist + Ist + Ist + UE&X&&X&X&&&&&\\
++8-12 Blade Shield&&&&&&&&&&\\
+\hline
++8-12 Shout&Ohm + Ohm + Um + SE&&&X&&X&&&&\\
++8-12 Battle Orders&&&&&&&&&&\\
++8-12 Battle Command&&&&&&&&&&\\
+\hline
++5-10 Find Item&Ist + Ist + Um + Ko&X&&&X&&X&X&&X\\
+\hline
++5-10 Double Swing&Lem + Fal + SE&&&X&&X&X&&&\\
+\hline
++5-10 Double Throw&Pul + Ko + SE&&&X&&X&X&&&\\
+\hline
++5-10 Frenzy&Lo + Vex + UE&&&X&&X&X&&&\\
+\hline
++5-10 Whirlwind&Ber + Ohm + SE + UE&&&X&&X&X&&&\\
+\hline
++3-7 Berserk&Zod + Io&&X&X&&X&X&&&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
+20\% L15 Cyclone Armor when hit&Cham + Ohm + Mal&&&&X&X&&&&X\\
++8-12 Cyclone Armor&&&&&&&&&&\\
+\hline
++8-12 Werewolf&Zod + Jah&&&&X&&&X&&\\
++8-12 Lycanthropy&&&&&&&&&&\\
+\hline
++8-12 Werebear&Ber + Ber + UE&&&&X&&&X&&\\
++8-12 Lycanthropy&&&&&&&&&&\\
+\hline
++5-10 Feral Rage&Jah + Um + UE&&&X&&X&X&&&\\
+\hline
++5-10 Maul&Jah + Pul + Lem&&&X&&X&X&&&\\
+\hline
++5-10 Fury&Zod + Jah + Jah&&&X&&X&X&&&\\
+\hline
++3-7 Oak Sage&Ber + Gul&X&X&&&X&X&X&&\\
+\hline
++3-7 Carrion Vine&Vex + Ist + Lem + Lem&X&X&&&X&X&X&&\\
+\hline
++3-7 Heart of Wolverine&Jah + Sur&X&X&&&X&X&X&&\\
+\hline
++3-7 Solar Creeper&Gul + Gul + SE&X&X&&&X&X&X&&\\
+\hline
++3-7 Spirit of Barbs&Vex + Ko + UE&X&X&&&X&X&X&&\\
+\hline
++5-10 Skeleton&Zod + Ber + Ohm + UE&&&&&X&X&X&&\\
++5-10 Skeleton Mage&&&&&&&&&&\\
++5-10 Skeleton Mastery&&&&&&&&&&\\
+\hline
++2-5 Summon Resist&Ist + Hel + Hel + SE&X&X&&X&X&X&X&X&X\\
+\hline
++5-10 Revive&Zod + Lo + Ist + UE&&&&&X&X&X&&\\
++5-10 Skeleton Mastery&&&&&&&&&&\\
+\hline
++3-7 Clay Golem&Mal + Um + Shael + Amn&&&&&X&X&X&&\\
++3-7 Iron Golem&&&&&&&&&&\\
++3-7 Fire Golem&&&&&&&&&&\\
++10-15 Golem Mastery&&&&&&&&&&\\
+\hline
+20\% L15 Bone Armor when hit&Ber + Gul + Sol&&&&X&X&&&&X\\
++8-12 Bone Armor&&&&&&&&&&\\
+\hline
+20\% L15 Corpse Explosion on kill&Mal + Um + Pul + UE&&X&X&&X&X&X&&\\
++3-7 Corpse Explosion&&&&&&&&&&\\
+\hline
+10\% L10 Bone Wall on hit&Gul + Pul + Lem + Shael&X&&&&X&&X&&\\
+10\% L10 Bone Prison on hit&&&&&&&&&&\\
++2-5 Bone Wall&&&&&&&&&&\\
++2-5 Bone Prison&&&&&&&&&&\\
+\hline
+25\% L10 Amplify Damage on hit&Lo + Ohm + Vex&&&X&&X&X&&X&\\
++3-7 Amplify Damage&&&&&&&&&&\\
+\hline
+25\% L10 Iron Maiden when hit&Ohm + Ist + UE + SE&X&&&X&X&&&X&X\\
++3-7 Iron Maiden&&&&&&&&&&\\
+\hline
+25\% L10 Life Tap on hit&Ber + Mal + Mal + Thul&&&X&&X&X&&X&\\
++3-7 Life Tap&&&&&&&&&&\\
+\hline
+25\% L10 Decrepify on hit&Jah + Lum + Dol + Eld&&&X&&X&X&&X&\\
++3-7 Decrepify&&&&&&&&&&\\
+\hline
+25\% L10 Lower Resist on hit&Cham + Ist + Sol + Ral&&&X&&X&X&&X&\\
++3-7 Lower Resist&&&&&&&&&&\\
+\hline
+L10-15 Vigor Aura&Ohm + Gul + Nef + UE&X&X&&X&X&&X&X&X\\
+\hline
+L10-15 Meditation Aura&Gul + Um + Io + Io&X&X&&X&X&&X&X&X\\
+\hline
+L10-15 Redemption Aura&Vex + Vex + Shael + Shael&X&X&&X&X&&X&X&X\\
+\hline
+L10-15 Might Aura&Cham + 3UE&&X&X&&X&&&&\\
+\hline
+L10-15 Concentration Aura&Jah + Jah + 2UE&&X&X&&X&&&&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
+L10-15 Fanaticism Aura&Zod + Jah + Lo + UE&&X&X&&X&&&&\\
+\hline
+L10-15 Thorns Aura&Vex + 2SE + UE&X&X&&X&X&&X&&X\\
+\hline
+L15-30 Holy Fire Aura&Cham + Ber + UE&&X&X&&X&&&&\\
+\hline
+L15-30 Holy Freeze Aura&Zod + Zod + SE + UE&&X&X&&X&&&&\\
+\hline
+L15-30 Holy Shock Aura&Cham + Jah + 2SE&&X&X&&X&&&&\\
+\hline
+L15-30 Sanctuary Aura&Ohm + Vex + Lem +Hel&&X&X&&X&&&&\\
+\hline
+L15-30 Conviction Aura&Jah + Sur + Sur + Vex&&X&X&&X&&&&\\
+\hline
++5-10 Smite&Sur + Vex + Pul&&&X&&X&X&&&\\
+\hline
++5-10 Zeal&Jah + Mal + 2UE&&&X&&X&X&&&\\
+\hline
++5-10 Charge&Lo + Ohm + SE + UE&&&X&&X&X&&&\\
+\hline
++5-10 Vengeance&Sur + Lo + Sol + SE&&&X&&X&X&&&\\
+\hline
++8-12 Holy Shield&Zod + Gul + Pul + Lum&&X&&X&X&&&&\\
+\hline
++8-12 Frozen Armor&Ber + Gul + Um + Um&&X&&X&X&&&&\\
++8-12 Shiver Armor&&&&&&&&&&\\
++8-12 Chilling Armor&&&&&&&&&&\\
+\hline
+15\% L30 Frozen Orb on hit&Cham + Cham + Io + Tir&&&X&&X&X&&X&\\
++15-25 Frozen Orb&&&&&&&&&&\\
+\hline
+20\% L10 Static Field on hit&Zod + Sur + Vex + Mal&&&X&&X&X&&X&\\
++3-7 Static Field&&&&&&&&&&\\
+\hline
++5-10 Telekinesis&Mal + Um + Io + Hel&X&&&X&&X&X&&X\\
+\hline
++5-10 Teleport&Jah + Jah + Ber + Ber&X&&&X&&X&X&&X\\
+\hline
++8-12 Energy Shield&Vex + Um + Um + Dol&&X&&X&X&&&&\\
+\hline
++3-7 Warmth&Um + Pul + Lem + Fal&&&X&&&X&&X&\\
+\hline
++20-30 Magic Arrow&Mal + Fal&&&X&&&X&&&\\
+\hline
++15-25 Immolation Arrow&Lo + Ohm + UE&&&X&&&X&&&\\
+\hline
++15-25 Freezing Arrow&Sur + Sur + SE&&&X&&&X&&&\\
+\hline
++5-10 Inner Sight&Um + Lem + Lum&&&X&&X&X&&X&\\
+25\% L10 Inner Sight on hit&&&&&&&&&&\\
+25\% L10 Inner Sight  when hit&&&&&&&&&&\\
+\hline
++5-10 Slow Missiles&Gul + Pul + Ral&&&X&&X&X&&X&\\
+5\% L10 Slow Missiles on hit&&&&&&&&&&\\
+10\% L10 Slow Missiles when hit&&&&&&&&&&\\
+\hline
++5-10 Jab&Jah + Um + 2SE&&&X&&X&X&&&\\
+\hline
++15-25 Poison Javelin&Ber + Vex + Thul +Thul&&&X&&X&X&&&\\
++15-25 Plague Javelin&&&&&&&&&&\\
+\hline
++5-10 Impale&Ohm + Pul + Pul + Tal&&&X&&X&X&&&\\
+\hline
++15-25 Lightning Bolt&Jah + Jah + Ith + SE&&&X&&X&X&&&\\
++15-25 Lightning Fury&&&&&&&&&&\\
+\hline
++15-25 Charged Strike&Zod + Ist + Dol + Eld&&&X&&X&X&&&\\
++15-25 Lightning Strike&&&&&&&&&&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
++5-10 Fend&Cham + Gul + Lem + Ko&&&X&&X&X&&&\\
+\hline
++15-25 Inferno&Lo + Gul + Amn +Tir&&X&X&&X&&X&&\\
+\hline
+5\% L75 Blaze on kill&Jah + Ohm + Shael + Shael&&X&X&&X&&X&&X\\
++15-25 Blaze&&&&&&&&&&\\
+\hline
+30\% L30 Fire Ball on hit&Ohm + Ist + Ist + SE&&X&X&&X&&X&X&\\
++15-25 Fire Ball&&&&&&&&&&\\
+\hline
+10\% L30 Fire Wall on hit&Gul + Mal + Io + Ort&&X&X&&X&&X&X&\\
++15-25 Fire Wall&&&&&&&&&&\\
+\hline
+1\% L30 Enchant on hit&Sur + Pul + Lum + Hel&&X&X&&X&X&X&&\\
++8-12 Enchant&&&&&&&&&&\\
+\hline
+10\% L30 Meteor on hit&Zod + Fal + Dol + Nef&&X&X&&X&&X&X&\\
++15-25 Meteor&&&&&&&&&&\\
+\hline
+10\% L30 Hydra on hit&Cham + Gul + Shael + Ith&X&X&X&&X&&X&&\\
++15-25 Hydra&&&&&&&&&&\\
+\hline
+30\% L30 Charged Bolt on hit&Ist + Ist + Lem + UE&&X&X&&X&&X&X&\\
++15-25 Charged Bolt&&&&&&&&&&\\
+\hline
+50\% L30 Nova when hit&Vex + Um + Lum + Eth&&X&&X&X&&X&&X\\
++15-25 Nova&&&&&&&&&&\\
+\hline
+15\% L30 Lightning on hit&Jah + Vex + Ko + UE&&X&X&&X&&X&X&\\
++15-25 Lightning&&&&&&&&&&\\
+15\% L30 Chain Lightning on hit&&&&&&&&&&\\
++15-25 Chain Lightning&&&&&&&&&&\\
+\hline
+1\% L75 Thunder Storm on kill&Zod + Jah + Tir + UE&X&X&X&X&X&&X&&\\
++15-25 Thunder Storm&&&&&&&&&&\\
+\hline
+50\% L30 Frost Nova when hit&Gul + Mal + Pul + SE&&X&&X&X&&X&&X\\
++15-25 Frost Nova&&&&&&&&&&\\
+\hline
+30\% L30 Glacial Spike on hit&Vex + Um + Pul + Ral&&X&X&&X&&X&X&\\
++15-25 Glacial Spike&&&&&&&&&&\\
+\hline
+10\% L30 Blizzard on hit&Cham + Mal + Ko + Ko&&X&X&&X&&X&X&\\
++15-25 Blizzard&&&&&&&&&&\\
+\hline
+30\% L30 Teeth on hit&Ohm +  Pul + Pul&&X&X&&X&&X&X&\\
++15-25 Teeth&&&&&&&&&&\\
+\hline
++15-25 Poison Dagger&Ohm + Vex + Vex + El &&&X&&X&X&&&\\
+\hline
+20\% L30 Poison Explosion on kill&Vex + Mal + Um + Pul&&X&X&&X&X&X&&\\
++15-25 Poison Explosion&&&&&&&&&&\\
+\hline
+30\% L30 Bone Spear on hit&Jah + Ist + Shael + Nef&&X&X&&X&&X&X&\\
++15-25 Bone Spear&&&&&&&&&&\\
+\hline
+20\% L30 Poison Nova on hit&Cham + Vex + Ist + Thul&&X&X&&X&&X&X&\\
++15-25 Poison Nova&&&&&&&&&&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
+30\% L40 Bone Spirit on hit&Zod + Gul + Lem + Sol&&X&X&&X&&X&X&\\
++15-25 Bone Spirit&&&&&&&&&&\\
+\hline
++5-10 Sacrifice&Pul + Fal + Ko + Amn&&&X&&X&X&&&\\
+\hline
+30\% L30 Holy Bolt on hit&Um + Um + Lem + SE&&X&X&&X&&X&X&\\
++15-25 Holy Bolt&&&&&&&&&&\\
+\hline
+30\% L30 Blessed Hammer on hit&Lo + Ist + Io + Dol&&X&X&&X&&X&X&\\
++15-25 Blessed Hammer&&&&&&&&&&\\
+\hline
+10\% L30 Fist of the Heavens on hit&Zod + Ber + Sur&&X&X&&X&&X&X&\\
++15-25 Fist of the Heavens&&&&&&&&&&\\
+\hline
+L10-15 Blessed Aim Aura&Cham + Mal + Um + Eld&&X&X&&X&&&&\\
+\hline
+L20-30 Prayer Aura&Ist + Um + Lem + Lem&X&X&&X&X&&X&X&X\\
+\hline
+L15-30 Cleansing Aura&Zod + Vex + Tir + El&X&X&&X&X&&X&X&X\\
+\hline
+L5-15 Salvation Aura&Sur + Um + Um + Um&&&&X&&&&&\\
+\hline
++1 Blade Mastery&Mal + Mal + Io + Eth&&&X&&X&X&&&\\
+\hline
++1 Axe Mastery&Um + Pul + Fal + Tal&&&X&&X&X&&&\\
+\hline
++1 Mace Mastery&Ko + Ko + Ko + Lum&&&X&&X&X&&&\\
+\hline
++1 Polearm Mastery&Ist + Lem + Hel + Hel&&&X&&X&X&&&\\
+\hline
++1 Throwing Mastery&Mal + Ko + Dol + UE&&&X&&X&X&&&\\
+\hline
++1 Spear Mastery&Lem + Fal + Fal + Eld&&&X&&X&X&&&\\
+\hline
++1 Increased Speed&Shael + Shael + Shael + Shael&&&&X&&&X&&X\\
+\hline
++1 Natural Resistance&Um + Um + Um + Um&&&&X&X&&X&&\\
+\hline
++5-10 Taunt&Gul + Eld + 2SE&X&&&X&X&&&X&\\
+25\% L10 Taunt on hit&&&&&&&&&&\\
+25\% L10 Taunt when hit&&&&&&&&&&\\
+\hline
++5-10 Battle Cry&Ohm + Mal + Dol + Sol&X&&&X&X&&&X&\\
+25\% L10 Battle Cry on hit&&&&&&&&&&\\
+\hline
++5-10 War Cry&Cham + Ist + Lem + Ko&X&&&X&X&&&X&\\
+5\% L5 War Cry on hit&&&&&&&&&&\\
+\hline
++5-10 Grim Ward&Zod + Ohm + Lum + Thul&X&&&X&X&&&X&\\
+10\% L10 Grim Ward on kill&&&&&&&&&&\\
+\hline
++3-7 Plague Vine&Vex + Ist + Lem + Hel&X&X&&&X&X&X&&\\
+\hline
++5-10 Spirit Wolf&Cham + Ohm + Pul + Io&&&&&X&X&X&&\\
++5-10 Dire Wolf&&&&&&&&&&\\
+\hline
++5-10 Grizzly&Zod + Cham + Mal + Amn&&&&&X&X&X&&\\
+\hline
++15-25 Rabies&Ohm + Vex + Vex + El&&&X&&X&X&&&\\
+\hline
++15-25 Fire Claws&Jah + Pul + Sol + Sol&&&X&&X&X&&&\\
+\hline
+30\% L30 Firestorm on hit&Jah + Um + Hel + Dol&&X&X&&X&&X&X&\\
++15-25 Firestorm&&&&&&&&&&\\
+\hline
+15\% L30 Molten Boulder on hit&Jah + Ohm + Fal + Eth&&X&X&&X&&X&X&\\
++15-25 Molten Boulder&&&&&&&&&&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
++15-25 Arctic Blast&Cham + Um + Um + Eld&&X&X&&X&&X&&\\
+\hline
+10\% L30 Fissure on hit&Zod + Jah + Gul + Ist&&X&X&&X&&X&X&\\
++15-25 Fissure&&&&&&&&&&\\
+\hline
+15\% L30 Twister on hit&Lo + Mal + Um + Ith&&X&X&&X&&X&X&\\
++15-25 Twister&&&&&&&&&&\\
+15\% L30 Tornado on hit&&&&&&&&&&\\
++15-25 Tornado&&&&&&&&&&\\
+\hline
+5\% L30 Volcano on hit&Zod + Ber + Ber + Tir&&X&X&&X&&X&X&\\
++15-25 Volcano&&&&&&&&&&\\
+\hline
+1\% L50 Armageddon on kill&Jah + Sur + Sur + Tal&&X&X&&X&&X&&X\\
++15-25 Armageddon&&&&&&&&&&\\
+\hline
+1\% L50 Hurricane on kill&Cham + Sur + Lo + Thul&&X&X&&X&&X&&X\\
++15-25 Hurricane&&&&&&&&&&\\
+\hline
+30\% L30 Fire Blast on hit&Sur + Lo + Ist + Ith&&X&X&&X&&X&X&\\
++15-25 Fire Blast&&&&&&&&&&\\
+\hline
+10\% L30 Shock Field on hit&Ber + Mal + Um + UE&&X&X&&X&&X&X&\\
++15-25 Shock Field&&&&&&&&&&\\
+\hline
++15-25 Charged Bolt Sentry&Lo + Ohm + Ist + SE&&X&X&&X&&X&X&\\
++15-25 Lightning Sentry&&&&&&&&&&\\
++15-25 Death Sentry&&&&&&&&&&\\
+\hline
++15-25 Wake of Fire&Lo + Lo + Um + Nef&&X&X&&X&&X&X&\\
++15-25 Inferno Sentry&&&&&&&&&&\\
+\hline
+30\% L15 Blade Sentinel on hit&Jah + Gul + Lem + Io&&X&X&&X&&X&X&\\
++15-25 Blade Sentinel&&&&&&&&&&\\
+\hline
++8-12 Blade Fury&Zod + Lo + Pul + Pul&&X&X&&X&X&X&X&\\
+\hline
++5-10 Cloak of Shadows&Ist + Ko + Dol&&&&X&X&&&X&X\\
+5\% L10 Cloak of Shadows on hit&&&&&&&&&&\\
+10\% L10 Cloak of Shadows when hit&&&&&&&&&&\\
+\hline
+1\% L20 Venom on hit&Zod + Vex + Dol + Dol&&X&X&&X&X&X&&\\
++8-12 Venom&&&&&&&&&&\\
+\hline
++15-25 Dragon Talon&Ohm + Gul + Fal + Ral&&X&X&&X&&X&&X\\
+\hline
+10-20\% Reanimate as Flesh Hunter&Ist + Ist + Ist + Um&X&&&X&X&X&X&&X\\
+\hline
+8-15\% Reanimate as Serpent Magus&Ohm + Um + 2UE&X&&&X&X&X&X&&X\\
+\hline
+3-8\% Reanimate as Mauler&Ber + Gul + Ko + Eth&X&&&X&X&X&X&&X\\
+\hline
+6-12\% Reanimate as Undead Soul Killer&Jah + Mal + Mal + Ith&X&&&X&X&X&X&&X\\
+\hline
+1\% Reanimate as Duriel&Zod + Zod + Zod + Zod&X&&&X&X&X&X&&X\\
+\hline
+2-4\% Reanimate as Clay Golem&Lo + Vex + Ist + Um&X&&&X&X&X&X&&X\\
+2-4\% Reanimate as Blood Golem&&&&&&&&&&\\
+2-4\% Reanimate as Iron Golem&&&&&&&&&&\\
+2-4\% Reanimate as Fire Golem&&&&&&&&&&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{H}}&{\bf{Am}}&{\bf{W}}&{\bf{A}}&{\bf{S}}&{\bf{G}}&{\bf{R}}&{\bf{Bl}}&{\bf{B}}\\
+\hline
+3-8\% Reanimate as Bear&Ber + Ber +Tir + Tir&X&&&X&X&X&X&&X\\
+\hline
+3-10\% Reanimate as Hell Lord&Jah + Vex + Nef + El&X&&&X&X&X&X&&X\\
+\hline
+\end{tabular}
+}
+\end{center}
+\section{Augments - Long-term progression}
+
+Finally, the purpose of the augments specified here is to increase how far long-term progression can go, giving a more relevant use to charms and jewels/sockets, without giving too strong effects that completely overshadow everything else. Note that we consider charm/jewel augments to only be applicable once, even to magical items. The properties added are stackable ones that benefit from multiple instances but which are not commonly present in magic/rare items. The numbers are also small in each case so that even when stacking they do not amount to too high values.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+{\bf{Effect}}&{\bf{Recipe}}&{\bf{SC}}&{\bf{LC}}&{\bf{GC}}&{\bf{JEW}}\\
+\hline
+Crushing blow&Jah + 2UE&3\%&5\%&7\%&7\%\\
+\hline
+Damage reduced&Ber + SE&2\%&3\%&5\%&5\%\\
+\hline
+Max all resists&Ber + Lo + Ohm&&&3\%&3\%\\
+\hline
+All absorbs \%&Cham + Sur + Sur&&&1\%&\\
+\hline
+Max. life \%&Vex + Vex + Dol&2\%&3\%&5\%&5\%\\
+\hline
+Max. mana \%&Ist + Mal + Io + Io&4\%&6\%&10\%&10\%\\
+\hline
+Regenerate mana&Gul + Um + Um + Lem&3\%&5\%&6\%&6\%\\
+\hline
+All skills&Zod + Ohm&&&1&1\\
+\hline
+FHR&Sur + SE + UE&&&&20\%\\
+\hline
+FCR&Sur + Lo + 2SE&3\%&5\%&7\%&7\%\\
+\hline
+IAS&Jah + Lem + Io&5\%&8\%&10\%&10\%\\
+\hline
+FRW&Cham + Hel&2\%&3\%&5\%&5\%\\
+\hline
+Damage Goes to Mana&Ist + Pul + Lum&10\%&20\%&30\%&30\%\\
+\hline
+Magic Find&Ist + Ist + 2UE&5\%&10\%&15\%&15\%\\
+\hline
+Gold Find&Ist + Um + 2SE&25\%&50\%&75\%&75\%\\
+\hline
+Reduce vendor prices&Vex + Gul + Ist + UE&&&2\%&2\%\\
+\hline
+Mana after kill&Mal + Pul + Fal + Sol&3&5&8&8\\
+\hline
+Life after kill&Mal + Um + Um + UE&2&3&5&5\\
+\hline
+Fire skill damage&Jah + Jah + UE&1\%&2\%&3\%&5\%\\
+\hline
+Cold skill damage&Cham + Jah + UE&1\%&2\%&3\%&5\%\\
+\hline
+Lightning skill damage&Zod + Jah + UE&1\%&2\%&3\%&5\%\\
+\hline
+Poison skill damage&Jah + Vex + Vex + UE&1\%&2\%&3\%&5\%\\
+\hline
+Reduce fire resistance&Zod + Jah + Jah&1\%&2\%&3\%&5\%\\
+\hline
+Reduce cold resistance&Zod + Cham + Jah&1\%&2\%&3\%&5\%\\
+\hline
+Reduce lightning resistance&Zod + Zod + Jah&1\%&2\%&3\%&5\%\\
+\hline
+Reduce poison resistance&Zod + Jah + Vex + Vex&1\%&2\%&3\%&5\%\\
+\hline
+Damage \% increased per level&Cham + Jah + Gul + Gul&0.125&0.25&0.375&0.375\\
+\hline
+Bonus to attack rating per level&Ber + Lo + Lum + Ith&0.5&1&1.5&1.5\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\section{Getting gems}
+
+One issue that arose when using the systems mentioned above is the consequence of the following factors:
+
+\begin{itemize}
+
+\item We made high runes easier to obtain by using perfect gems to produce them, in high quantities.
+\item We made high runes usable for many more things via augments.
+\item We made runes downconvertible by rerolling magic/rare items.
+\item We also made good magic/rare items easier to obtain through this.
+
+\end{itemize}
+
+But a key factor remains:
+
+\begin{itemize}
+
+\item The only way to obtain perfect gems is still the regular ways, and the amounts required to produce enough high runes to utilize both rune words AND augments is huge.
+%\item Augments apply to magic/rare items, but it is much easier to obtain good magic/rare items than the runes to augment them; and this is the only way to utilize multiple mid/low rune drops.
+
+\end{itemize}
+
+Originally, I thought that finding suitable magic/rare items would be a lot easier than getting the runes and thus used runes to downconvert them into gems. However, while this worked, it made runes have two primary uses; specially mid to low level ones. This meant that farming Countess became pretty much a must.\\
+
+Instead, we leave the reroll functionality of runes, making mid to low runes very valuable, we keep a recipe that converts an El rune into a perfect gem, to give them some extra value and contribute to the gems; and we introduce a new way to obtain perfect gems.\\
+
+We will use magic and rare rings and amulets. These are small, meaning they can be picked up and stored without it being a big hassle and it's specific enough that we are not picking up every item or that we are flooded in gems. There is also no specific source of large amounts of these, and they are not really useful in large quantities for anything else. We diversify the resources.
+
+Thus, we add two recipes:
+
+\begin{itemize}
+
+\item Magic ring $\rightarrow$ 3 perfect gems
+\item Magic amulet $\rightarrow$ 2 magic rings of the same item level.
+\item Rare ring $\rightarrow$ 2 magic rings of the same item level.
+\item Rare amulet $\rightarrow$ 1 rare ring and 1 magic amulet of the same item level.
+
+\end{itemize}
+
+Thus, when we need to reroll magic or rare items, Countess might be a good farming target. When we need gems for upgrading runes, we can do something that drops large amounts of magic items (like, for example, Cows). Having rare items give more also means having Magic Find represents an advantage.\\
+
+\section{Keeping high level areas relevant}
+
+A lot of the above changes worked really well for quite a while, with only one very minor issue: High level areas became considerably less relevant. The game more or less became effectively about 4 main things: Finding gems (rings/amus), finding unique/set essences, finding low level runes to reroll items, and finding good blue/yellow bases to reroll. This is a decent balance, but finding bases can be done in many different places, like for example Cows. Cows is clearly one of the best places for rings/amus as well. Mephisto with high magic find is incredibly superior for unique/set essences. Countess can provide lots of low level runes. This is a decent variety but it's missing a bigger incentives for high level areas like lvl 85 areas. Adding uniques with level 94 helped with this, but we wanted something more solid.\\
+
+The main distinguishing factor of these areas is the combination of being able to drop TC85 and high monster level that allows them to drop the highest level uniques/set items in the game. Without any distinguishing feature to make these more relevant than any other elite unique/set items, this isn't an incentive. Some of these items are still really good to use directly and so there is some incentive, but it's not enough by itself.\\
+
+As a consequence, we decided to add two small, secondary incentives that do not modify the core balance above, but add another extra nice layer that can only be achieved through these.\\
+
+The first change was to make all TC85 blue or rarer items have some value. As such, two additional recipes were added:
+
+\begin{itemize}
+\item Any magic item from TC85 $\rightarrow$ Random organ
+\item Any rare item from TC85 $\rightarrow$ Two random organs
+\end{itemize}
+
+There are 7 types of organs: Hearts, Brains, Eyes, Spleens, Jawbones, Fangs, and Horns. Another source of random organs are 12 flawless gems. This was added as converting flawless gems into perfect gems became irrelevant when perfect gems could be obtained from rings and amulets in much larger numbers. To a large degree, flawless gems are now more valuable than perfect gems, but this makes a lot of sense given how they are obtained now. There are two families of cube recipes that organs can be used for. One generates random valuable items, the other creates special rare belts that can be potentially really good, but with low probabilities for good combinations of statistics. We chose belts because they are overall the least exciting piece of equipment with not really that many great options, even with Augments.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|}
+\hline
+{\bf{Inputs}}&{\bf{Output}}\\
+\hline
+3 hearts&Random rune\\
+\hline
+3 brains&Random rune\\
+\hline
+3 eyes&Random rune\\
+\hline
+3 spleens&Random set armor\\
+\hline
+3 jawbones&Random unique armor\\
+\hline
+3 fangs&Random set weapon\\
+\hline
+3 horns&Random unique weapon\\
+\hline
+Eye, brain, heart, spleen, fang&
+\begin{tabular}{@{}c@{}}
+Random rare belt, with potentially additional properties...\\
++1-3 All Skills (5\% chance)\\
+10-40\% Faster Cast Rate (15\% chance)\\
+Increase Maximum Mana 10-25\% (25\% chance)\\
+\end{tabular}\\
+\hline
+Jaw, horn, fang, spleen, heart&
+\begin{tabular}{@{}c@{}}
+Random rare belt, with potentially additional properties...\\
++25-100 Maximum Damage (5\% chance)\\
++10-40\% Increased Attack Speed (15\% chance)\\
++5-15\% Bonus to Attack Rating (25\% chance)\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Much more important is the second change. We picked some of the rarest, most iconic high level sets and uniques, and added recipes that would allow to imbue some of their most iconic properties to grand charms. This does not count as an augment and so these charms can still receive one regular augment on top of this, but the same charm cannot be imbued like this more than once. We specifically chose set items and unique items that are very rare and/or very iconic, and specifically, none of these items, except for amulets and rings (and Arachnid Mesh, which is a bit special), can be dropped by Mephisto or lower TC/MLVL monsters. This doesn't force to only farm lvl 85 areas, but it means these items are far more common in higher level areas. Rarer items also receive more powerful bonuses as a rule, and the bonuses stay in the spirit of what builds the item would normally benefit.\\
+
+Note that because it's not possible, from the cube recipe, to distinguish different set/unique items with the same base, we either allow both or, in the case of amulets and rings, we use additional keys in the recipe to identify them. This allows cheating to some degree but the player will just not cheat.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|}
+\hline
+{\bf{Item}}&{\bf{Effects}}\\
+\hline
+Arcanna's sign (amulet) + 1 key&+100\% magic find\\
+\hline
+Aldur's deception (chest)&+2 druid +15 all stats\\
+\hline
+Cow King's horns (helm)&+500\% gold find\\
+\hline
+Telling of beads (amulet) + 2 keys&+1 all skills +10 all res + 20 all stats\\
+\hline
+Griswold's redemption (scepter)&+2 pala +3\% all max res\\
+\hline
+Immortal King's soul cage (chest)&+2 barb +50 strength\\
+\hline
+M'avina's true sight (diadem)&+2 ama +20\% run/walk\\
+\hline
+Natalya's mark (claws)&+2 assa +50 life\\
+\hline
+Tal Rasha's adjudication (amulet) + 3 keys&+2 sorc + 20\% FCR\\
+\hline
+Trang-Oul's guise (helm)&+2 nec +100 energy\\
+\hline
+Stone of Jordan + 1 key&+1 all skills +50 mana\\
+\hline
+Bul-Kathos wedding band + 2 keys&+1 all skills +50 life\\
+\hline
+Wisp projector + 3 keys&5\% L50 Chain Lightning on hit\\
+&2\% L50 Fist of the Heavens on hit\\
+&5\% Reanimate as Burning Soul\\
+\hline
+Seraph's hymn + 1 key&+1 all skills +200 AR\\
+\hline
+Metalgrid + 2 keys&+35 all res +350 defense\\
+\hline
+Griffon's eye&+10\% lightning damage -10\% lightning resistance\\
+\hline
+Darkforce spawn&+2 nec+20\% FCR\\
+\hline
+Halaberd's reign&+3 shouts\\
+\hline
+Death's fathom&+25\% cold damage\\
+\hline
+Ravenlore&+2 elemental skills (druid)\\
+\hline
+Dragonscale&+10\% fire skill damage +300-500 fire damage\\
+\hline
+Crown of ages&5\% reduced damage +10 all res +15\% FHR\\
+\hline
+Leviathan&15\% reduced damage\\
+\hline
+Steel carapace&+1000 defense\\
+\hline
+Tyrael's might or Templar's might&+20\% FRW +20 all res +300 defense Cannot be frozen\\
+\hline
+Steelrend&+40\% ED\\
+\hline
+Shadow dancer&+10\% FRW +2 shadow disciplines\\
+\hline
+Arachnid mesh&+1 all skills +10\% FCR\\
+\hline
+Deathcleaver&+25\% ED +20\% IAS\\
+\hline
+Messerchdmidt's reaver&+0.75/lvl enhanced max damage \%\\
+\hline
+Executioner's justice&+75\% ED\\
+\hline
+Windforce&+30\% ED +0.5/lvl max damage\\
+\hline
+Earth shifter or Cranium Basher&+4 elemental skills (druid)\\
+\hline
+Astreon's iron ward&+3 combat skills (pala)\\
+\hline
+Mang Song's lesson&+3 all skills -5\% fire/cold/lightning resis\\
+\hline
+Grandfather&+30\% ED +0.5/lvl max damage\\
+\hline
+Death's web&-30\% enemy poison res\\
+\hline
+Sazabi's cobalt redeemer&+100\% damage to demons\\
+\hline
+Fleshripper&25\% open wounds Prevent monster heal\\
+\hline
+Schaefer's hammer or Stone crusher&5\% chance to cast level 10 static field on strike\\
+\hline
+Tomb reaver&+20\% IAS +10 all res +20\% magic find\\
+\hline
+Boneflame&+2 nec +10\% FRW +10 all res\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\section{Keys and Essences for single game bonuses}
+
+Another two types of item that are supposed to be valuable, and encourages farming variety, but which can become pointless depending on the situation, are keys for the pandemonium event and essences used for reset tokens. These are particularly useless when there is a big imbalance between ones and others for other reasons (for example, excess of Keys of Terror due to Countess runs).\\
+
+Similarly, one underexploited feature of Diablo 2 involves temporary bonuses from consumable items. With scarce items, and very powerful bonuses that last about half an hour, this can help farm very high level areas while encouraging making the most of the run (since the bonuses are lost when quitting). We introduced recipes to generate random special potions from 12 essences, and random top jewelry from 6 keys.\\
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|}
+\hline
+{\bf{Special potion}}&{\bf{Effects}}\\
+\hline
+Skill Potion&+15 All Skills for 30 minutes\\
+\hline
+Elemental Potion&+500\% fire, cold, and lightning damage for 30 minutes\\
+\hline
+Poison Potion&+500\% poison damage for 30 minutes\\
+\hline
+Damage Potion&+5000 damage for 30 minutes\\
+\hline
+Survival Potion&+5000 Life and Replenish Life +2500 for 30 minutes\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\section{Jewelry and value}
+
+At this point, basically it is possible to only pick up items that will be kept one way or another for some purpose. This is good. Especially with the ability to reroll magic and rare items, which made it so we only needed to care about the base rather than the actual mods. Most magic and rare items can be gambled too if needing a good base. With the exception of charms and jewels. One option was to allow gambling of charms and jewels, but a more interesting option was to give charms and jewel additional value, so that once picked up, even if bad rolls and not good for rerolling due to item level, they still had some use. Moreover, this kept the value of high item level charms for rerolling, especially over 90, which are hard to get and make for an additional reason to farm high end bosses.\\
+
+First, we define the generic Jewelry type to include the following:
+
+\begin{itemize}
+\item Unique and set essences.
+\item Rings and amulets.
+\item Charms.
+\item Jewels.
+\item Runes.
+\item Flawless and Perfect gems.
+\item Organs as defined above.
+\item Scroll of knowledge (explained below).
+\item Keys of Terror, Hate, Destruction.
+\item Diablo's Horn, Baal's Eye, and Mephisto's Brain (as used for chaotic Tristram).
+\item Essences of Suffering, Hatred, Terror, Destruction.
+\item Token of Absolution.
+\item Special potions.
+\item Standard of Heroes.
+\end{itemize}
+
+Then, we add cube recipes that either 3 small charms, 3 grand charms, or 3 jewels will result in a random Jewelry. This can sometimes be really good, with a high level rune, an organ or a scroll of knowledge; or quite bad, with a perfect gem, a bad magic ring, or a low rune.\\
+
+We additionally define Top Jewelry to be specifically concentrated unique and set essences, organs, scrolls of knowledge, Keys and chaotic Tristram organs, special potions, and well as Standards of Heroes. We then add a recipe that a Standard of Heroes will result in 1 Top Jewelry and 2 other random Jewelries, giving more incentive for chaotic Tristram.\\
+
+A scroll of knowledge is a new item that can only be obtained through these recipes that is used to make unique and set items more attractive, by adding a recipe that allows adding 2 sockets to a unique or set item with a scroll of knowledge, or give increased stack size and replenish quantity to throwable weapons.\\
+
+We also define Basic Jewelry to be rings, amulets, charms, jewels, runes, flawless and perfect gems. We add a 25\% chance for unique and super uniques in terror zones only to drop one piece of basic jewelry on top of their other drops, to incentivize non-bosses, and a 1\% chance to drop top jewelry for uniques only, to incentivize explorative play.\\
+
+For Large Charms, which are normally not very useful, we do something a little different. We make a recipe that makes a new random Large Charm from 3 Large Charms, with potential added small bonuses, making these potentially better than small or grand charms, but a lot harder to obtain. Each individual additional attribute has a 20\% chance to appear at all. The potential additional attributes are:
+
+\begin{itemize}
+\item +1-10  Vitality
+\item +1-5 All Resistances
+\item +1-50\% Gold Find
+\item 1-10\% Faster Hit Recovery
+\item 1-10\% Faster Run/Walk
+\end{itemize}
+
+\section{Gold}
+
+We also wanted to make both some additional ways to make gold easier to obtain in large quantities and in general incentivize killing large amounts of low level enemies, rather than focusing exclusively on elites. In particular, we make regular keys and full rejuvenation potions have quite a bit of  gold value, so they can be sold to NPCs for gold and are worth picking up. We also increase the maximum stack size for keys to 100. Each key is worth 2500 gold and each full rejuvenation potion is worth 5000 gold.\\
+
+While we want gambling to still be one of the main ways to use gold, both to obtain good bases and rings/amulets to generate perfect gems for upgrading runes, sometimes there just is not a good target to gamble for, since we are not looking for any particular item or base that we do not have like that, nor for additional gems to upgrade runes. Thus, we add a new relatively inefficient item to buy at NPCs, a Raw Jewel, costing 150000 gold and resulting in a random piece of Jewelry in the horadric cube. This, again, could be really good if landing a really valuable Jewelry like a high l evel rune, Standard of Heroes, or organ; or a waste of money, if landing a perfect gem or bad magic ring.\\
+
+\section{Consuming low gems}
+
+Temporary consumables add a layer of benefit to playing in the same game for a while, and it can be a way to give use to certain items without significantly increasing clutter. We do this with low level gems that are usually unused. These bonuses last for 5 minutes.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|}
+\hline
+{\bf{Gem type}}&{\bf{Bonus}}&{\bf{Amounts (chipped, flawed, regular)}}\\
+\hline
+Sapphire&Regenerate Mana&10\%, 25\%, 50\%\\
+\hline
+Ruby&Replenish Life&10, 25, 50\\
+\hline
+Amethyst&Run/Walk Speed&10\%, 20\%, 30\%\\
+\hline
+Emerald&Increase Experience Gained&10\%, 25\%, 50\%\\
+\hline
+Topaz&Magic Find&25\%, 50\%, 100\%\\
+\hline
+Diamond&Gold Find&25\%, 50\%, 100\%\\
+\hline
+Skull&Physical Damage Reduced&5\%, 10\%, 15\%\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\section{Augmented Torches}
+
+To add yet another nice layer of soft long-term progression and build variability and give more use to set amulets and rings we create recipes to augment hellfire torches.\\
+
+We add recipes to enhance torches with small and very limited random changes. In particular, we enable them to give small bonuses to class skills. The recipes take as input a torch and a number of keys that identifies the class we want to augment it for:
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|}
+\hline
+{\bf{Class}}&{\bf{Number of keys}}\\
+\hline
+Amazon&0\\
+\hline
+Sorceress&1\\
+\hline
+Necromancer&2\\
+\hline
+Paladin&3\\
+\hline
+Barbarian&4\\
+\hline
+Druid&5\\
+\hline
+Assassin&6\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+To limit how many times it can be performed, we add additional final augments. These are in the flavour of hellfire torch and use the reanimate ability to add interesting but not game breaking aspects. Each time the torch is augmented, there is a probability each of these final augments are added. It is technically possible for multiple of these to be added at once, which would make extra lucky torches. Conceptually, a torch with one of these cannot be augmented further. Each attempt gives a random class skill a +2 bonus, and there is overall approximately a 10\% chance that at least one of the final augments will be added on each augment.\\
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|}
+\hline
+{\bf{Final augment}}&{\bf{Chance to be added}}\\
+\hline
+10\% chance to reanimate as Succubus&4\%\\
+\hline
+10\% chance to reanimate as Balrog&3\%\\
+\hline
+5\% chance to reanimate as Minion of Destruction&2\%\\
+\hline
+1\% chance to reanimate as Izual&1\%\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Statistically, this means that there will be on average 10 augments before a final augment is added, which means on average 7-8 different skills will see bonuses, each individual augment giving 2 points to one skill, and each skill that sees a bonus seeing on average slightly under 3 points bonus, with the average among all class skills being 0.67 points. In other words, in the long term, the bonus is useful, but not game breaking, and it has a potential to be really good, but is very unlikely to reach that level. This also might incentivize rolling new torches and getting new torches, which keeps the pandemonium event permanently relevant.\\
+
+Each augment requires 2 set amulets or 3 set rings.
+
+\section{Terrorized zones}
+
+We add some adjustments to terrorized zones to both add even more variety in how they play and what they're good for, and balance around some of our level 94 and higher items. We group the potential terrorized zones into various different types.
+
+\subsection{The Cow Level}
+
+A high level cow level is really cool. Level 109 to drop enhanced uniques, add additional chance of uniques, and additional top jewel and top rune drops. Very profitable mass farming. Naturally, this needs something to balance it out. We use players setting to 32 for this.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Cow Level&+50&106/108/109&106/108/109&+0\%&32&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Additional chance of uniques.
+\item Additional top jewel and top rune drops.
+\end{itemize}
+
+\subsection{The Countess}
+
+We make the tower levels 1-4 a level 85 zone, and level 5 becomes level 96 with players 16, and we improve the rune drops of the countess. This makes level 5 interesting but also not free.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Forgotten Tower 1-4&+2&&85/87/88&+25\%&&\\
+\hline
+Forgotten Tower 5&+20&&96/98/99&+25\%&16&Countess\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Additional rune drops.
+\end{itemize}
+
+\subsection{Tristram}
+
+Players 50 for some true challenge and XP grinding. Boosts XP 1000\% too. Level is set to 111, meaning items up to level 114 can be dropped (including Hellfire Torch). Seems like a good idea for a small isolated zone with high elite density. Note that Griswold actually has level 117.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Tristram&+30&&111/113/114&+1000\%&50&Griswold and several packs\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Duriel}
+
+Make it a level 99 zone, to make Duriel drop better loot, but make it players 8 to compensate in difficulty. This is ideal for farming new high level uniques, including Annihilius.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Tal Rasha's Chamber&+20&96/98/99&96/98/99&+25\%&8&Duriel\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Travincal}
+
+Transform into level 90/92/93 so that all council members can drop good amus and circlets, but none can drop super high uniques. Higher chance of uniques, sets, and rares. Players 4 to compensate difficulty a little.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Travincal&+20&90/92/93&90/92/93&+25\%&4&Council\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Additional chance of uniques.
+\end{itemize}
+
+\subsection{Durance of Hate}
+
+Transform into level 90/92/93 so that all council members can drop good amus and circlets, and also all vanilla uniques, but none can drop super high uniques (especially not Mephisto). Players 2 to compensate difficulty a little.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Durance of Hate&+20&90/92/93&90/92/93&+25\%&2&Council members and Mephisto\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Chaos Sanctuary}
+
+Push to level 106/108/109 and players16 to make extra hard because it is really profitable in terms of super uniques and layout. Boost XP to +500\% to compensate for level difference and make it feel a lot more like the very end game.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Chaos Sanctuary&+25&106/108/109&106/108/109&+500\%&16&Infector, Seis, Grand Vizier, Diablo\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Pindleskin}
+
+Pindleskin was the true boss of the game all along. This is very accessible, making it very farmable, has some decently okay mechanics, it's a group, and it has the mechanic of the zombies slowly waking up, so making this a truly extremely challenging arena with all the super high level drops would be nice as an extreme farming spot.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Nihlathak's Temple&+50&123/125/126&123/125/126&+10000\%&400&Pindleskin\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Nihlathak's Halls and Arcane Sanctuary}
+
+We boost the whole area to 94 and give it 100\% XP bonus. Nihlathak was already 95, now we just make all others be able to drop more stuff, to compensate for how incredibly annoying these areas are. Similarly we make Arcane Sanctuary level 96 with 100\% XP bonus. More relevantly, we effectively double the chance of pandemonium keys when terrorized.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Hall's of Pain, Anguish, and Vaugh&+20&94/96/97&94/96/97&+100\%&&Nihlathak\\
+\hline
+Arcane Sanctuary&+20&96/98/99&96/98/99&+100\%&&The Summoner\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Double chance of keys.
+\end{itemize}
+
+\subsection{The Smith}
+
+The Smith has a very weird treasure class normally, with guaranteed drops and being able to drop whites. We turn terrorized Smith into a White pinnata. No additional chances to drop magic, rare, sets, or uniques, but has the best treasure class and alwayy 6 drops.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Barracks&+2&&85/87/88&+25\%&&The Smith\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Always 6 items.
+\item Mostly whites.
+\item Low chance of organs.
+\end{itemize}
+
+\subsection{Blood Raven}
+
+Like the smith, we make this mini-boss something special. In this case, we make her always drop exactly 1 piece of jewelry, with relatively standard rarity boosts. Players 2.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Burial Grounds&+2&&85/87/88&+25\%&2&Blood Raven\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Always 1 piece of jewelry (in the conventional sense - charms, rings, amulets, jewels).
+\item Low chance of organs.
+\end{itemize}
+
+\subsection{Izual}
+
+We make this mini-boss something special. In this case, we make him always drop exactly 1 set item. Players 4.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Plains of Despair&+2&&85/87/88&+25\%&4&Izual\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Always 1 set item.
+\item Low chance of organs.
+\end{itemize}
+
+\subsection{Hephasto}
+
+We make this mini-boss something special. In this case, we make him always drop exactly 1 unique item. Players 8.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+River of Flame&+2&&85/87/88&+25\%&8&Hephasto\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+Additional modifications:
+\begin{itemize}
+\item Always 1 unique item.
+\item Low chance of organs.
+\end{itemize}
+
+\subsection{No superuniques uninteresting areas}
+
+We boost these to very high levels of varying intensity, in relation to an accompanying players setting, and add massive XP bonuses to make them interesting to do a more hunt-and-gun style that can drop the best insane uniques (apart from Tristram) but mostly aimed at super high level XP farming.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Black Marsh&+20&94/96/97&94/96/97&+300\%&4&\\
+\hline
+The Hole&+20&94/96/97&94/96/97&+300\%&4&\\
+\hline
+Great Marsh&+20&106/108/109&106/108/109&+500\%&32&\\
+\hline
+Outer Steppes&+20&111/113/114&111/113/114&+1000\%&50&\\
+\hline
+City of the Damned&+20&115/117/118&115/117/118&+1500\%&75&\\
+\hline
+Abbadon&+20&119/121/122&119/121/122&+3000\%&100&\\
+\hline
+Pit of Acheron&+20&123/125/126&123/125/126&+10000\%&250&\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Big areas boosted to lvl 100+}
+
+These are mainly for the benefit of boost potions, so that there's a good amount of area to explore and use them in. The difficulty boost is higher with respect to the level reward boost compared to the above, so the above are technically more efficient, but these allow using potions more efficiently.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Catacombs&+20&111/113/114&111/113/114&+1000\%&75&Andariel\\
+\hline
+Flayer Jungle&+20&115/117/118&115/117/118&+1500\%&100&Stormtree\\
+\hline
+Flayer Dungeon&+20&115/117/118&115/117/118&+1500\%&100&Witch Doctor Endugu\\
+\hline
+Worldstone Keep&+20&119/121/122&119/121/122&+3000\%&150&\\
+\hline
+Throne of Destruction&+20&119/121/122&119/121/122&+3000\%&150&Minions of Baal\\
+\hline
+Worldstone Chamber&+20&119/121/122&119/121/122&+3000\%&150&Baal\\
+\hline
+Canyon of the Magi&+20&123/125/126&123/125/126&+10000\%&300&\\
+\hline
+Tal Rasha's Tombs&+20&123/125/126&123/125/126&+10000\%&300&Ancient Kaa the Soulless\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+
+
+\subsection{Previously lvl 85 areas and adjacent}
+
+Areas that were previously lvl 85, and ones that are similar or close to them, get adjusted to be 2 levels above player level, to a maximum of 88. This means that bosses and champions are above level 90, meaning they can drop good rare amulets and circlets, but not the level 94 uniques. Experience bonus is normal (25\%). This makes them still strictly higher than the ones that are just boosted into lvl 85, without going too far.  Players 2-4 to compensate difficulty a little, depending on the quality of super uniques and layout.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Crypt&+2&&88/90/91&+25\%&4&Bonebreaker\\
+\hline
+Mausoleum&+2&&88/90/91&+25\%&4&\\
+\hline
+Dark Wood&+2&&88/90/91&+25\%&4&Treehead Woodfist\\
+\hline
+Underground Passage&+2&&88/90/91&+25\%&2&\\
+\hline
+The Pit&+2&&88/90/91&+25\%&2&\\
+\hline
+Rocky Waste&+2&&88/90/91&+25\%&2&\\
+\hline
+Stony Tomb&+2&&88/90/91&+25\%&4&Creeping Feature\\
+\hline
+Ancient Tunnels&+2&&88/90/91&+25\%&2&\\
+\hline
+Kurast Bazaar&+2&&88/90/91&+25\%&2&\\
+\hline
+Ruined Temple&+2&&88/90/91&+25\%&4&Battlemaid Sarina\\
+\hline
+Disused Fane&+2&&88/90/91&+25\%&2&\\
+\hline
+Glacial Trail&+2&&88/90/91&+25\%&4&Bonesaw Breaker\\
+\hline
+Drifter Cavern&+2&&88/90/91&+25\%&2&\\
+\hline
+Ancient's Way&+2&&88/90/91&+25\%&2&\\
+\hline
+Icy Cellar&+2&&88/90/91&+25\%&4&Snapchip Shatter\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Boosted into lvl 85 zones, with added XP}
+
+These areas are boosted into lvl 85 zones (if the player is at least level 83), making them farmable in a more standard way, but also get a big XP boost due to their layout, to make them worth something else.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Cold Plains&+2&&85/87/88&+100\%&&Bishibosh\\
+\hline
+Cave&+2&&85/87/88&+100\%&&Coldcrow\\
+\hline
+Blood Moor&+2&&85/87/88&+100\%&&\\
+\hline
+Den of Evil&+2&&85/87/88&+100\%&&Corpsefire\\
+\hline
+Stony Field&+2&&85/87/88&+100\%&&Rakanishu\\
+\hline
+Arreat Plateau&+2&&85/87/88&+100\%&&Thresh Socket\\
+\hline
+Crystalline Passage&+2&&85/87/88&+100\%&&\\
+\hline
+Frozen River&+2&&85/87/88&+100\%&&Frozenstein\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Boosted into lvl 85 zones}
+
+These areas are simply boosted into lvl 85 zones (if the player is at least level 83), making them farmable in a more standard way.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+{\bf{Area}}&{\bf{+Lvl}}&{\bf{Min lvl}}&{\bf{Max lvl}}&{\bf{XP bonus}}&{\bf{PlayersX}}&{\bf{Comments}}\\
+\hline
+Cathedral&+2&&85/87/88&+25\%&&Bone Ash\\
+\hline
+Jail&+2&&85/87/88&+25\%&&Pitspawn Fouldog\\
+\hline
+Lut Gholein Sewers&+2&&85/87/88&+25\%&&Radament\\
+\hline
+Dry Hills&+2&&85/87/88&+25\%&&\\
+\hline
+Halls of the Dead&+2&&85/87/88&+25\%&&Bloodwitch the Wild\\
+\hline
+Far Oasis&+2&&85/87/88&+25\%&&Beetleburst\\
+\hline
+Lost City&+2&&85/87/88&+25\%&&Dark Elder\\
+\hline
+Claw Viper Temple&+2&&85/87/88&+25\%&&Fangskin\\
+\hline
+Spider Forest&+2&&85/87/88&+25\%&&\\
+\hline
+Spider Cavern&+2&&85/87/88&+25\%&&Sszark the Burning\\
+\hline
+Bloody Foothills&+2&&85/87/88&+25\%&&Dac Farren and Shenk\\
+\hline
+Frigid Highlands&+2&&85/87/88&+25\%&&Eldritch, Sharptooth Slayer, Eyeback\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\section{Over level 100 uniques}
+
+These are exclusive to specific terror zones. There are two types here. The main one is {\emph{enhanced uniques}} - versions of normal uniques with some additional nice to have properties. These are not enough to make or break their balance or make them required, but they give something nice to look forward to in these terror zones. Some of them add little bonuses to already useful uniques, and some try to make other uniques a little more useful by adding uncommon but not game changing properties, in some cases they add just what is necessary to make a useless unique become useful. They are between level 100 and 110 so that normal Baal can't drop them, the monsters that can drop them cannot drop the Hellfire Torch.\\
+
+A special kind are items above level 110 that only monsters in very hard terror zones can drop them, and that are of particularly high power. There are only a few of these and  they are so rare that they are not really considered in terms of build balance. They are prizes that you sometimes can get, nothing else.\\
+
+\subsection{Enhanced Uniques}
+
+These range from level 100 to level 109, with more differences towards the higher end. They all get 1\% extra experience gained and drop half as frequently as the regular item (so one out of every 3 in these areas will be enhanced), with some exceptions.
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|}
+\hline
+{\bf{Name}}&{\bf{Base item}}&{\bf{Lvl}}&{\bf{Extra Properties}}\\
+\hline
+Bloodfist&Heavy Gloves&100&
+\begin{tabular}{@{}c@{}}
++100 Attack Rating\\
+\end{tabular}\\
+\hline
+Magefist&Light Gauntlets&103&
+\begin{tabular}{@{}c@{}}
++20\% Faster Hit Recovery\\
+\end{tabular}\\
+\hline
+The Stone of Jordan&Ring&109&
+\begin{tabular}{@{}c@{}}
++10\% Faster Cast Rate\\
+\end{tabular}\\
+\hline
+Arm of King Leoric&Tomb Wand&107&
+\begin{tabular}{@{}c@{}}
++1 All Skills\\
+\end{tabular}\\
+\hline
+Blackbog's Sharp&Cinquedeas&108&
+\begin{tabular}{@{}c@{}}
++5\% poison skill damage\\
+\end{tabular}\\
+\hline
+Ribcracker&Quarterstaff&106&
+\begin{tabular}{@{}c@{}}
++5-10\% mana leech\\
++25\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+Buriza-Do Kyanon&Ballista&109&
+\begin{tabular}{@{}c@{}}
+Level 10 Fanatism aura\\
+\end{tabular}\\
+\hline
+Valkyrie Wing&Winged Helm&107&
+\begin{tabular}{@{}c@{}}
++10-20 All Resistances\\
++10-15\% Reduced Damage\\
+\end{tabular}\\
+\hline
+Vampire Gaze&Grim Helm&109&
+\begin{tabular}{@{}c@{}}
++10-20 All Resistances\\
++15\% Crushing Blow\\
+\end{tabular}\\
+\hline
+Skin of the Vipermagi&Serpentskin Armor&108&
+\begin{tabular}{@{}c@{}}
++20\% Faster Hit Recovery\\
+\end{tabular}\\
+\hline
+Que-Hegan's Wisdom&Mage Plate&105&
+\begin{tabular}{@{}c@{}}
++10-25\% maximum life\\
+\end{tabular}\\
+\hline
+Lidless Wall&Grim Shield&102&
+\begin{tabular}{@{}c@{}}
++100-150\% Gold Find\\
+\end{tabular}\\
+\hline
+Waterwalk&Sharkskin Boots&105&
+\begin{tabular}{@{}c@{}}
++30\% Faster Hit Recovery\\
+\end{tabular}\\
+\hline
+War Traveler&Battle Boots&107&
+\begin{tabular}{@{}c@{}}
++30\% Faster Hit Recovery\\
+\end{tabular}\\
+\hline
+Gore Rider&War Boots&106&
+\begin{tabular}{@{}c@{}}
++20\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+String of Ears&Demonhide Sash&107&
+\begin{tabular}{@{}c@{}}
++20\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Snowclash&Battle Belt&108&
+\begin{tabular}{@{}c@{}}
++1 All Skills\\
+\end{tabular}\\
+\hline
+Thundergod's Vigor&War Belt&109&
+\begin{tabular}{@{}c@{}}
++5\% lightning skill damage\\
+\end{tabular}\\
+\hline
+Harlequin Crest&Shako&109&
+\begin{tabular}{@{}c@{}}
++5-10 Find Item\\
+\end{tabular}\\
+\hline
+Arkaine's Valor&Balrog Skin&108&
+\begin{tabular}{@{}c@{}}
+Level 10 Vigor aura\\
+\end{tabular}\\
+\hline
+Stormshield&Monarch&106&
+\begin{tabular}{@{}c@{}}
+Level 5 Holy Freeze aura\\
+\end{tabular}\\
+\hline
+Messerchdmidt's Reaver&Champion Axe&107&
+\begin{tabular}{@{}c@{}}
+Slain Monsters Rest in Peace\\
++50-100 Damage\\
+\end{tabular}\\
+\hline
+The Cranium Basher&Thunder Maul&108&
+\begin{tabular}{@{}c@{}}
+Level 10 Concentration aura\\
+\end{tabular}\\
+\hline
+The Grandfather&Colossus Blade&109&
+\begin{tabular}{@{}c@{}}
+25\% Crushing Blow\\
+\end{tabular}\\
+\hline
+Windforce&Hydra Bow&109&
+\begin{tabular}{@{}c@{}}
+25\% L10 Decrepify on hit\\
+\end{tabular}\\
+\hline
+Bul-Kathos' Wedding Band&Ring&107&
+\begin{tabular}{@{}c@{}}
++10\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Mara's Kaleidoscope&Amulet&109&
+\begin{tabular}{@{}c@{}}
++10\% Faster Cast Rate\\
+\end{tabular}\\
+\hline
+Raven Frost&Ring&105&
+\begin{tabular}{@{}c@{}}
++5-10 All Resistances\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|}
+\hline
+Arreat's Face&Slayer Guard&109&
+\begin{tabular}{@{}c@{}}
++15-30\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Homunculus&Hierophant Trophy&106&
+\begin{tabular}{@{}c@{}}
++2 to Summoning Skills\\
+\end{tabular}\\
+\hline
+Titan's Revenge&Ceremonial Javelin&108&
+\begin{tabular}{@{}c@{}}
++20\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+The Oculus&Swirling Crystal&107&
+\begin{tabular}{@{}c@{}}
++50-100\% Gold Find\\
+\end{tabular}\\
+\hline
+Herald of Zakarum&Gilded Shield&108&
+\begin{tabular}{@{}c@{}}
++5 All Max Resistances\\
+\end{tabular}\\
+\hline
+Bartuc's Cut-Throat&Greater Talons&105&
+\begin{tabular}{@{}c@{}}
++1.5/lvl maximum damage\\
+\end{tabular}\\
+\hline
+Jalal's Mane&Totemic Mask&107&
+\begin{tabular}{@{}c@{}}
++10\% life leech\\
++15\% crushing blow\\
+\end{tabular}\\
+\hline
+Tomb Reaver&Cryptic Axe&109&
+\begin{tabular}{@{}c@{}}
+10\% L10 Burst of Speed on hit\\
+\end{tabular}\\
+\hline
+Death's Web&Unearthed Wand&109&
+\begin{tabular}{@{}c@{}}
++5-15\% poison skill damage\\
+\end{tabular}\\
+\hline
+Azurewrath&Phase Blade&108&
+\begin{tabular}{@{}c@{}}
+10\% L20 Fist of the heavens on hit\\
+\end{tabular}\\
+\hline
+Shadow Dancer&Myrmidon Greaves&108&
+\begin{tabular}{@{}c@{}}
++1-3 Dragon Talon\\
++1-3 Dragon Tail\\
++1-3 Dragon Flight\\
+\end{tabular}\\
+\hline
+Cerebus' Bite&Blood Spirit&107&
+\begin{tabular}{@{}c@{}}
+10\% L15 Venom on hit\\
+\end{tabular}\\
+\hline
+Tyrael's Might&Sacred Armor&109&
+\begin{tabular}{@{}c@{}}
+Reduce Poison Length 95\%\\
+Level 10 Concentration aura\\
+\end{tabular}\\
+\hline
+Runemaster&Ettin Axe&104&
+\begin{tabular}{@{}c@{}}
++25-75 maximum damage\\
+\end{tabular}\\
+\hline
+Deathcleaver&Berserker Axe&106&
+\begin{tabular}{@{}c@{}}
++10\% Crushing Blow\\
+\end{tabular}\\
+\hline
+Executioner's Justice&Glorious Axe&107&
+\begin{tabular}{@{}c@{}}
++50\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+Leviathan&Kraken Shell&106&
+\begin{tabular}{@{}c@{}}
++20 Vitality\\
+\end{tabular}\\
+\hline
+Mang Song's Lesson&Archon Staff&109&
+\begin{tabular}{@{}c@{}}
+Level 15 Conviction Aura\\
+\end{tabular}\\
+\hline
+The Reaper's Toll&Thresher&105&
+\begin{tabular}{@{}c@{}}
++30\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Alma Negra&Sacred Rondache&106&
+\begin{tabular}{@{}c@{}}
++5 to Mace Mastery\\
+\end{tabular}\\
+\hline
+Darkforce Spawn&Bloodlord Skull&109&
+\begin{tabular}{@{}c@{}}
++1 to Necromancer skills\\
+\end{tabular}\\
+\hline
+Blood Raven's Charge&Matriarchal Bow&107&
+\begin{tabular}{@{}c@{}}
++500-1000 magic damage\\
+\end{tabular}\\
+\hline
+Shadowkiller&Battle Cestus&104&
+\begin{tabular}{@{}c@{}}
++1.25/lvl\% Enhanced Damage\\
+\end{tabular}\\
+\hline
+Gimmershred&Flying Axe&105&
+\begin{tabular}{@{}c@{}}
+5\% L25 Meteor on hit\\
+5\% L25 Chain Lightning on hit\\
+5\% L25 Frozen Orb on hit\\
+\end{tabular}\\
+\hline
+Warshrike&Winged Knife&105&
+\begin{tabular}{@{}c@{}}
++25-75 maximum damage\\
+\end{tabular}\\
+\hline
+Griffon's Eye&Diadem&109&
+\begin{tabular}{@{}c@{}}
++3-7 to Lower Resistances\\
+\end{tabular}\\
+\hline
+Thunderstroke&Matriarchal Javelin&108&
+\begin{tabular}{@{}c@{}}
++15\% lightning  skill damage\\
+\end{tabular}\\
+\hline
+Steelpillar&War Pike&103&
+\begin{tabular}{@{}c@{}}
++20-45\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Nightwing's Veil&Spired Helm&108&
+\begin{tabular}{@{}c@{}}
++25\% Faster Cast Rate\\
+\end{tabular}\\
+\hline
+Crown of Ages&Corona&109&
+\begin{tabular}{@{}c@{}}
+Level 5 Holy Freeze aura\\
+\end{tabular}\\
+\hline
+Ravenlore&Sky Spirit&109&
+\begin{tabular}{@{}c@{}}
++5\% fire skill damage\\
+\end{tabular}\\
+\hline
+Boneshade&Lich Wand&108&
+\begin{tabular}{@{}c@{}}
++1-2 to Poison \& Bone skills\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|}
+\hline
+Death's Fathom&Dimensional Shard&109&
+\begin{tabular}{@{}c@{}}
++1-2 to Cold Skills\\
+\end{tabular}\\
+\hline
+Wolfhowl&Fury Visor&108&
+\begin{tabular}{@{}c@{}}
+Level 10 Fanatism aura\\
+\end{tabular}\\
+\hline
+Ormus' Robes&Dusk Shroud&106&
+\begin{tabular}{@{}c@{}}
++10-25\% maximum life\\
+\end{tabular}\\
+\hline
+Stormlash&Scourge&109&
+\begin{tabular}{@{}c@{}}
+15\% L15 Nova on hit\\
+\end{tabular}\\
+\hline
+Dracul's Grasp&Vampirebone Gloves&107&
+\begin{tabular}{@{}c@{}}
+10\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Eschuta's Temper&Eldritch Orb&109&
+\begin{tabular}{@{}c@{}}
+-3-5\% fire resistance\\
+-3-5\% lightning resistance\\
+\end{tabular}\\
+\hline
+Sandstorm Trek&Scarabshell Boots&104&
+\begin{tabular}{@{}c@{}}
++15-30\% Magic Find\\
+\end{tabular}\\
+\hline
+Heaven's Light&Mighty Scepter&105&
+\begin{tabular}{@{}c@{}}
++25\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+Arachnid Mesh&Spiderweb Sash&109&
+\begin{tabular}{@{}c@{}}
++20\% Faster Hit Recovery\\
+\end{tabular}\\
+\hline
+Verdungo's Hearty Cord&Mithril Coil&109&
+\begin{tabular}{@{}c@{}}
++10\% Increased Attack Speed\\
+\end{tabular}\\
+\hline
+Astreon's Iron Ward&Caduceus&109&
+\begin{tabular}{@{}c@{}}
+2-5 sockets\\
+\end{tabular}\\
+\hline
+Nord's Tenderizer&Truncheon&107&
+\begin{tabular}{@{}c@{}}
+-10-20\% cold resistance\\
+\end{tabular}\\
+\hline
+Earth Shifter&Thunder Maul&109&
+\begin{tabular}{@{}c@{}}
++25-50\% fire skill damage\\
+\end{tabular}\\
+\hline
+Steelrend&Ogre Gauntlets&108&
+\begin{tabular}{@{}c@{}}
++10-25\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+Seraph's Hymn&Amulet&106&
+\begin{tabular}{@{}c@{}}
+Level 20-30 Sanctuary Aura\\
+\end{tabular}\\
+\hline
+Lycander's Flank&Ceremonial Pike&108&
+\begin{tabular}{@{}c@{}}
+6 sockets\\
+\end{tabular}\\
+\hline
+Lycander's Aim&Ceremonial Bow&108&
+\begin{tabular}{@{}c@{}}
+5 sockets\\
+\end{tabular}\\
+\hline
+Jade Talon&Wrist Sword&105&
+\begin{tabular}{@{}c@{}}
++100\% poison skill damage\\
+\end{tabular}\\
+\hline
+Firelizard's Talons&Feral Claws&106&
+\begin{tabular}{@{}c@{}}
+20\% L30 Enchant on hit\\
++10-25\% fire skill damage\\
+\end{tabular}\\
+\hline
+Boneflame&Succubus Skull&107&
+\begin{tabular}{@{}c@{}}
++1 Teleport\\
+\end{tabular}\\
+\hline
+Dragonscale&Zakarum Shield&103&
+\begin{tabular}{@{}c@{}}
+Level 50 Holy Fire Aura\\
+2-4 sockets\\
+\end{tabular}\\
+\hline
+Twitchthroe&Studded Leather&102&
+\begin{tabular}{@{}c@{}}
+10-20\% reduced damage\\
+4 sockets\\
+\end{tabular}\\
+\hline
+Chance Guards&Chain Gloves&104&
+\begin{tabular}{@{}c@{}}
++2 to random class skills\\
+\end{tabular}\\
+\hline
+Frostburn&Gauntlets&106&
+\begin{tabular}{@{}c@{}}
++20-40\% faster hit recovery\\
++20-50\% faster cast rate\\
+\end{tabular}\\
+\hline
+Nightsmoke&Belt&101&
+\begin{tabular}{@{}c@{}}
+50\% L50 Energy Shield when struck\\
+\end{tabular}\\
+\hline
+Goldwrap&Heavy Belt&105&
+\begin{tabular}{@{}c@{}}
++1 All Skills\\
+\end{tabular}\\
+\hline
+Wizendraw&Long Battle Bow&109&
+\begin{tabular}{@{}c@{}}
+50\% L30 Blizzard on hit\\
+6 sockets\\
+\end{tabular}\\
+\hline
+Ume's Lament&Grim Wand&106&
+\begin{tabular}{@{}c@{}}
++7 to random necromancer skill\\
+\end{tabular}\\
+\hline
+Rockstopper&Sallet&104&
+\begin{tabular}{@{}c@{}}
+L20-30 Thorns Aura\\
+\end{tabular}\\
+\hline
+Stealskull&Casque&108&
+\begin{tabular}{@{}c@{}}
+L10-20 Blessed Aim Aura\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|}
+\hline
+Duriel's Shell&Cuirass&105&
+\begin{tabular}{@{}c@{}}
+20\% L15 Bone Armor when hit\\
+20\% L15 Cyclone Armor when hit\\
+\end{tabular}\\
+\hline
+Skullder's Ire&Russet Armor&109&
+\begin{tabular}{@{}c@{}}
++2 to random class skills\\
+\end{tabular}\\
+\hline
+Guardian Angel&Templar Coat&109&
+\begin{tabular}{@{}c@{}}
++1-3 Combat Skills (paladin)\\
++1-3 Offensive Auras (paladin)\\
++1-3 Defensive Auras (paladin)\\
+\end{tabular}\\
+\hline
+Lava Gout&Battle Gauntlets&108&
+\begin{tabular}{@{}c@{}}
++15-45\% fire skill damage\\
+\end{tabular}\\
+\hline
+Infernostride&Demonhide Boots&105&
+\begin{tabular}{@{}c@{}}
+100\% L50 Blaze on kill\\
++10-20\% fire skill damage\\
+\end{tabular}\\
+\hline
+Gloom's Trap&Mesh Belt&106&
+\begin{tabular}{@{}c@{}}
+L40-50 Meditation Aura\\
+\end{tabular}\\
+\hline
+Islestrike&Twin Axe&107&
+\begin{tabular}{@{}c@{}}
+10\% L20 Heart of Wolverine on hit\\
+\end{tabular}\\
+\hline
+Spellsteel&Bearded Axe&109&
+\begin{tabular}{@{}c@{}}
++1-7 All Skills\\
++7 to random class skills\\
+\end{tabular}\\
+\hline
+The Minotaur&Ancient Axe&101&
+\begin{tabular}{@{}c@{}}
++1-6 sockets\\
+\end{tabular}\\
+\hline
+Riphook&Razor Bow&108&
+\begin{tabular}{@{}c@{}}
+Knockback\\
+25\% L15 Amplify Damage on hit\\
+\end{tabular}\\
+\hline
+Kuko Shakaku&Cedar Bow&109&
+\begin{tabular}{@{}c@{}}
+L50 Holy Fire Aura\\
+\end{tabular}\\
+\hline
+Goldstrike Arch&Gothic Bow&108&
+\begin{tabular}{@{}c@{}}
+L50 Sanctuary Aura\\
+(modify)15\% L25 Fist of Heavens on hit\\
+\end{tabular}\\
+\hline
+Pus Spitter&Siege Crossbow&105&
+\begin{tabular}{@{}c@{}}
+(modify)10\% L30 Poison Nova on hit\\
+(modify) 15\% L10 Lower Resist on hit\\
+100\% L30 Poison Explosion on kill\\
++10-20 to Venom\\
+\end{tabular}\\
+\hline
+Fleshrender&Barbed Club&103&
+\begin{tabular}{@{}c@{}}
++1.25/lvl\% enhanced damage\\
+\end{tabular}\\
+\hline
+Athena's Wrath&Battle Scythe&102&
+\begin{tabular}{@{}c@{}}
++1-5 sockets\\
+\end{tabular}\\
+\hline
+Pierre Tombale Couant&Partizan&102&
+\begin{tabular}{@{}c@{}}
++1-5 sockets\\
+\end{tabular}\\
+\hline
+Husoldal Evo&Bec-De-Corbin&104&
+\begin{tabular}{@{}c@{}}
+L10-20 Might Aura\\
+\end{tabular}\\
+\hline
+Hone Sundan&Yari&104&
+\begin{tabular}{@{}c@{}}
+40\% increased attack speed\\
+50\% bonus to attack rating\\
+\end{tabular}\\
+\hline
+Spire of Honor&Lance&105&
+\begin{tabular}{@{}c@{}}
+Ethereal\\
+Indestructible\\
+1-6 sockets\\
+\end{tabular}\\
+\hline
+Chromatic Ire&Cedar Staff&108&
+\begin{tabular}{@{}c@{}}
+(modify)+3-5 to All Skills\\
+(modify)+1-7 to Cold Mastery (any class)\\
+(modify)+1-7 to Lightning Mastery (any class)\\
+(modify)+1-7 to Fire Mastery (any class)\\
+\end{tabular}\\
+\hline
+Blade of Ali Baba&Tulwar&107&
+\begin{tabular}{@{}c@{}}
++1-2 All Skills\\
++10-30\% faster cast rate\\
+\end{tabular}\\
+\hline
+The Atlantean&Ancient Sword&104&
+\begin{tabular}{@{}c@{}}
++1 Sword Mastery\\
+\end{tabular}\\
+\hline
+Carin Shard&Petrified Wand&106&
+\begin{tabular}{@{}c@{}}
++20-40 All Res\\
+10\% reduced damage\\
+\end{tabular}\\
+\hline
+Blackhand key&Grave Wand&108&
+\begin{tabular}{@{}c@{}}
++7 to random necromancer skill\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|}
+\hline
+Andariel's Visage&Demonhead&103&
+\begin{tabular}{@{}c@{}}
++3/lvl life\\
+\end{tabular}\\
+\hline
+Spirit Ward&Ward&103&
+\begin{tabular}{@{}c@{}}
+Requirements -100\%\\
+4 sockets\\
+\end{tabular}\\
+\hline
+Marrowwalk&Boneweave Boots&109&
+\begin{tabular}{@{}c@{}}
++1-2 necromancer skills\\
+\end{tabular}\\
+\hline
+Cranebeak&War Spike&106&
+\begin{tabular}{@{}c@{}}
+L10-20 Holy Shock Aura\\
+\end{tabular}\\
+\hline
+Widowmaker&Ward Bow&108&
+\begin{tabular}{@{}c@{}}
++2/lvl\% enhanced damage\\
+\end{tabular}\\
+\hline
+Hellrack&Colossus Crossbow&102&
+\begin{tabular}{@{}c@{}}
+-10-25\% fire res\\
+-10-25\% lightning res\\
+-10-25\% cold res\\
+\end{tabular}\\
+\hline
+Wizardspike&Bone Knife&109&
+\begin{tabular}{@{}c@{}}
++1-3 All Skills\\
+\end{tabular}\\
+\hline
+Fleshripper&Fanged Knife&107&
+\begin{tabular}{@{}c@{}}
+L10-20 Concentration Aura\\
+\end{tabular}\\
+\hline
+Ghostflame&Legend Spike&105&
+\begin{tabular}{@{}c@{}}
+Level 50 Venom 100 Charges\\
+Level 50 Enchant 100 Charges\\
+\end{tabular}\\
+\hline
+Demon's Arch&Balrog Spear&106&
+\begin{tabular}{@{}c@{}}
+10\% L30 Burst of Speed on kill\\
+\end{tabular}\\
+\hline
+Baranar's Star&Devil Star&108&
+\begin{tabular}{@{}c@{}}
+L10-20 Conviction Aura\\
+\end{tabular}\\
+\hline
+Schaefer's Hammer&Legendary Mallet&108&
+\begin{tabular}{@{}c@{}}
++1.5/lvl\% enhanced damage\\
+\end{tabular}\\
+\hline
+Bonehew&Ogre Axe&106&
+\begin{tabular}{@{}c@{}}
+(modify)50\% L30 Bone Spear on hit\\
+50\% L30 Bone Spirit on hit\\
+50\% L30 Teeth on hit\\
+\end{tabular}\\
+\hline
+The Redeemer&Mighty Scepter&108&
+\begin{tabular}{@{}c@{}}
+(modify)Damage +400-500\\
++7 to Smite\\
+\end{tabular}\\
+\hline
+Ondal's Wisdom&Elder Staff&109&
+\begin{tabular}{@{}c@{}}
+L20 Redemption Aura\\
+4 sockets\\
+\end{tabular}\\
+\hline
+Flamebellow&Balrog Blade&104&
+\begin{tabular}{@{}c@{}}
+100\% L40 Fire Wall on kill\\
+\end{tabular}\\
+\hline
+Lacerator&Winged Axe&107&
+\begin{tabular}{@{}c@{}}
+L15-25 Fanatism Aura\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Level over 110 uniques}
+
+\begin{center}
+\makebox[0.1cm]
+{
+\begin{tabular}{|c|c|c|c|}
+\hline
+{\bf{Name}}&{\bf{Base item}}&{\bf{Lvl}}&{\bf{Properties}}\\
+\hline
+Obsidian Ring of the Zodiac&Ring&111&
+\begin{tabular}{@{}c@{}}
++1 All Skills\\
++10\% Faster Cast Rate\\
++20\% Maximum Mana\\
++5-15 All Resistances\\
++5-10\% Life Leech\\
++5-10\% Mana Leech\\
+Cannot be Frozen\\
+L10-15 Meditation Aura\\
+\end{tabular}\\
+\hline
+Damned Halo&Tiara&115&
+\begin{tabular}{@{}c@{}}
++2 All Skills\\
+3 Sockets\\
++40-75 All Resistances\\
++5 All Max Resistances\\
+25-50\% Reduced Damage\\
++10-25\% Life Leech\\
++10-25\% Mana Leech\\
+Cannot be Frozen\\
+25\% L10 Mind Blast on hit\\
+\end{tabular}\\
+\hline
+The Cloak of Abbadon&Dusk Shroud&119&
+\begin{tabular}{@{}c@{}}
++4 All Skills\\
+4 Sockets\\
++100-150 All Resistances\\
++10 All Max Resistances\\
+25-50\% Reduced Damage\\
++50\% Faster Cast Rate\\
++500\% Enhanced Damage\\
+50\% Crushing Blow\\
+Cannot be Frozen\\
++5-10 Teleport\\
+\end{tabular}\\
+\hline
+Soul of Acheron&Jewel&123&
+\begin{tabular}{@{}c@{}}
++2 All Skills\\
++10\% Fire Skill Damage\\
++10\% Cold Skill Damage\\
++10\% Lightning Skill Damage\\
++10\% Poison Skill Damage\\
++50\% Increased Attack Speed\\
++15\% Faster Cast Rate\\
++75\% Enhanced Damage\\
++15\% Maximum Life\\
++30\% Faster Hit Recovery\\
++150-300\% Gold Find\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\section{Not added to this document yet}
+
+\section{Ideas not explored yet}
+
+\begin{itemize}
+
+\item Iron Golem item by above 100 level requirement
+\item Casting monster abilities
+\item All class-specific runewords
+\item Chaos Tristram Terror Zone.
+\item Vendor that sells all types of jewelry for very expensive prices.
+\item More ethereal uniques / unique versions. With bigger ranges on bonuses?
+\item Items that drop from specific monsters and can only be used within the same game, to push the idea of doing multiple areas in the same game.
+
+\end{itemize}
+
+\end{document}
