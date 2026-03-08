@@ -120,7 +120,7 @@
                         "ladder_enabled": true,
                         "non_ladder_enabled": true,
                         "max_herald_tokens": 5,
-                        "max_herald_tiers": 5,
+                        "max_herald_tiers": 27,
                         "always_unique_mod_pool": [
                             {
                                 "type": "AlwaysUniqueMod",
@@ -184,8 +184,8 @@
                             "bound_incl_max": 106,
                             "boost_level": 7,
                             "boost_experience_percent": 25,
-                            "chance_to_gain_herald_token": 5.0,
-                            "chance_for_token_to_convert_to_herald": 3.0,
+                            "chance_to_gain_herald_token": 70.0,
+                            "chance_for_token_to_convert_to_herald": 50.0,
                             "unique_mod_chance_boosts": [
                                 {
                                     "type": "UniqueModChanceBoost",
@@ -198,11 +198,11 @@
                             "herald_tiers": [
                                 {
                                     "type": "DesecratedHeraldTier",
-                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_0",
-                                    "herald_health_boost_percent": 1000,
-                                    "herald_damage_boost_percent": 50,
-                                    "minion_health_boost_percent": 250,
-                                    "minion_damage_boost_percent": 10,
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_1",
+                                    "herald_health_boost_percent": 500,
+                                    "herald_damage_boost_percent": 25,
+                                    "minion_health_boost_percent": 125,
+                                    "minion_damage_boost_percent": 5,
                                     "minion_behavior": 1,
                                     "min_minions": 6,
                                     "max_minions": 6,
@@ -230,12 +230,44 @@
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
-                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_1",
-                                    "herald_health_boost_percent": 1500,
-                                    "herald_damage_boost_percent": 100,
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_2",
+                                    "herald_health_boost_percent": 500,
+                                    "herald_damage_boost_percent": 25,
+                                    "minion_health_boost_percent": 125,
+                                    "minion_damage_boost_percent": 5,
+                                    "minion_behavior": 1,
+                                    "min_minions": 6,
+                                    "max_minions": 6,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_0_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 1,
+                                            "min": 6,
+                                            "max": 6
+                                        }
+                                    ],
+                                    "min_unique_mods": 3,
+                                    "max_unique_mods": 3,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_0_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_3",
+                                    "herald_health_boost_percent": 1000,
+                                    "herald_damage_boost_percent": 50,
                                     "herald_treasure_class_level_boost": 3,
-                                    "minion_health_boost_percent": 375,
-                                    "minion_damage_boost_percent": 20,
+                                    "minion_health_boost_percent": 250,
+                                    "minion_damage_boost_percent": 10,
                                     "minion_behavior": 1,
                                     "min_minions": 8,
                                     "max_minions": 8,
@@ -263,12 +295,45 @@
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
-                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_2",
-                                    "herald_health_boost_percent": 2000,
-                                    "herald_damage_boost_percent": 150,
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4",
+                                    "herald_health_boost_percent": 1000,
+                                    "herald_damage_boost_percent": 50,
+                                    "herald_treasure_class_level_boost": 3,
+                                    "minion_health_boost_percent": 250,
+                                    "minion_damage_boost_percent": 10,
+                                    "minion_behavior": 1,
+                                    "min_minions": 8,
+                                    "max_minions": 8,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_1_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 2,
+                                            "min": 8,
+                                            "max": 8
+                                        }
+                                    ],
+                                    "min_unique_mods": 3,
+                                    "max_unique_mods": 3,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_1_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_5",
+                                    "herald_health_boost_percent": 1500,
+                                    "herald_damage_boost_percent": 75,
                                     "herald_treasure_class_level_boost": 6,
-                                    "minion_health_boost_percent": 500,
-                                    "minion_damage_boost_percent": 30,
+                                    "minion_health_boost_percent": 400,
+                                    "minion_damage_boost_percent": 15,
                                     "minion_behavior": 1,
                                     "min_minions": 10,
                                     "max_minions": 10,
@@ -296,12 +361,45 @@
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
-                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_3",
-                                    "herald_health_boost_percent": 2500,
-                                    "herald_damage_boost_percent": 200,
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_6",
+                                    "herald_health_boost_percent": 1500,
+                                    "herald_damage_boost_percent": 75,
+                                    "herald_treasure_class_level_boost": 6,
+                                    "minion_health_boost_percent": 400,
+                                    "minion_damage_boost_percent": 15,
+                                    "minion_behavior": 1,
+                                    "min_minions": 10,
+                                    "max_minions": 10,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_2_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 3,
+                                            "min": 10,
+                                            "max": 10
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_2_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_7",
+                                    "herald_health_boost_percent": 2000,
+                                    "herald_damage_boost_percent": 100,
                                     "herald_treasure_class_level_boost": 9,
-                                    "minion_health_boost_percent": 625,
-                                    "minion_damage_boost_percent": 40,
+                                    "minion_health_boost_percent": 500,
+                                    "minion_damage_boost_percent": 20,
                                     "minion_behavior": 1,
                                     "min_minions": 12,
                                     "max_minions": 12,
@@ -329,12 +427,639 @@
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
-                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_8",
+                                    "herald_health_boost_percent": 2000,
+                                    "herald_damage_boost_percent": 100,
+                                    "herald_treasure_class_level_boost": 9,
+                                    "minion_health_boost_percent": 500,
+                                    "minion_damage_boost_percent": 20,
+                                    "minion_behavior": 1,
+                                    "min_minions": 12,
+                                    "max_minions": 12,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_3_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 5,
+                                            "min": 12,
+                                            "max": 12
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_3_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_9",
+                                    "herald_health_boost_percent": 2500,
+                                    "herald_damage_boost_percent": 125,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 600,
+                                    "minion_damage_boost_percent": 25,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_10",
+                                    "herald_health_boost_percent": 2500,
+                                    "herald_damage_boost_percent": 125,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 600,
+                                    "minion_damage_boost_percent": 25,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_11",
                                     "herald_health_boost_percent": 3000,
-                                    "herald_damage_boost_percent": 250,
+                                    "herald_damage_boost_percent": 150,
                                     "herald_treasure_class_level_boost": 12,
                                     "minion_health_boost_percent": 750,
+                                    "minion_damage_boost_percent": 30,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_12",
+                                    "herald_health_boost_percent": 3000,
+                                    "herald_damage_boost_percent": 150,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 750,
+                                    "minion_damage_boost_percent": 30,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_13",
+                                    "herald_health_boost_percent": 3500,
+                                    "herald_damage_boost_percent": 175,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 900,
+                                    "minion_damage_boost_percent": 35,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_14",
+                                    "herald_health_boost_percent": 3500,
+                                    "herald_damage_boost_percent": 175,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 900,
+                                    "minion_damage_boost_percent": 35,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_15",
+                                    "herald_health_boost_percent": 4000,
+                                    "herald_damage_boost_percent": 200,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1000,
+                                    "minion_damage_boost_percent": 40,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_16",
+                                    "herald_health_boost_percent": 4000,
+                                    "herald_damage_boost_percent": 200,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1000,
+                                    "minion_damage_boost_percent": 40,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_17",
+                                    "herald_health_boost_percent": 5000,
+                                    "herald_damage_boost_percent": 250,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1250,
                                     "minion_damage_boost_percent": 50,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_18",
+                                    "herald_health_boost_percent": 5000,
+                                    "herald_damage_boost_percent": 250,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1250,
+                                    "minion_damage_boost_percent": 50,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_19",
+                                    "herald_health_boost_percent": 6000,
+                                    "herald_damage_boost_percent": 300,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1500,
+                                    "minion_damage_boost_percent": 60,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_20",
+                                    "herald_health_boost_percent": 6000,
+                                    "herald_damage_boost_percent": 300,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1500,
+                                    "minion_damage_boost_percent": 60,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_21",
+                                    "herald_health_boost_percent": 7000,
+                                    "herald_damage_boost_percent": 350,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1750,
+                                    "minion_damage_boost_percent": 70,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_22",
+                                    "herald_health_boost_percent": 7000,
+                                    "herald_damage_boost_percent": 350,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 1750,
+                                    "minion_damage_boost_percent": 70,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_23",
+                                    "herald_health_boost_percent": 8000,
+                                    "herald_damage_boost_percent": 400,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 2000,
+                                    "minion_damage_boost_percent": 80,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_24",
+                                    "herald_health_boost_percent": 8000,
+                                    "herald_damage_boost_percent": 400,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 2000,
+                                    "minion_damage_boost_percent": 80,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_25",
+                                    "herald_health_boost_percent": 9000,
+                                    "herald_damage_boost_percent": 450,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 2250,
+                                    "minion_damage_boost_percent": 100,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_26",
+                                    "herald_health_boost_percent": 9000,
+                                    "herald_damage_boost_percent": 450,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 2250,
+                                    "minion_damage_boost_percent": 100,
+                                    "minion_behavior": 1,
+                                    "min_minions": 14,
+                                    "max_minions": 14,
+                                    "minions": [
+                                        {
+                                            "type": "DesecratedHeraldMinion",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_minions_0",
+                                            "minion_type": 1,
+                                            "chance": 6,
+                                            "min": 14,
+                                            "max": 14
+                                        }
+                                    ],
+                                    "min_unique_mods": 4,
+                                    "max_unique_mods": 4,
+                                    "unique_mod_chance_boosts": [
+                                        {
+                                            "type": "UniqueModChanceBoost",
+                                            "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_4_unique_mod_chance_boosts_0",
+                                            "unique_mod": 30,
+                                            "boost": 1,
+                                            "behavior": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "DesecratedHeraldTier",
+                                    "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_defaults_herald_tiers_27",
+                                    "herald_health_boost_percent": 10000,
+                                    "herald_damage_boost_percent": 500,
+                                    "herald_treasure_class_level_boost": 12,
+                                    "minion_health_boost_percent": 2500,
+                                    "minion_damage_boost_percent": 120,
                                     "minion_behavior": 1,
                                     "min_minions": 14,
                                     "max_minions": 14,
