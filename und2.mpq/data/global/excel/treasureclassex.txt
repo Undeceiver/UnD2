@@ -885,10 +885,10 @@ Blood Raven (N) Desecrated A	30	43	5	800	800	972	1024	19	"gld,mul=1536"	14	Act 1
 Blood Raven (N) Desecrated B	30	57	5	800	800	972	1024	19	"gld,mul=1536"	14	Act 4 (N) Equip B	19	Act 4 (N) Junk	5	Act 4 (N) Good	3																						0
 Blood Raven (N) Desecrated C	30	73	5	800	800	972	1024	19	"gld,mul=1536"	14	Act 3 (H) Equip A	19	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
 Blood Raven (H)			5	800	800	972	1024	19	"gld,mul=2048"	14	Act 1 (H) Equip B	19	Act 1 (H) Junk	5	Act 1 (H) Good	3																						0
-Blood Raven Item (H) Desecrated A			1	850	900	975	1024	0	Jewelry C	1	Act 4 (H) Equip B	19	Act 4 (H) Junk	5	Act 4 (H) Good	3																						0
-Blood Raven Item (H) Desecrated B			1	850	900	975	1024	0	Jewelry C	1	Act 5 (H) Equip A	19	Act 5 (H) Junk	5	Act 5 (H) Good	3																						0
-Blood Raven Item (H) Desecrated C			1	850	900	975	1024	0	Jewelry C	1	Act 5 (H) Equip B	19	Act 5 (H) Junk	5	Act 5 (H) Good	3																						0
-Blood Raven Item (H) Desecrated D			1	850	900	975	1024	0	Jewelry C	1	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3																						0
+Blood Raven Item (H) Desecrated A			1	850	900	975	1024	0	Jewelry C	1																												0
+Blood Raven Item (H) Desecrated B			1	850	900	975	1024	0	Jewelry C	1																												0
+Blood Raven Item (H) Desecrated C			1	850	900	975	1024	0	Jewelry C	1																												0
+Blood Raven Item (H) Desecrated D			1	850	900	975	1024	0	Jewelry C	1																												0
 Blood Raven (H) Desecrated A	30	88	1					0	Miniboss Organs	1	Blood Raven Item (H) Desecrated A	50																										0
 Blood Raven (H) Desecrated B	30	90	1					0	Miniboss Organs	1	Blood Raven Item (H) Desecrated B	50																										0
 Blood Raven (H) Desecrated C	30	93	1					0	Miniboss Organs	1	Blood Raven Item (H) Desecrated C	50																										0

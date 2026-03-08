@@ -184,8 +184,8 @@
                             "bound_incl_max": 106,
                             "boost_level": 7,
                             "boost_experience_percent": 25,
-                            "chance_to_gain_herald_token": 5.0,
-                            "chance_for_token_to_convert_to_herald": 3.0,
+                            "chance_to_gain_herald_token": 10.0,
+                            "chance_for_token_to_convert_to_herald": 5.0,
                             "unique_mod_chance_boosts": [
                                 {
                                     "type": "UniqueModChanceBoost",
