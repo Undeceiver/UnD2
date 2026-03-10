@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DesecratedZonesConfigs",
+  "type": "object",
+  "properties": {
+    "dependencies": {
+      "type": "object",
+      "properties": {
+        "particles": { "type": "array", "items": { "type": "string" } },
+        "models": { "type": "array", "items": { "type": "string" } },
+        "skeletons": { "type": "array", "items": { "type": "string" } },
+        "animations": { "type": "array", "items": { "type": "string" } },
+        "textures": { "type": "array", "items": { "type": "string" } },
+        "physics": { "type": "array", "items": { "type": "string" } },
+        "json": { "type": "array", "items": { "type": "string" } },
+        "variantdata": { "type": "array", "items": { "type": "string" } },
+        "objecteffects": { "type": "array", "items": { "type": "string" } },
+        "other": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "type": { "type": "string", "const": "DesecratedZonesConfigs" },
+    "name": { "type": "string" },
+    "desecrated_zones": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/DesecratedConfigData" }
+    }
+  },
+  "required": ["type", "name", "desecrated_zones"],
+  "definitions": {
+    "DesecratedConfigData": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedConfigData" },
+        "name": { "type": "string" },
+        "start_time_utc": { "type": "string", "description": "Required. UTC time 'YYYY-MM-DD HH:MM:SS'." },
+        "end_time_utc": { "type": "string", "description": "UTC time. If empty/missing, no end time (INT64_MAX)." },
+        "seed": { "type": "integer", "description": "int64 seed for zone rotation." },
+        "zone_duration_minutes": { "type": "integer", "default": 0 },
+        "break_duration_minutes": { "type": "integer", "default": 0 },
+        "manual_deprioritize_threshold": { "type": "integer", "default": 0 },
+        "manual_removal_threshold": { "type": "integer", "default": 0 },
+        "game_difficulties": { "$ref": "#/definitions/DesecratedGameDifficultyPerGameVersion" },
+        "warnings": { "type": "array", "items": { "$ref": "#/definitions/DesecratedWarning" } },
+        "zones": { "type": "array", "items": { "$ref": "#/definitions/DesecratedZone" } },
+        "manual_zones": { "type": "array", "items": { "$ref": "#/definitions/DesecratedZoneGroup" } }
+      },
+      "required": ["start_time_utc"]
+    },
+    "DesecratedGameDifficultyPerGameVersion": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedGameDifficultyPerGameVersion" },
+        "name": { "type": "string" },
+        "expansion": { "$ref": "#/definitions/DesecratedGameDifficultyPerDifficulty" },
+        "rotw": { "$ref": "#/definitions/DesecratedGameDifficultyPerDifficulty" }
+      }
+    },
+    "DesecratedGameDifficultyPerDifficulty": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedGameDifficultyPerDifficulty" },
+        "name": { "type": "string" },
+        "normal": { "$ref": "#/definitions/DesecratedGameDifficultyConfig" },
+        "nightmare": { "$ref": "#/definitions/DesecratedGameDifficultyConfig" },
+        "hell": { "$ref": "#/definitions/DesecratedGameDifficultyConfig" }
+      }
+    },
+    "DesecratedGameDifficultyConfig": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedGameDifficultyConfig" },
+        "name": { "type": "string" },
+        "ladder_enabled": { "type": "boolean" },
+        "non_ladder_enabled": { "type": "boolean" },
+        "max_herald_tokens": { "type": "integer", "default": 0 },
+        "max_herald_tiers": { "type": "integer", "default": 0 },
+        "always_unique_mod_pool": {
+          "type": "array",
+          "maxItems": 6,
+          "items": { "$ref": "#/definitions/AlwaysUniqueMod" }
+        },
+        "defaults": { "$ref": "#/definitions/DesecratedDifficultyConfig" }
+      }
+    },
+    "DesecratedDifficultyConfig": {
+      "type": "object",
+      "description": "Core difficulty parameters. Uses copy-on-write inheritance for zone/level overrides.",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedDifficultyConfig" },
+        "name": { "type": "string" },
+        "bound_incl_min": { "type": "integer", "description": "Static default: 1" },
+        "bound_incl_max": { "type": "integer", "description": "Static default: 1" },
+        "boost_level": { "type": "integer", "description": "Static default: 0" },
+        "difficulty_scale": { "type": "integer", "description": "Static default: 1" },
+        "boost_experience_percent": { "type": "integer" },
+        "chance_to_gain_herald_token": { "type": "number", "description": "Stored as float32" },
+        "chance_for_token_to_convert_to_herald": { "type": "number", "description": "Stored as float32" },
+        "unique_mod_chance_boosts": {
+          "type": "array",
+          "maxItems": 3,
+          "items": { "$ref": "#/definitions/DifficultyUniqueModChanceBoost" }
+        },
+        "herald_tiers": {
+          "type": "array",
+          "maxItems": 8,
+          "items": { "$ref": "#/definitions/DesecratedHeraldTier" }
+        }
+      }
+    },
+    "DifficultyUniqueModChanceBoost": {
+      "type": "object",
+      "description": "At difficulty level: no behavior field",
+      "properties": {
+        "type": { "type": "string", "const": "UniqueModChanceBoost" },
+        "name": { "type": "string" },
+        "unique_mod": { "type": "integer" },
+        "boost": { "type": "integer" }
+      },
+      "required": ["unique_mod", "boost"]
+    },
+    "AlwaysUniqueMod": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "AlwaysUniqueMod" },
+        "name": { "type": "string" },
+        "unique_mod": { "type": "integer" },
+        "chance": { "type": "integer" }
+      },
+      "required": ["unique_mod", "chance"]
+    },
+    "UniqueModChanceBoost": {
+      "type": "object",
+      "description": "At herald tier level: has behavior field (clamped 0–2)",
+      "properties": {
+        "type": { "type": "string", "const": "UniqueModChanceBoost" },
+        "name": { "type": "string" },
+        "unique_mod": { "type": "integer" },
+        "boost": { "type": "integer" },
+        "behavior": { "type": "integer", "minimum": 0, "maximum": 2 }
+      },
+      "required": ["unique_mod", "boost", "behavior"]
+    },
+    "DesecratedHeraldTier": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedHeraldTier" },
+        "name": { "type": "string" },
+        "herald_health_boost_percent": { "type": "integer", "default": 0 },
+        "herald_damage_boost_percent": { "type": "integer", "default": 0 },
+        "herald_treasure_class_level_boost": { "type": "integer", "default": 0 },
+        "minion_health_boost_percent": { "type": "integer", "default": 0 },
+        "minion_damage_boost_percent": { "type": "integer", "default": 0 },
+        "minion_treasure_class_level_boost": { "type": "integer", "default": 0 },
+        "minion_behavior": { "type": "integer", "minimum": 0, "maximum": 2, "default": 0 },
+        "min_minions": { "type": "integer", "default": 0 },
+        "max_minions": { "type": "integer", "default": 0 },
+        "minions": {
+          "type": "array",
+          "maxItems": 3,
+          "items": { "$ref": "#/definitions/DesecratedHeraldMinion" }
+        },
+        "min_unique_mods": { "type": "integer", "default": 0 },
+        "max_unique_mods": { "type": "integer", "default": 0 },
+        "unique_mod_chance_boosts": {
+          "type": "array",
+          "maxItems": 3,
+          "items": { "$ref": "#/definitions/UniqueModChanceBoost" }
+        }
+      }
+    },
+    "DesecratedHeraldMinion": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedHeraldMinion" },
+        "name": { "type": "string" },
+        "minion_type": { "type": "integer", "minimum": 0, "maximum": 2, "description": "Clamped to 0–2" },
+        "always_include": { "type": "boolean", "default": false },
+        "monster": { "type": "integer", "default": 0, "description": "Monster ID" },
+        "chance": { "type": "integer", "default": 0 },
+        "min": { "type": "integer", "default": 0 },
+        "max": { "type": "integer", "default": 0 }
+      },
+      "required": ["minion_type"]
+    },
+    "DesecratedWarning": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedWarning" },
+        "name": { "type": "string" },
+        "announce_time_minutes": { "type": "integer" },
+        "tier": { "type": "integer" }
+      },
+      "required": ["announce_time_minutes", "tier"]
+    },
+    "DesecratedZoneGroup": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedZoneGroup" },
+        "name": { "type": "string" },
+        "group_id": { "type": "integer", "minimum": 1, "description": "Must be non-zero" },
+        "zones": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/DesecratedZone" }
+        }
+      },
+      "required": ["group_id", "zones"]
+    },
+    "DesecratedZone": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedZone" },
+        "name": { "type": "string" },
+        "id": { "type": "string", "minLength": 1, "description": "FNV-1a hashed. Must be unique." },
+        "difficulties": { "$ref": "#/definitions/DesecratedZoneDifficultyOverrides" },
+        "levels": {
+          "type": "array",
+          "maxItems": 15,
+          "items": { "$ref": "#/definitions/DesecratedLevel" }
+        }
+      },
+      "required": ["id"]
+    },
+    "DesecratedZoneDifficultyOverrides": {
+      "type": "object",
+      "properties": {
+        "expansion": { "$ref": "#/definitions/DesecratedDifficultyOverridePerDifficulty" },
+        "rotw": { "$ref": "#/definitions/DesecratedDifficultyOverridePerDifficulty" }
+      }
+    },
+    "DesecratedDifficultyOverridePerDifficulty": {
+      "type": "object",
+      "properties": {
+        "normal": { "$ref": "#/definitions/DesecratedDifficultyConfig" },
+        "nightmare": { "$ref": "#/definitions/DesecratedDifficultyConfig" },
+        "hell": { "$ref": "#/definitions/DesecratedDifficultyConfig" }
+      }
+    },
+    "DesecratedLevel": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "const": "DesecratedLevel" },
+        "name": { "type": "string" },
+        "level_id": { "type": "integer" },
+        "waypoint_level_id": { "type": "integer", "default": 0 },
+        "difficulties": { "$ref": "#/definitions/DesecratedZoneDifficultyOverrides" }
+      },
+      "required": ["level_id"]
+    }
+  }
+}

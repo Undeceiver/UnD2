@@ -778,8 +778,8 @@ Diablo (N) Desecrated A	23	62	7	983	983	983	1024	15	"gld,mul=1536"	5	Act 5 (N) E
 Diablo (N) Desecrated B	23	67	7	983	983	983	1024	15	"gld,mul=1536"	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																						0
 Diablo (N) Desecrated C	23	73	7	983	983	983	1024	15	"gld,mul=1536"	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
 Diablo (H)			7	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1																				0
-Diablo Item (H) Desecrated A			7	1010	1010	1010	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1	Ancient Statue 4	1																		0
-Diablo Item (H) Desecrated B			7	1010	1010	1010	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1	Ancient Statue 4	1																		0
+Diablo Item (H) Desecrated A			7	1015	1015	1015	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1	Ancient Statue 4	1																		0
+Diablo Item (H) Desecrated B			7	1015	1015	1015	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1	Ancient Statue 4	1																		0
 Diablo (H) Desecrated A	23	94	-1					0	Diablo Item (H) Desecrated A	1																												0
 Diablo (H) Desecrated B	23	96	-1					0	Diablo Item (H) Desecrated B	1																												0
 Diabloq			7	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																										0
@@ -871,7 +871,7 @@ Baal Desecrated	29	60	7	983	983	983	1024	15	"gld,mul=1280"	5	Act 3 (N) Equip A	5
 Baal (N)			7	983	983	983	1024	15	"gld,mul=1536"	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																						0
 Baal (N) Desecrated	29	75	7	983	983	983	1024	15	"gld,mul=1536"	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
 Baal (H)			7	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	fed	1																				0
-Baal Item (H) Desecrated			7	1010	1010	1010	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	fed	1	Ancient Statue 5	1																		0
+Baal Item (H) Desecrated			7	1015	1015	1015	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	fed	1	Ancient Statue 5	1																		0
 Baal (H) Desecrated	29	99	-1					0	Baal Item (H) Desecrated	1																												0
 Baalq			7	993	993	1024	1024	15	Act 1 (N) Equip A	52	Act 1 (N) Good	3																										0
 Baalq (N)			7	993	993	1024	1024	15	Act 1 (H) Equip A	52	Act 1 (H) Good	3																										0
