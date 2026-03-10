@@ -1500,7 +1500,7 @@
                                                 "bound_incl_min": 106,
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
-                                                "boost_experience_percent": 1000,
+                                                "boost_experience_percent": 400,
                                                 "chance_to_gain_herald_token": 10.0,
                                                 "chance_for_token_to_convert_to_herald": 5.0
                                             }
@@ -1518,7 +1518,7 @@
                                                 "bound_incl_min": 106,
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
-                                                "boost_experience_percent": 1000,
+                                                "boost_experience_percent": 400,
                                                 "chance_to_gain_herald_token": 10.0,
                                                 "chance_for_token_to_convert_to_herald": 5.0
                                             }
@@ -1536,7 +1536,7 @@
                                                 "bound_incl_min": 106,
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
-                                                "boost_experience_percent": 1000,
+                                                "boost_experience_percent": 400,
                                                 "chance_to_gain_herald_token": 10.0,
                                                 "chance_for_token_to_convert_to_herald": 5.0
                                             }
@@ -1908,8 +1908,8 @@
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
                                                 "boost_experience_percent": 25,
-                                                "chance_to_gain_herald_token": 100.0,
-                                                "chance_for_token_to_convert_to_herald": 100.0
+                                                "chance_to_gain_herald_token": 50.0,
+                                                "chance_for_token_to_convert_to_herald": 50.0
                                             }
                                         }
                                     }
@@ -1926,8 +1926,8 @@
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
                                                 "boost_experience_percent": 25,
-                                                "chance_to_gain_herald_token": 100.0,
-                                                "chance_for_token_to_convert_to_herald": 100.0
+                                                "chance_to_gain_herald_token": 50.0,
+                                                "chance_for_token_to_convert_to_herald": 50.0
                                             }
                                         }
                                     }
@@ -1944,8 +1944,8 @@
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
                                                 "boost_experience_percent": 25,
-                                                "chance_to_gain_herald_token": 100.0,
-                                                "chance_for_token_to_convert_to_herald": 100.0
+                                                "chance_to_gain_herald_token": 50.0,
+                                                "chance_for_token_to_convert_to_herald": 50.0
                                             }
                                         }
                                     }
@@ -1962,8 +1962,8 @@
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
                                                 "boost_experience_percent": 25,
-                                                "chance_to_gain_herald_token": 100.0,
-                                                "chance_for_token_to_convert_to_herald": 100.0
+                                                "chance_to_gain_herald_token": 50.0,
+                                                "chance_for_token_to_convert_to_herald": 50.0
                                             }
                                         }
                                     }
@@ -1980,8 +1980,8 @@
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
                                                 "boost_experience_percent": 25,
-                                                "chance_to_gain_herald_token": 100.0,
-                                                "chance_for_token_to_convert_to_herald": 100.0
+                                                "chance_to_gain_herald_token": 50.0,
+                                                "chance_for_token_to_convert_to_herald": 50.0
                                             }
                                         }
                                     }
@@ -1998,8 +1998,8 @@
                                                 "bound_incl_max": 106,
                                                 "boost_level": 7,
                                                 "boost_experience_percent": 25,
-                                                "chance_to_gain_herald_token": 100.0,
-                                                "chance_for_token_to_convert_to_herald": 100.0
+                                                "chance_to_gain_herald_token": 50.0,
+                                                "chance_for_token_to_convert_to_herald": 50.0
                                             }
                                         }
                                     }
@@ -2550,7 +2550,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -2568,7 +2568,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -2586,7 +2586,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -2923,8 +2923,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -2941,8 +2941,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -2959,8 +2959,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -2977,8 +2977,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -2995,8 +2995,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3013,8 +3013,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3846,8 +3846,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3864,8 +3864,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3882,8 +3882,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3900,8 +3900,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3918,8 +3918,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -3936,8 +3936,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -4302,7 +4302,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -4320,7 +4320,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -4338,7 +4338,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -4836,7 +4836,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -4854,7 +4854,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -4872,7 +4872,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -5347,8 +5347,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -5365,8 +5365,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -5383,8 +5383,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -5401,8 +5401,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -5419,8 +5419,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -5437,8 +5437,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -5893,7 +5893,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -5911,7 +5911,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -5929,7 +5929,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -6350,7 +6350,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -6368,7 +6368,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -6386,7 +6386,7 @@
                                         "bound_incl_min": 106,
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
-                                        "boost_experience_percent": 1000,
+                                        "boost_experience_percent": 400,
                                         "chance_to_gain_herald_token": 10.0,
                                         "chance_for_token_to_convert_to_herald": 5.0
                                     }
@@ -6551,8 +6551,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -6569,8 +6569,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -6587,8 +6587,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -6605,8 +6605,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -6623,8 +6623,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
@@ -6641,8 +6641,8 @@
                                         "bound_incl_max": 106,
                                         "boost_level": 7,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
+                                        "chance_to_gain_herald_token": 50.0,
+                                        "chance_for_token_to_convert_to_herald": 50.0
                                     }
                                 }
                             }
