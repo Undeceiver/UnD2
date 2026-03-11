@@ -815,11 +815,11 @@ Council (N) Desecrated A	25	57	3	650	800	800	1024	19	"gld,mul=1536"	9	Act 4 (N) 
 Council (N) Desecrated B	25	66	3	650	800	800	1024	19	"gld,mul=1536"	9	Act 5 (N) Equip C	15	Act 5 (N) Junk	5	Act 5 (N) Good	3	Act 5 (N) Magic C	4																				0
 Council (N) Desecrated C	25	73	3	650	800	800	1024	19	"gld,mul=1536"	9	Act 3 (H) Equip A	15	Act 3 (H) Junk	5	Act 3 (H) Good	3	Act 3 (H) Magic A	4																				0
 Council (H)			3	650	800	800	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic A	4																				0
-Council Item (H) Desecrated A			3	875	900	1000	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip B	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic B	4																				0
-Council Item (H) Desecrated B			3	875	900	1000	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip C	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic B	4																				0
-Council Item (H) Desecrated C			3	875	900	1000	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip A	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic A	4																				0
-Council Item (H) Desecrated D			3	875	900	1000	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip B	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic B	4																				0
-Council Item (H) Desecrated E			3	875	900	1000	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip C	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4																				0
+Council Item (H) Desecrated A			3	850	900	1000	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip B	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic B	4																				0
+Council Item (H) Desecrated B			3	850	900	1000	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip C	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic B	4																				0
+Council Item (H) Desecrated C			3	850	900	1000	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip A	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic A	4																				0
+Council Item (H) Desecrated D			3	850	900	1000	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip B	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic B	4																				0
+Council Item (H) Desecrated E			3	850	900	1000	1024	19	"gld,mul=2048"	9	Act 5 (H) Equip C	15	Act 5 (H) Junk	5	Act 5 (H) Good	3	Act 5 (H) Magic C	4																				0
 Council (H) Desecrated A	25	85	-1					0	Council Item (H) Desecrated A	1																												0
 Council (H) Desecrated B	25	87	-1					0	Council Item (H) Desecrated B	1																												0
 Council (H) Desecrated C	25	90	-1					0	Council Item (H) Desecrated C	1																												0
