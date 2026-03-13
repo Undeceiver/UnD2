@@ -2368,55 +2368,7 @@
                     "type": "DesecratedZone",
                     "name": "desecratedzones_desecrated_zones_0_zones_0",
                     "id": "Act1-BurialGrounds",
-                    "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_33_levels_0",
-                            "level_id": 115,
-                            "waypoint_level_id": 115,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_33_levels_1",
-                            "level_id": 116,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_26_levels_0",
-                            "level_id": 104,
-                            "waypoint_level_id": 103
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_26_levels_1",
-                            "level_id": 105
-                        },
+                    "levels": [                        
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
@@ -2435,29 +2387,7 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
-                            "level_id": 42,
-                            "waypoint_level_id": 42
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_1",
-                            "level_id": 56
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_2",
-                            "level_id": 57,
-                            "waypoint_level_id": 57
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
-                            "level_id": 60
-                        },
+                        },                        
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_0",
@@ -2494,45 +2424,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_1",
                     "id": "Act1-Catacombs",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_31_levels_0",
-                            "level_id": 113,
-                            "waypoint_level_id": 113
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_31_levels_1",
-                            "level_id": 114
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_27_levels_0",
-                            "level_id": 106,
-                            "waypoint_level_id": 106
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_27_levels_1",
-                            "level_id": 107,
-                            "waypoint_level_id": 107
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_20_levels_0",
-                            "level_id": 76,
-                            "waypoint_level_id": 76
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_20_levels_2",
-                            "level_id": 84
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
-                            "level_id": 85
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
@@ -2671,81 +2562,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
-                            "level_id": 100
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_1",
-                            "level_id": 101,
-                            "waypoint_level_id": 101
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_2",
-                            "level_id": 102,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_0",
-                            "level_id": 66,
-                            "waypoint_level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_1",
-                            "level_id": 67
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_2",
-                            "level_id": 68
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_3",
-                            "level_id": 69
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_4",
-                            "level_id": 70
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_5",
-                            "level_id": 71
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_6",
-                            "level_id": 72
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_7",
-                            "level_id": 73
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
-                            "level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
                             "level_id": 3,
                             "waypoint_level_id": 3
@@ -2803,29 +2619,7 @@
                     "type": "DesecratedZone",
                     "name": "desecratedzones_desecrated_zones_0_zones_3",
                     "id": "Act1-DarkWood",
-                    "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_0",
-                            "level_id": 121,
-                            "waypoint_level_id": 109
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_1",
-                            "level_id": 122
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_2",
-                            "level_id": 123,
-                            "waypoint_level_id": 123
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_3",
-                            "level_id": 124
-                        },
+                    "levels": [                        
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_0",
@@ -3026,23 +2820,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_1",
-                            "level_id": 47,
-                            "waypoint_level_id": 40
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_2",
-                            "level_id": 48,
-                            "waypoint_level_id": 48
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_3",
-                            "level_id": 49
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_0",
                             "level_id": 5,
                             "waypoint_level_id": 5
@@ -3129,81 +2906,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
-                            "level_id": 100
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_1",
-                            "level_id": 101,
-                            "waypoint_level_id": 101
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_2",
-                            "level_id": 102,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_0",
-                            "level_id": 66,
-                            "waypoint_level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_1",
-                            "level_id": 67
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_2",
-                            "level_id": 68
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_3",
-                            "level_id": 69
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_4",
-                            "level_id": 70
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_5",
-                            "level_id": 71
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_6",
-                            "level_id": 72
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_7",
-                            "level_id": 73
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
-                            "level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
                             "level_id": 3,
                             "waypoint_level_id": 3
@@ -3262,136 +2964,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_5",
                     "id": "Act1-Jail",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_29_levels_0",
-                            "level_id": 110
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_29_levels_1",
-                            "level_id": 111,
-                            "waypoint_level_id": 111
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_29_levels_2",
-                            "level_id": 125
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_0",
-                            "level_id": 78,
-                            "waypoint_level_id": 78
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_1",
-                            "level_id": 88,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_2",
-                            "level_id": 89,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_3",
-                            "level_id": 91,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_4",
-                            "level_id": 86,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_5",
-                            "level_id": 87,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_6",
-                            "level_id": 90,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_0",
@@ -3473,44 +3045,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_7",
                     "id": "Act1-Tristram",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_35_levels_0",
-                            "level_id": 117,
-                            "waypoint_level_id": 117
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_35_levels_1",
-                            "level_id": 127
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_30_levels_0",
-                            "level_id": 112,
-                            "waypoint_level_id": 112
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_30_levels_1",
-                            "level_id": 126
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_14_levels_0",
-                            "level_id": 41,
-                            "waypoint_level_id": 40
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_14_levels_1",
-                            "level_id": 55
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
-                            "level_id": 59
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_0",
@@ -3621,44 +3155,6 @@
                     "levels": [
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_35_levels_0",
-                            "level_id": 117,
-                            "waypoint_level_id": 117
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_35_levels_1",
-                            "level_id": 127
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_30_levels_0",
-                            "level_id": 112,
-                            "waypoint_level_id": 112
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_30_levels_1",
-                            "level_id": 126
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_14_levels_0",
-                            "level_id": 41,
-                            "waypoint_level_id": 40
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_14_levels_1",
-                            "level_id": 55
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
-                            "level_id": 59
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_0",
                             "level_id": 7
                         },
@@ -3751,204 +3247,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_0",
-                            "level_id": 80,
-                            "waypoint_level_id": 80,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_1",
-                            "level_id": 79,
-                            "waypoint_level_id": 79,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_2",
-                            "level_id": 81,
-                            "waypoint_level_id": 81,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_3",
-                            "level_id": 82,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_4",
-                            "level_id": 92
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_5",
-                            "level_id": 93
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_6",
-                            "level_id": 94,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_7",
-                            "level_id": 95,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_8",
-                            "level_id": 96,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_9",
-                            "level_id": 97,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_10",
-                            "level_id": 98,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_11",
-                            "level_id": 99,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_0",
-                            "level_id": 0
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_1",
                             "level_id": 47,
                             "waypoint_level_id": 40
@@ -3963,49 +3261,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_3",
                             "level_id": 49
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_3_levels_0",
-                            "level_id": 5,
-                            "waypoint_level_id": 5
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_3_levels_1",
-                            "level_id": 10,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_3_levels_2",
-                            "level_id": 14,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        }
+                        }                        
                     ]
                 },
                 {
@@ -4050,69 +3306,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
                             "level_id": 59
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_0",
-                            "level_id": 7
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_1",
-                            "level_id": 27,
-                            "waypoint_level_id": 27
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_2",
-                            "level_id": 12,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_3",
-                            "level_id": 16,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_4",
-                            "level_id": 26
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_7_levels_0",
-                            "level_id": 4,
-                            "waypoint_level_id": 4
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_7_levels_1",
-                            "level_id": 38
                         }
                     ]
                 },
@@ -4171,25 +3364,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
-                            "level_id": 77,
-                            "waypoint_level_id": 77,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
                             "level_id": 42,
                             "waypoint_level_id": 42
@@ -4209,35 +3383,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
                             "level_id": 60
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_0",
-                            "level_id": 17,
-                            "waypoint_level_id": 3,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0                                
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_1",
-                            "level_id": 18
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_2",
-                            "level_id": 19
                         }
                     ]
                 },
@@ -4246,45 +3391,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_16",
                     "id": "Act2-FarOasis",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_31_levels_0",
-                            "level_id": 113,
-                            "waypoint_level_id": 113
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_31_levels_1",
-                            "level_id": 114
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_27_levels_0",
-                            "level_id": 106,
-                            "waypoint_level_id": 106
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_27_levels_1",
-                            "level_id": 107,
-                            "waypoint_level_id": 107
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_20_levels_0",
-                            "level_id": 76,
-                            "waypoint_level_id": 76
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_20_levels_2",
-                            "level_id": 84
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
-                            "level_id": 85
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
@@ -4386,136 +3492,6 @@
                     "levels": [
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_29_levels_0",
-                            "level_id": 110
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_29_levels_1",
-                            "level_id": 111,
-                            "waypoint_level_id": 111
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_29_levels_2",
-                            "level_id": 125
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_0",
-                            "level_id": 78,
-                            "waypoint_level_id": 78
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_1",
-                            "level_id": 88,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_2",
-                            "level_id": 89,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_3",
-                            "level_id": 91,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_4",
-                            "level_id": 86,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_5",
-                            "level_id": 87,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_22_levels_6",
-                            "level_id": 90,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_0",
                             "level_id": 44,
                             "waypoint_level_id": 44
@@ -4569,43 +3545,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_18",
                     "id": "Act2-TalRashas",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_0",
-                            "level_id": 118,
-                            "waypoint_level_id": 118,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_1",
-                            "level_id": 119,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
@@ -4680,60 +3619,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
                             "level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
-                            "level_id": 3,
-                            "waypoint_level_id": 3
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_2_levels_1",
-                            "level_id": 9,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_2_levels_2",
-                            "level_id": 13,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_4_levels_0",
-                            "level_id": 2,
-                            "waypoint_level_id": 1
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_4_levels_1",
-                            "level_id": 8
-                        }
+                        }                        
                     ]
                 },
                 {
@@ -4818,98 +3704,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
                             "level_id": 85
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
-                            "level_id": 43,
-                            "waypoint_level_id": 43
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_1",
-                            "level_id": 62,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_2",
-                            "level_id": 63,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_3",
-                            "level_id": 64,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_0",
-                            "level_id": 33,
-                            "waypoint_level_id": 32
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_1",
-                            "level_id": 34
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_2",
-                            "level_id": 35,
-                            "waypoint_level_id": 35
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_3",
-                            "level_id": 36
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_4",
-                            "level_id": 37
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_5",
-                            "level_id": 32
                         }
                     ]
                 },
@@ -4918,54 +3712,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_21",
                     "id": "Act3-GreatMarsh",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_33_levels_0",
-                            "level_id": 115,
-                            "waypoint_level_id": 115,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_33_levels_1",
-                            "level_id": 116,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_26_levels_0",
-                            "level_id": 104,
-                            "waypoint_level_id": 103
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_26_levels_1",
-                            "level_id": 105
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
@@ -4984,28 +3730,6 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
-                            "level_id": 42,
-                            "waypoint_level_id": 42
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_1",
-                            "level_id": 56
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_2",
-                            "level_id": 57,
-                            "waypoint_level_id": 57
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
-                            "level_id": 60
                         },
                         {
                             "type": "DesecratedLevel",
@@ -5172,54 +3896,6 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_0",
-                            "level_id": 44,
-                            "waypoint_level_id": 44
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_1",
-                            "level_id": 45
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_2",
-                            "level_id": 58
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_3",
-                            "level_id": 61
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_4",
-                            "level_id": 65
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_0",
-                            "level_id": 28,
-                            "waypoint_level_id": 0
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_1",
-                            "level_id": 29,
-                            "waypoint_level_id": 29
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_2",
-                            "level_id": 30
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_3",
-                            "level_id": 31
                         }
                     ]
                 },
@@ -5228,28 +3904,6 @@
                     "name": "desecratedzones_desecrated_zones_0_zones_23",
                     "id": "Act3-Kurast",
                     "levels": [
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_0",
-                            "level_id": 121,
-                            "waypoint_level_id": 109
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_1",
-                            "level_id": 122
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_2",
-                            "level_id": 123,
-                            "waypoint_level_id": 123
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_32_levels_3",
-                            "level_id": 124
-                        },
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_0",
@@ -5450,23 +4104,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_1",
-                            "level_id": 47,
-                            "waypoint_level_id": 40
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_2",
-                            "level_id": 48,
-                            "waypoint_level_id": 48
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_3",
-                            "level_id": 49
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_0",
                             "level_id": 5,
                             "waypoint_level_id": 5
@@ -5542,43 +4179,6 @@
                     "levels": [
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_0",
-                            "level_id": 118,
-                            "waypoint_level_id": 118,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_1",
-                            "level_id": 119,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
                             "level_id": 100
                         },
@@ -5651,59 +4251,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
                             "level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
-                            "level_id": 3,
-                            "waypoint_level_id": 3
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_2_levels_1",
-                            "level_id": 9,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_2_levels_2",
-                            "level_id": 13,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_4_levels_0",
-                            "level_id": 2,
-                            "waypoint_level_id": 1
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_4_levels_1",
-                            "level_id": 8
                         }
                     ]
                 },
@@ -5762,25 +4309,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
-                            "level_id": 77,
-                            "waypoint_level_id": 77,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
                             "level_id": 42,
                             "waypoint_level_id": 42
@@ -5800,36 +4328,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
                             "level_id": 60
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_0",
-                            "level_id": 17,
-                            "waypoint_level_id": 3,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0                                
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_1",
-                            "level_id": 18
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_2",
-                            "level_id": 19
-                        }
+                        }                        
                     ]
                 },
                 {
@@ -5875,98 +4374,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
                             "level_id": 85
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
-                            "level_id": 43,
-                            "waypoint_level_id": 43
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_1",
-                            "level_id": 62,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_2",
-                            "level_id": 63,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_3",
-                            "level_id": 64,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_0",
-                            "level_id": 33,
-                            "waypoint_level_id": 32
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_1",
-                            "level_id": 34
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_2",
-                            "level_id": 35,
-                            "waypoint_level_id": 35
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_3",
-                            "level_id": 36
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_4",
-                            "level_id": 37
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_5",
-                            "level_id": 32
                         }
                     ]
                 },
@@ -6130,54 +4537,6 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_0",
-                            "level_id": 44,
-                            "waypoint_level_id": 44
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_1",
-                            "level_id": 45
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_2",
-                            "level_id": 58
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_3",
-                            "level_id": 61
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_17_levels_4",
-                            "level_id": 65
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_0",
-                            "level_id": 28,
-                            "waypoint_level_id": 0
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_1",
-                            "level_id": 29,
-                            "waypoint_level_id": 29
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_2",
-                            "level_id": 30
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_5_levels_3",
-                            "level_id": 31
                         }
                     ]
                 },
@@ -6223,69 +4582,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
                             "level_id": 59
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_0",
-                            "level_id": 7
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_1",
-                            "level_id": 27,
-                            "waypoint_level_id": 27
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_2",
-                            "level_id": 12,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_3",
-                            "level_id": 16,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_4",
-                            "level_id": 26
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_7_levels_0",
-                            "level_id": 4,
-                            "waypoint_level_id": 4
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_7_levels_1",
-                            "level_id": 38
                         }
                     ]
                 },
@@ -6332,99 +4628,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
                             "level_id": 85
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
-                            "level_id": 43,
-                            "waypoint_level_id": 43
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_1",
-                            "level_id": 62,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_2",
-                            "level_id": 63,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_16_levels_3",
-                            "level_id": 64,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 106,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 400,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_0",
-                            "level_id": 33,
-                            "waypoint_level_id": 32
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_1",
-                            "level_id": 34
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_2",
-                            "level_id": 35,
-                            "waypoint_level_id": 35
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_3",
-                            "level_id": 36
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_4",
-                            "level_id": 37
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_1_levels_5",
-                            "level_id": 32
-                        }
+                        }                        
                     ]
                 },
                 {
@@ -6456,204 +4660,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_0",
-                            "level_id": 80,
-                            "waypoint_level_id": 80,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_1",
-                            "level_id": 79,
-                            "waypoint_level_id": 79,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_2",
-                            "level_id": 81,
-                            "waypoint_level_id": 81,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_3",
-                            "level_id": 82,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_4",
-                            "level_id": 92
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_5",
-                            "level_id": 93
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_6",
-                            "level_id": 94,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_7",
-                            "level_id": 95,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_8",
-                            "level_id": 96,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_9",
-                            "level_id": 97,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_10",
-                            "level_id": 98,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_23_levels_11",
-                            "level_id": 99,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 50.0,
-                                        "chance_for_token_to_convert_to_herald": 50.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_11_levels_0",
-                            "level_id": 0
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_1",
                             "level_id": 47,
                             "waypoint_level_id": 40
@@ -6668,48 +4674,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_3",
                             "level_id": 49
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_3_levels_0",
-                            "level_id": 5,
-                            "waypoint_level_id": 5
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_3_levels_1",
-                            "level_id": 10,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_3_levels_2",
-                            "level_id": 14,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
                         }
                     ]
                 },
@@ -6768,25 +4732,6 @@
                         },
                         {
                             "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
-                            "level_id": 77,
-                            "waypoint_level_id": 77,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
                             "level_id": 42,
                             "waypoint_level_id": 42
@@ -6806,36 +4751,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
                             "level_id": 60
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_0",
-                            "level_id": 17,
-                            "waypoint_level_id": 3,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0                                
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_1",
-                            "level_id": 18
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_0_levels_2",
-                            "level_id": 19
-                        }
+                        }                        
                     ]
                 },
                 {
@@ -6879,82 +4795,7 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
-                            "level_id": 100
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_1",
-                            "level_id": 101,
-                            "waypoint_level_id": 101
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_25_levels_2",
-                            "level_id": 102,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 100.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_0",
-                            "level_id": 66,
-                            "waypoint_level_id": 46
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_1",
-                            "level_id": 67
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_2",
-                            "level_id": 68
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_3",
-                            "level_id": 69
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_4",
-                            "level_id": 70
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_5",
-                            "level_id": 71
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_6",
-                            "level_id": 72
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_7",
-                            "level_id": 73
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
-                            "level_id": 46
-                        },
+                        },                        
                         {
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
@@ -7052,69 +4893,6 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
                             "level_id": 59
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_0",
-                            "level_id": 7
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_1",
-                            "level_id": 27,
-                            "waypoint_level_id": 27
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_2",
-                            "level_id": 12,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 25.0,
-                                        "chance_for_token_to_convert_to_herald": 0.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_3",
-                            "level_id": 16,
-                            "difficulties": {
-                                "rotw": {
-                                    "hell": {
-                                        "type": "DesecratedDifficultyConfig",                                        
-                                        "bound_incl_min": 70,
-                                        "bound_incl_max": 106,
-                                        "boost_level": 7,
-                                        "boost_experience_percent": 100,
-                                        "chance_to_gain_herald_token": 0.0,
-                                        "chance_for_token_to_convert_to_herald": 100.0
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_9_levels_4",
-                            "level_id": 26
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_7_levels_0",
-                            "level_id": 4,
-                            "waypoint_level_id": 4
-                        },
-                        {
-                            "type": "DesecratedLevel",
-                            "name": "desecratedzones_desecrated_zones_0_zones_7_levels_1",
-                            "level_id": 38
                         }
                     ]
                 },
