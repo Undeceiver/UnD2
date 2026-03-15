@@ -268,8 +268,8 @@ ethereal	264	1	23																													Ethereal		1	1		0
 oskill	265	1	22	item_nonclassskill																												+# to [Skill]	Skill	Min #	Max #		0
 state	266	1	24	state																													State	1	1	Applies a State on the unit	0
 randclassskill	267	1	36	item_addclassskills		3																									3	+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
-randclassskill-two		1	36	item_addclassskills		2																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
-randclassskill-seven		1	36	item_addclassskills		7																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
+randclassskill-two	284	1	36	item_addclassskills		2																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
+randclassskill-seven	285	1	36	item_addclassskills		7																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
 noconsume	268		1	item_noconsume																												+# to not Consume Quantity		Min %	Max %		0
 pierce-immunity-cold	269	1	1	item_pierce_cold_immunity																												Monster Cold Immunity is Sundered		Min %	Max %		0
 pierce-immunity-fire	270	1	1	item_pierce_fire_immunity																												Monster Fire Immunity is Sundered		Min %	Max %		0
@@ -278,8 +278,8 @@ pierce-immunity-poison	272	1	1	item_pierce_poison_immunity																						
 pierce-immunity-damage	273	1	1	item_pierce_damage_immunity																												Monster Physical Immunity is Sundered		Min %	Max %		0
 pierce-immunity-magic	274	1	1	item_pierce_magic_immunity																												Monster Magic Immunity is Sundered		Min %	Max %		0
 charge-noconsume	275	1	1	item_charge_noconsume																												+#% chance for finishing moves to not consume charges		Min %	Max %		0
-red-all-dmg		1	1	normal_damage_reduction			3	magic_damage_reduction																								Reduce Physical and Magical Damage					
-min-phys-psn		1	1	damageresist			3	item_poisonlengthresist																								Reduce Physical Damage and Poison Length					
+red-all-dmg	286	1	1	normal_damage_reduction			3	magic_damage_reduction																								Reduce Physical and Magical Damage					
+min-phys-psn	287	1	1	damageresist			3	item_poisonlengthresist																								Reduce Physical Damage and Poison Length					
 war	276	1	21	item_addclassskills		7																										+# to Warlock Skill Levels		Min #	Max #		0
 dmg-mag/lvl	277	1	17	item_magic_damagemax_perlevel																												+# to Maximum Cold Damage (Based on Character Level)	#/8 per Level			Currently Not Used	0
 pierce-mag	278	1	1	passive_mag_pierce																												-#% to Enemy Fire Resistance		Min %	Max %		0
@@ -288,3 +288,4 @@ affix-rand	280	1	25																													Add random affix from property	I
 extra-skill-dmg%-rand	281	1	1	passive_fire_mastery			1	passive_ltng_mastery			1	passive_cold_mastery			1	passive_pois_mastery			1	passive_mag_mastery			7	dmg%								used to with affix-rand to roll a random stat					0
 war-tab-rand	282	1	10	item_addskill_tab		21	10	item_addskill_tab		22	10	item_addskill_tab		23																							0
 extra-mag	283	1	1	passive_mag_mastery																												+#% to Magic Skill Damage		Min %	Max %		0
+randclassskill-one	288	1	36	item_addclassskills		1																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0

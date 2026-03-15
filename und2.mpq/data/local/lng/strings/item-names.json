@@ -26522,7 +26522,7 @@
   {
     "id": 27601,
     "Key": "waf",
-    "enUS": "(U,2S)Blasphemous Grimoire",
+    "enUS": "**(U,2S)Blasphemous Grimoire",
     "zhTW": "褻瀆魔典",
     "deDE": "[ns]Blasphemisches Grimoire",
     "esES": "[ms]Grimorio blasfemo",
@@ -26726,7 +26726,7 @@
   {
     "id": 27628,
     "Key": "Ars Al'Diablolos",
-    "enUS": "Skillful Balance",
+    "enUS": "**Ars Al'Diabolos",
     "zhTW": "艾迪亞布羅斯學術",
     "deDE": "Ars Al'Diabolos",
     "esES": "Ars Al'Diabolos",
@@ -26741,26 +26741,9 @@
     "zhCN": "迪亚波罗斯之术"
   },
   {
-    "id": 77628,
-    "Key": "Ars Al'Diablolos NEW",
-    "enUS": "Ars Al'Diabolos",
-    "zhTW": "艾迪亞布羅斯學術",
-    "deDE": "Ars Al'Diabolos",
-    "esES": "Ars Al'Diabolos",
-    "frFR": "Ars Al'Diabolos",
-    "itIT": "Ars Al'Diabolos",
-    "koKR": "아르스 알디아볼로스",
-    "plPL": "Ars Al'Diabolos",
-    "esMX": "Ars Al'Diabolos",
-    "jaJP": "アルス・アル・ディアボロス",
-    "ptBR": "Ars Al'Diabolos",
-    "ruRU": "Арс Аль'Диаболос",
-    "zhCN": "迪亚波罗斯之术"
-  },  
-  {
     "id": 27629,
     "Key": "Ars Tor'Baalos",
-    "enUS": "Ars Tor'Baalos",
+    "enUS": "**Ars Tor'Baalos",
     "zhTW": "托巴爾羅斯學術",
     "deDE": "Ars Tor'Baalos",
     "esES": "Ars Tor'Baalos",
@@ -26777,7 +26760,7 @@
   {
     "id": 27630,
     "Key": "Ars Dul'Mephistos",
-    "enUS": "Ars Dul'Mephistos",
+    "enUS": "**Ars Dul'Mephistos",
     "zhTW": "杜墨菲斯托斯學術",
     "deDE": "Ars Dul'Mephistos",
     "esES": "Ars Dul'Mephistos",
@@ -27049,7 +27032,7 @@
   {
     "id": 27647,
     "Key": "Horazon's Legacy",
-    "enUS": "Horazon's Legacy",
+    "enUS": "**Horazon's Legacy",
     "zhTW": "赫拉森的傳承",
     "deDE": "Horazons Erbe",
     "esES": "[ms]Legado de Horazón",

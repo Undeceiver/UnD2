@@ -1171,6 +1171,10 @@ Grand charm + Fleshripper - 25% open wounds Prevent monster heal	1				100					2	
 Grand charm + Schaefer's hammer - 5% to cast level 10 static field	1				100					2	cm3	7wh,uni						useitem				hit-skill		42	5	10																																																																															0
 Grand charm + Tomb reaver - +20% IAS +10 all res +20% MF	1				100					2	cm3	7pa,uni						useitem				swing1			20	20	res-all			10	10	mag%			20	20																																																																					0
 Grand charm + Boneflame - +2 nec +10% FRW +10 all res	1				100					2	cm3	nee,uni						useitem				nec			2	2	move1			10	10	res-all			10	10																																																																					0
+Grand charm + Horazons Legacy - +2 war 50% mana regen	1				100					2	cm3	utb,set						useitem				war			2	2	regen-mana			50	50																																																																										0
+Grand charm + Ars Al'Diabolos - +7 apocalypse	1				100					2	cm3	waf,uni						useitem				skill		401	7	7																																																																															0
+Grand charm + Ars Dul'Mephistos - -15% magic res	1				100					2	cm3	wac,uni						useitem				pierce-mag			15	15																																																																															0
+Grand charm + Ars Ars Tor'Baalos - +3 demon skills	1				100					2	cm3	wae,uni						useitem				skilltab		21	3	3																																																																															0
 12 charged essences of hatred -> Special potion	1				100					12	ceh,qty=12							spp																																																																																							0
 12 twisted essences of suffering -> Special potion	1				100					12	tes,qty=12							spp																																																																																							0
 12 burning essences of terror -> Special potion	1				100					12	bet,qty=12							spp																																																																																							0
