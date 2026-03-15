@@ -1129,6 +1129,8 @@ TC87 rare items -> Unique essence	1				100					1	7p7,rar							torc													
 TC87 magic items -> Set essence	1				100					1	7p7,mag							torc																																																																																							0
 TC87 rare items -> Unique essence	1				100					1	7ts,rar							torc																													torc																																																										0
 TC87 magic items -> Set essence	1				100					1	7ts,mag							torc																																																																																							0
+TC87 rare items -> Unique essence	1				100					1	waf,rar							torc																													torc																																																										0
+TC87 magic items -> Set essence	1				100					1	waf,mag							torc																																																																																							0
 Grand charm + Arcanna's sing (1 key) - 100 MF	1				100					3	cm3	amu,set	key					useitem				mag%			100	100																																																																															0
 Grand charm + Aldur's deception - +2 druid +15 all stats	1				100					2	cm3	uul,set						useitem				dru			2	2	all-stats			15	15																																																																										0
 Grand charm + Cow king's horns - +500% GF	1				100					2	cm3	xap,set						useitem				gold%			500	500																																																																															0
