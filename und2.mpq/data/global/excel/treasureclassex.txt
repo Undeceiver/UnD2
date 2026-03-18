@@ -703,11 +703,11 @@ Herald Tier Indicator 16			1					0	gsg	1																						(stat('heraldtier'
 Herald Tier Indicator 17			1					0	gsr	1																						(stat('heraldtier'.accr)>16) * (stat('heraldtier'.accr) < 18)						0
 Herald Tier Indicator 18			1					0	gsw	1																						(stat('heraldtier'.accr)>17) * (stat('heraldtier'.accr) < 19)						0
 Herald Tier Indicator 19			1					0	gzv	1																						(stat('heraldtier'.accr)>18) * (stat('heraldtier'.accr) < 20)						0
-Herald Tier Indicator 20			1					0	gzy	1																						(stat('heraldtier'.accr)>19) * (stat('heraldtier'.accr) < 21)						0
-Herald Tier Indicator 21			1					0	gzb	1																						(stat('heraldtier'.accr)>20) * (stat('heraldtier'.accr) < 22)						0
-Herald Tier Indicator 22			1					0	gzg	1																						(stat('heraldtier'.accr)>21) * (stat('heraldtier'.accr) < 23)						0
-Herald Tier Indicator 23			1					0	gzr	1																						(stat('heraldtier'.accr)>22) * (stat('heraldtier'.accr) < 24)						0
-Herald Tier Indicator 24			1					0	gzw	1																						(stat('heraldtier'.accr)>23) * (stat('heraldtier'.accr) < 25)						0
+Herald Tier Indicator 20			1					0	gly	1																						(stat('heraldtier'.accr)>19) * (stat('heraldtier'.accr) < 21)						0
+Herald Tier Indicator 21			1					0	glb	1																						(stat('heraldtier'.accr)>20) * (stat('heraldtier'.accr) < 22)						0
+Herald Tier Indicator 22			1					0	glg	1																						(stat('heraldtier'.accr)>21) * (stat('heraldtier'.accr) < 23)						0
+Herald Tier Indicator 23			1					0	glr	1																						(stat('heraldtier'.accr)>22) * (stat('heraldtier'.accr) < 24)						0
+Herald Tier Indicator 24			1					0	glw	1																						(stat('heraldtier'.accr)>23) * (stat('heraldtier'.accr) < 25)						0
 Herald Tier Indicator 25			1					0	gpv	1																						(stat('heraldtier'.accr)>24) * (stat('heraldtier'.accr) < 26)						0
 Herald Tier Indicator 26			1					0	gpy	1																						(stat('heraldtier'.accr)>25) * (stat('heraldtier'.accr) < 27)						0
 Herald Tier Indicator 27			1					0	gpb	1																						(stat('heraldtier'.accr)>26)						0
