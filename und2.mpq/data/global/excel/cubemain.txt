@@ -152,7 +152,7 @@ Staff of Kings + Amulet of the Viper -> Horadric Staff	1				0	28				2	msf	vip			
 1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1				100					4	tes	ceh	bet	fed				toa																																																																																							0
 Test: 2 keys -> Whatever	1				9					2	"key,qty=2"							r33																																																																																							0
-Test: item + key -> Whatever	1				100					2	any,mag	key						useitem				hp			5000	5000	red-dmg%			75	75	lifesteal			50	50	res-all-max			20	20	res-pois-len			99	99																																																											0
+Test: item + key -> Whatever	1				100					2	any,mag	key						useitem				levelreq		-10	-10																																																																																0
 Test: key+pg -> Zod rune	1				100					2	key	gem4						r33																																																																																							0
 El + PG = Eld	1				100					2	r01	gem4						r02																																																																																							0
 Eld + PG = Tir	1				100					2	r02	gem4						r03																																																																																							0

@@ -683,7 +683,7 @@ Obsidian TC			1					499	Obsidian Ring of the Zodiac	1																						"cond
 Damned Halo TC			1					749	Damned Halo	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >12) "						0
 Cloak of Abbadon TC			1					999	The Cloak of Abbadon	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >19) "						0
 Soul of Acheron TC			1					1499	Soul of Acheron	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >26) "						0
-Herald Ultra Uniques			1					0	Soul of Acheron TC	1	Cloak of Abbadon TC	1	Damned Halo TC	1	Obsidian TC	1																						0
+Herald Ultra Uniques			-4					0	Soul of Acheron TC	1	Cloak of Abbadon TC	1	Damned Halo TC	1	Obsidian TC	1																						0
 Herald Tier Indicator 1			1					0	gcv	1																						(stat('heraldtier'.accr) < 2)						0
 Herald Tier Indicator 2			1					0	gcy	1																						(stat('heraldtier'.accr)>1) * (stat('heraldtier'.accr) < 3)						0
 Herald Tier Indicator 3			1					0	gcb	1																						(stat('heraldtier'.accr)>2) * (stat('heraldtier'.accr) < 4)						0
