@@ -28983,5 +28983,22 @@
     "ptBR": "Mãos de Broc",
     "ruRU": "Рука Брока",
     "zhCN": "布洛克之手"
+  },
+  {
+    "id": 82527,
+    "Key": "bps",
+    "enUS": "ÿc8Concentrated Perfect Gems",
+    "zhTW": "弱效生命藥水",
+    "deDE": "schwacher Heiltrank",
+    "esES": "Poción de salud menor",
+    "frFR": "Potion de vie mineure",
+    "itIT": "Pozione Guaritrice Minore",
+    "koKR": "미량의 치유 물약",
+    "plPL": "Mniejsza mikstura leczenia",
+    "esMX": "Poción de vida menor",
+    "jaJP": "ライフ・ポーション（極小）",
+    "ptBR": "Poção de Cura Menor",
+    "ruRU": "Слабое зелье исцеления",
+    "zhCN": "初级治疗药水"
   }
 ]
