@@ -1009,7 +1009,7 @@ Jah + 2UE -> Gul + 2PG	0				100					3	r31	elx,qty=2						r25																				
 Cham + 2UE -> Vex + 2PG	0				100					3	r32	elx,qty=2						r26																													gem4																													gem4																													0
 Zod + 2UE -> Ohm + 2PG	0				100					3	r33	elx,qty=2						r27																													gem4																													gem4																													0
 6 unique essences -> Sol rune	1				100					6	elx,qty=6							r12																																																																																							0
-Magic ring -> 3 Perfect gems	1				100					1	ring,mag							gem4,qty=3																																																																																							0
+Magic ring -> 3 Perfect gems	1				100					1	ring,mag							gem4																													gem4																													gem4																													0
 Magic amulet -> 2 magic rings of the same level	1				100					1	amu,mag							ring,mag			100																										ring,mag			100																																																							0
 Rare ring -> 2 magic rings	1				100					1	ring,rar							ring,mag			100																										ring,mag			100																																																							0
 Rare amulet -> Rare ring and magic amulet	1				100					1	amu,rar							ring,rar			100																										amu,mag			100																																																							0
@@ -1204,7 +1204,7 @@ Eye+brain+heart+spleen+fang -> Caster belt	1				100					5	hrt	brz	eyz	spe	fng			
 Jaw+horn+fang+spleen+heart -> Hitter belt	1				100					5	hrt	jaw	hrn	spe	fng			belt,rar	75			dmg-max	5		25	100	swing3	15		10	40	att%	25		5	15																																																																					0
 3 jewels -> Random piece of jewelry (anything)	1				100					3	jew,qty=3							jwry	98																																																																																						0
 3 small charms -> Random piece of jewelry (anything)	1				100					3	cm1,qty=3							jwry	98																																																																																						0
-3 grand charms -> Random piece of jewelry (anything)	1				100					3	cm3,qty=3							jwry	98																																																																																						0
+1 grand charm -> Misc (anything)	1				100					1	cm3							misc	98																																																																																						0
 Scroll of knowledge + Unique throwable -> Replenish quantity and extra stack size	1				100					2	thro,uni	0sc						useitem				addxp			5	5	stack			60	60	rep-quant		30																																																																							0
 Scroll of knowledge + Unique item -> 2 sockets	1				100					2	weap,uni	0sc						useitem				addxp			5	5	sock			2	2																																																																										0
 Scroll of knowledge + Unique item -> 2 sockets	1				100					2	armo,uni	0sc						useitem				addxp			5	5	sock			2	2																																																																										0
