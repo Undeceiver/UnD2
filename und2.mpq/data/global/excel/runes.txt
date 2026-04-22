@@ -188,3 +188,4 @@ Runeword187	Dance of the Elements	1					110	orb									IstShaelZod	r24	r13	r33	
 Runeword188	Coven	1						helm									IstRalIo	r24	r08	r16				gethit-skill	Sigil Lethargy	5	10	allskills		1	1	cast1		20	20	ac%		30	50	mag%		1	15	heal-kill		1	5					0
 Runeword189	Vigilance	1						grim	shld	head	ashd						DolGul	r14	r25					gethit-skill	Ring of Fire	5	10	move2		10	10	block2		30	30	hp		20	40	mana		20	40	res-all		25	35	ac%		75	100	0
 Runeword190	Ritual	1						knif									AmnShaelOhm	r11	r13	r27				gethit-skill	Sigil Death	13	1	swing1		20	20	dmg%		200	270	dmg-demon		150	250	att%		200	260	heal-kill		3	5	rip		1	1	0
+Runeword191	Betrayal	1						ashd									IstLemGul	r24	r20	r25				kill-skill	70	10	35	kill-skill	83	20	35	kill-skill	150	10	35	kill-skill	401	20	35	reanimate	211	3	3	extra-pois		100	100	dmg-mag		500	1500	0
