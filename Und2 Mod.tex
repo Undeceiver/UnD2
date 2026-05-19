@@ -1458,9 +1458,11 @@ Each augment requires 2 set amulets or 3 set rings.
 
 \section{Terrorized zones}
 
-The basic modification is that by default the level is 7 levels above character level, for a maximum of 106 (109 on uniques), allowing to drop 100-109 uniques. We also add jewelry drops to uniques and super uniques in them, as explained above.\\
+The basic modification is that by default the level is 7 levels above character level, for a maximum of 106 (109 on uniques). We also add jewelry drops to uniques and super uniques in them, as explained above.\\
 
 We also group terror zones together from different acts for larger pools for more effective herald hunting, and add some especial tweaks to treasure classes in them.\\
+
+Finally, we also make monsters above level 100 scale polynomially in health, damage, and experience, and make terror zones get higher and higher levels as going down an act.\\
 
 \subsection{The Cow Level}
 
@@ -1482,12 +1484,11 @@ The tower stays by itself but we add some extra rune drops from countess.
 
 \subsection{Travincal}
 
-Stays by itself but we increase the chance of uniques. No heralds. Forced level 106/109.
+Stays by itself but we increase the chance of uniques. No heralds.
 
 \begin{itemize}
 \item Additional chance of uniques.
 \item No heralds.
-\item Forced level 106/109.
 \end{itemize}
 
 \subsection{Chaos Sanctuary}
@@ -1502,12 +1503,11 @@ Stays by itself but we make Diablo have really good chance of uniques. More freq
 
 \subsection{Worldstone Keep and Throne of Destruction}
 
-Stays by itself but we make Baal have really good chance of uniques. Forced level 106/109. No heralds.
+Stays by itself but we make Baal have really good chance of uniques. No heralds.
 
 \begin{itemize}
 \item Additional chance of uniques.
 \item No heralds.
-\item Forced level 106/109.
 \end{itemize}
 
 \subsection{Nihlathak and Summoner}
@@ -1558,7 +1558,7 @@ We make this mini-boss something special. In this case, we make him always drop 
 
 \subsection{Maggot Lair}
 
-This map sucks. We give it level 106/109 and super boosted XP.
+This map sucks. We give it super boosted XP.
 
 \subsection{Durance of Hate Level 3}
 
@@ -1590,7 +1590,7 @@ Some areas give extra XP because they're not that great overall.
 
 \subsection{Doll dungeons}
 
-The swampy pit and flayer dungeon are quite unlikeable, so we boost them to level 106/109 and extra XP to make them worth it.
+The swampy pit and flayer dungeon are quite unlikeable, so we add extra XP to make them worth it.
 
 \subsection{Cross-act groups}
 
@@ -1613,13 +1613,11 @@ The following groups spawn together.
 
 \section{Over level 100 uniques}
 
-These are exclusive to terror zones. There are two types here. The main one is {\emph{enhanced uniques}} - versions of normal uniques with some additional nice to have properties. These are not enough to make or break their balance or make them required, but they give something nice to look forward to in these terror zones. Some of them add little bonuses to already useful uniques, and some try to make other uniques a little more useful by adding uncommon but not game changing properties, in some cases they add just what is necessary to make a useless unique become useful. They are between level 100 and 110 so that normal Baal can't drop them, the monsters that can drop them cannot drop the Hellfire Torch.\\
-
-A special kind are items above level 110 that only herals can drop, and that are of particularly high power. There are only a few of these and  they are so rare that they are not really considered in terms of build balance. They are prizes that you sometimes can get, nothing else.\\
+These are exclusive to terror zones. There are two types here. The main one is {\emph{enhanced uniques}} - versions of normal uniques with some additional nice to have properties. These are not enough to make or break their balance or make them required, but they give something nice to look forward to in these terror zones. Some of them add little bonuses to already useful uniques, and some try to make other uniques a little more useful by adding uncommon but not game changing properties, in some cases they add just what is necessary to make a useless unique become useful.\\
 
 \subsection{Enhanced Uniques}
 
-These range from level 100 to level 109, with more differences towards the higher end. They all get 1\% extra experience gained and drop half as frequently as the regular item (so one out of every 3 in these areas will be enhanced), with some exceptions.
+They all get 1\% extra experience gained and drop half as frequently as the regular item (so one out of every 3 in these areas will be enhanced), with some exceptions.
 
 \begin{center}
 \makebox[0.1cm]
@@ -1633,55 +1631,55 @@ Bloodfist&Heavy Gloves&100&
 +100 Attack Rating\\
 \end{tabular}\\
 \hline
-Magefist&Light Gauntlets&102&
+Magefist&Light Gauntlets&105&
 \begin{tabular}{@{}c@{}}
 +20\% Faster Hit Recovery\\
 \end{tabular}\\
 \hline
-The Stone of Jordan&Ring&106&
+The Stone of Jordan&Ring&115&
 \begin{tabular}{@{}c@{}}
 +10\% Faster Cast Rate\\
 \end{tabular}\\
 \hline
-Arm of King Leoric&Tomb Wand&103&
+Arm of King Leoric&Tomb Wand&107&
 \begin{tabular}{@{}c@{}}
 +1 All Skills\\
 \end{tabular}\\
 \hline
-Blackbog's Sharp&Cinquedeas&103&
+Blackbog's Sharp&Cinquedeas&107&
 \begin{tabular}{@{}c@{}}
 +5\% poison skill damage\\
 \end{tabular}\\
 \hline
-Ribcracker&Quarterstaff&102&
+Ribcracker&Quarterstaff&105&
 \begin{tabular}{@{}c@{}}
 +5-10\% mana leech\\
 +25\% bonus to attack rating\\
 \end{tabular}\\
 \hline
-Buriza-Do Kyanon&Ballista&107&
+Buriza-Do Kyanon&Ballista&118&
 \begin{tabular}{@{}c@{}}
 Level 10 Fanatism aura\\
 \end{tabular}\\
 \hline
-Valkyrie Wing&Winged Helm&102&
+Valkyrie Wing&Winged Helm&105&
 \begin{tabular}{@{}c@{}}
 +10-20 All Resistances\\
 +10-15\% Reduced Damage\\
 \end{tabular}\\
 \hline
-Vampire Gaze&Grim Helm&104&
+Vampire Gaze&Grim Helm&110&
 \begin{tabular}{@{}c@{}}
 +10-20 All Resistances\\
 +15\% Crushing Blow\\
 \end{tabular}\\
 \hline
-Skin of the Vipermagi&Serpentskin Armor&105&
+Skin of the Vipermagi&Serpentskin Armor&112&
 \begin{tabular}{@{}c@{}}
 +20\% Faster Hit Recovery\\
 \end{tabular}\\
 \hline
-Que-Hegan's Wisdom&Mage Plate&101&
+Que-Hegan's Wisdom&Mage Plate&102&
 \begin{tabular}{@{}c@{}}
 +10-25\% maximum life\\
 \end{tabular}\\
@@ -1696,78 +1694,78 @@ Waterwalk&Sharkskin Boots&100&
 +30\% Faster Hit Recovery\\
 \end{tabular}\\
 \hline
-War Traveler&Battle Boots&103&
+War Traveler&Battle Boots&107&
 \begin{tabular}{@{}c@{}}
 +30\% Faster Hit Recovery\\
 \end{tabular}\\
 \hline
-Gore Rider&War Boots&103&
+Gore Rider&War Boots&107&
 \begin{tabular}{@{}c@{}}
 +20\% bonus to attack rating\\
 \end{tabular}\\
 \hline
-String of Ears&Demonhide Sash&102&
+String of Ears&Demonhide Sash&105&
 \begin{tabular}{@{}c@{}}
 +20\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Snowclash&Battle Belt&103&
+Snowclash&Battle Belt&107&
 \begin{tabular}{@{}c@{}}
 +1 All Skills\\
 \end{tabular}\\
 \hline
-Thundergod's Vigor&War Belt&104&
+Thundergod's Vigor&War Belt&110&
 \begin{tabular}{@{}c@{}}
 +5\% lightning skill damage\\
 \end{tabular}\\
 \hline
-Harlequin Crest&Shako&105&
+Harlequin Crest&Shako&112&
 \begin{tabular}{@{}c@{}}
 +5-10 Find Item\\
 \end{tabular}\\
 \hline
-Arkaine's Valor&Balrog Skin&103&
+Arkaine's Valor&Balrog Skin&107&
 \begin{tabular}{@{}c@{}}
 Level 10 Vigor aura\\
 \end{tabular}\\
 \hline
-Stormshield&Monarch&102&
+Stormshield&Monarch&105&
 \begin{tabular}{@{}c@{}}
 Level 5 Holy Freeze aura\\
 \end{tabular}\\
 \hline
-Messerchdmidt's Reaver&Champion Axe&101&
+Messerchdmidt's Reaver&Champion Axe&102&
 \begin{tabular}{@{}c@{}}
 Slain Monsters Rest in Peace\\
 +50-100 Damage\\
 \end{tabular}\\
 \hline
-The Cranium Basher&Thunder Maul&103&
+The Cranium Basher&Thunder Maul&107&
 \begin{tabular}{@{}c@{}}
 Level 10 Concentration aura\\
 \end{tabular}\\
 \hline
-The Grandfather&Colossus Blade&108&
+The Grandfather&Colossus Blade&121&
 \begin{tabular}{@{}c@{}}
 25\% Crushing Blow\\
 \end{tabular}\\
 \hline
-Windforce&Hydra Bow&108&
+Windforce&Hydra Bow&121&
 \begin{tabular}{@{}c@{}}
 25\% L10 Decrepify on hit\\
 \end{tabular}\\
 \hline
-Bul-Kathos' Wedding Band&Ring&104&
+Bul-Kathos' Wedding Band&Ring&110&
 \begin{tabular}{@{}c@{}}
 +10\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Mara's Kaleidoscope&Amulet&104&
+Mara's Kaleidoscope&Amulet&110&
 \begin{tabular}{@{}c@{}}
 +10\% Faster Cast Rate\\
 \end{tabular}\\
 \hline
-Raven Frost&Ring&102&
+Raven Frost&Ring&105&
 \begin{tabular}{@{}c@{}}
 +5-10 All Resistances\\
 \end{tabular}\\
@@ -1781,121 +1779,121 @@ Raven Frost&Ring&102&
 {
 \begin{tabular}{|c|c|c|c|}
 \hline
-Arreat's Face&Slayer Guard&103&
+Arreat's Face&Slayer Guard&107&
 \begin{tabular}{@{}c@{}}
 +15-30\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Homunculus&Hierophant Trophy&101&
+Homunculus&Hierophant Trophy&102&
 \begin{tabular}{@{}c@{}}
 +2 to Summoning Skills\\
 \end{tabular}\\
 \hline
-Titan's Revenge&Ceremonial Javelin&105&
+Titan's Revenge&Ceremonial Javelin&112&
 \begin{tabular}{@{}c@{}}
 +20\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-The Oculus&Swirling Crystal&104&
+The Oculus&Swirling Crystal&110&
 \begin{tabular}{@{}c@{}}
 +50-100\% Gold Find\\
 \end{tabular}\\
 \hline
-Herald of Zakarum&Gilded Shield&105&
+Herald of Zakarum&Gilded Shield&112&
 \begin{tabular}{@{}c@{}}
 +5 All Max Resistances\\
 \end{tabular}\\
 \hline
-Bartuc's Cut-Throat&Greater Talons&103&
+Bartuc's Cut-Throat&Greater Talons&107&
 \begin{tabular}{@{}c@{}}
 +1.5/lvl maximum damage\\
 \end{tabular}\\
 \hline
-Jalal's Mane&Totemic Mask&104&
+Jalal's Mane&Totemic Mask&110&
 \begin{tabular}{@{}c@{}}
 +10\% life leech\\
 +15\% crushing blow\\
 \end{tabular}\\
 \hline
-Tomb Reaver&Cryptic Axe&104&
+Tomb Reaver&Cryptic Axe&110&
 \begin{tabular}{@{}c@{}}
 10\% L10 Burst of Speed on hit\\
 \end{tabular}\\
 \hline
-Death's Web&Unearthed Wand&108&
+Death's Web&Unearthed Wand&121&
 \begin{tabular}{@{}c@{}}
 +5-15\% poison skill damage\\
 \end{tabular}\\
 \hline
-Azurewrath&Phase Blade&104&
+Azurewrath&Phase Blade&110&
 \begin{tabular}{@{}c@{}}
 10\% L20 Fist of the heavens on hit\\
 \end{tabular}\\
 \hline
-Shadow Dancer&Myrmidon Greaves&104&
+Shadow Dancer&Myrmidon Greaves&110&
 \begin{tabular}{@{}c@{}}
 +1-3 Dragon Talon\\
 +1-3 Dragon Tail\\
 +1-3 Dragon Flight\\
 \end{tabular}\\
 \hline
-Cerebus' Bite&Blood Spirit&103&
+Cerebus' Bite&Blood Spirit&107&
 \begin{tabular}{@{}c@{}}
 10\% L15 Venom on hit\\
 \end{tabular}\\
 \hline
-Tyrael's Might&Sacred Armor&109&
+Tyrael's Might&Sacred Armor&125&
 \begin{tabular}{@{}c@{}}
 Reduce Poison Length 95\%\\
 Level 10 Concentration aura\\
 \end{tabular}\\
 \hline
-Runemaster&Ettin Axe&104&
+Runemaster&Ettin Axe&110&
 \begin{tabular}{@{}c@{}}
 +25-75 maximum damage\\
 \end{tabular}\\
 \hline
-Deathcleaver&Berserker Axe&105&
+Deathcleaver&Berserker Axe&112&
 \begin{tabular}{@{}c@{}}
 +10\% Crushing Blow\\
 \end{tabular}\\
 \hline
-Executioner's Justice&Glorious Axe&104&
+Executioner's Justice&Glorious Axe&110&
 \begin{tabular}{@{}c@{}}
 +50\% bonus to attack rating\\
 \end{tabular}\\
 \hline
-Leviathan&Kraken Shell&105&
+Leviathan&Kraken Shell&112&
 \begin{tabular}{@{}c@{}}
 +20 Vitality\\
 \end{tabular}\\
 \hline
-Mang Song's Lesson&Archon Staff&109&
+Mang Song's Lesson&Archon Staff&125&
 \begin{tabular}{@{}c@{}}
 Level 15 Conviction Aura\\
 \end{tabular}\\
 \hline
-The Reaper's Toll&Thresher&103&
+The Reaper's Toll&Thresher&107&
 \begin{tabular}{@{}c@{}}
 +30\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Alma Negra&Sacred Rondache&104&
+Alma Negra&Sacred Rondache&110&
 \begin{tabular}{@{}c@{}}
 +5 to Mace Mastery\\
 \end{tabular}\\
 \hline
-Darkforce Spawn&Bloodlord Skull&105&
+Darkforce Spawn&Bloodlord Skull&112&
 \begin{tabular}{@{}c@{}}
 +1 to Necromancer skills\\
 \end{tabular}\\
 \hline
-Blood Raven's Charge&Matriarchal Bow&103&
+Blood Raven's Charge&Matriarchal Bow&107&
 \begin{tabular}{@{}c@{}}
 +500-1000 magic damage\\
 \end{tabular}\\
 \hline
-Shadowkiller&Battle Cestus&101&
+Shadowkiller&Battle Cestus&102&
 \begin{tabular}{@{}c@{}}
 +1.25/lvl\% Enhanced Damage\\
 \end{tabular}\\
@@ -1912,37 +1910,37 @@ Warshrike&Winged Knife&100&
 +25-75 maximum damage\\
 \end{tabular}\\
 \hline
-Griffon's Eye&Diadem&109&
+Griffon's Eye&Diadem&125&
 \begin{tabular}{@{}c@{}}
 +3-7 to Lower Resistances\\
 \end{tabular}\\
 \hline
-Thunderstroke&Matriarchal Javelin&106&
+Thunderstroke&Matriarchal Javelin&115&
 \begin{tabular}{@{}c@{}}
 +15\% lightning  skill damage\\
 \end{tabular}\\
 \hline
-Steelpillar&War Pike&101&
+Steelpillar&War Pike&102&
 \begin{tabular}{@{}c@{}}
 +20-45\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Nightwing's Veil&Spired Helm&105&
+Nightwing's Veil&Spired Helm&112&
 \begin{tabular}{@{}c@{}}
 +25\% Faster Cast Rate\\
 \end{tabular}\\
 \hline
-Crown of Ages&Corona&107&
+Crown of Ages&Corona&118&
 \begin{tabular}{@{}c@{}}
 Level 5 Holy Freeze aura\\
 \end{tabular}\\
 \hline
-Ravenlore&Sky Spirit&106&
+Ravenlore&Sky Spirit&115&
 \begin{tabular}{@{}c@{}}
 +5\% fire skill damage\\
 \end{tabular}\\
 \hline
-Boneshade&Lich Wand&103&
+Boneshade&Lich Wand&107&
 \begin{tabular}{@{}c@{}}
 +1-2 to Poison \& Bone skills\\
 \end{tabular}\\
@@ -1956,109 +1954,109 @@ Boneshade&Lich Wand&103&
 {
 \begin{tabular}{|c|c|c|c|}
 \hline
-Death's Fathom&Dimensional Shard&109&
+Death's Fathom&Dimensional Shard&125&
 \begin{tabular}{@{}c@{}}
 +1-2 to Cold Skills\\
 \end{tabular}\\
 \hline
-Wolfhowl&Fury Visor&105&
+Wolfhowl&Fury Visor&112&
 \begin{tabular}{@{}c@{}}
 Level 10 Fanatism aura\\
 \end{tabular}\\
 \hline
-Ormus' Robes&Dusk Shroud&104&
+Ormus' Robes&Dusk Shroud&110&
 \begin{tabular}{@{}c@{}}
 +10-25\% maximum life\\
 \end{tabular}\\
 \hline
-Stormlash&Scourge&107&
+Stormlash&Scourge&118&
 \begin{tabular}{@{}c@{}}
 15\% L15 Nova on hit\\
 \end{tabular}\\
 \hline
-Dracul's Grasp&Vampirebone Gloves&105&
+Dracul's Grasp&Vampirebone Gloves&112&
 \begin{tabular}{@{}c@{}}
 10\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Eschuta's Temper&Eldritch Orb&106&
+Eschuta's Temper&Eldritch Orb&115&
 \begin{tabular}{@{}c@{}}
 -3-5\% fire resistance\\
 -3-5\% lightning resistance\\
 \end{tabular}\\
 \hline
-Sandstorm Trek&Scarabshell Boots&102&
+Sandstorm Trek&Scarabshell Boots&105&
 \begin{tabular}{@{}c@{}}
 +15-30\% Magic Find\\
 \end{tabular}\\
 \hline
-Heaven's Light&Mighty Scepter&103&
+Heaven's Light&Mighty Scepter&107&
 \begin{tabular}{@{}c@{}}
 +25\% bonus to attack rating\\
 \end{tabular}\\
 \hline
-Arachnid Mesh&Spiderweb Sash&108&
+Arachnid Mesh&Spiderweb Sash&121&
 \begin{tabular}{@{}c@{}}
 +20\% Faster Hit Recovery\\
 \end{tabular}\\
 \hline
-Verdungo's Hearty Cord&Mithril Coil&108&
+Verdungo's Hearty Cord&Mithril Coil&121&
 \begin{tabular}{@{}c@{}}
 +10\% Increased Attack Speed\\
 \end{tabular}\\
 \hline
-Astreon's Iron Ward&Caduceus&107&
+Astreon's Iron Ward&Caduceus&118&
 \begin{tabular}{@{}c@{}}
 2-5 sockets\\
 \end{tabular}\\
 \hline
-Nord's Tenderizer&Truncheon&102&
+Nord's Tenderizer&Truncheon&105&
 \begin{tabular}{@{}c@{}}
 -10-20\% cold resistance\\
 \end{tabular}\\
 \hline
-Earth Shifter&Thunder Maul&109&
+Earth Shifter&Thunder Maul&125&
 \begin{tabular}{@{}c@{}}
 +25-50\% fire skill damage\\
 \end{tabular}\\
 \hline
-Steelrend&Ogre Gauntlets&105&
+Steelrend&Ogre Gauntlets&112&
 \begin{tabular}{@{}c@{}}
 +10-25\% bonus to attack rating\\
 \end{tabular}\\
 \hline
-Seraph's Hymn&Amulet&101&
+Seraph's Hymn&Amulet&102&
 \begin{tabular}{@{}c@{}}
 Level 20-30 Sanctuary Aura\\
 \end{tabular}\\
 \hline
-Lycander's Flank&Ceremonial Pike&105&
+Lycander's Flank&Ceremonial Pike&112&
 \begin{tabular}{@{}c@{}}
 6 sockets\\
 \end{tabular}\\
 \hline
-Lycander's Aim&Ceremonial Bow&105&
+Lycander's Aim&Ceremonial Bow&112&
 \begin{tabular}{@{}c@{}}
 5 sockets\\
 \end{tabular}\\
 \hline
-Jade Talon&Wrist Sword&101&
+Jade Talon&Wrist Sword&102&
 \begin{tabular}{@{}c@{}}
 +100\% poison skill damage\\
 \end{tabular}\\
 \hline
-Firelizard's Talons&Feral Claws&103&
+Firelizard's Talons&Feral Claws&107&
 \begin{tabular}{@{}c@{}}
 20\% L30 Enchant on hit\\
 +10-25\% fire skill damage\\
 \end{tabular}\\
 \hline
-Boneflame&Succubus Skull&106&
+Boneflame&Succubus Skull&115&
 \begin{tabular}{@{}c@{}}
 +1 Teleport\\
 \end{tabular}\\
 \hline
-Dragonscale&Zakarum Shield&103&
+Dragonscale&Zakarum Shield&107&
 \begin{tabular}{@{}c@{}}
 Level 50 Holy Fire Aura\\
 2-4 sockets\\
@@ -2070,12 +2068,12 @@ Twitchthroe&Studded Leather&100&
 4 sockets\\
 \end{tabular}\\
 \hline
-Chance Guards&Chain Gloves&102&
+Chance Guards&Chain Gloves&105&
 \begin{tabular}{@{}c@{}}
 +2 to random class skills\\
 \end{tabular}\\
 \hline
-Frostburn&Gauntlets&104&
+Frostburn&Gauntlets&110&
 \begin{tabular}{@{}c@{}}
 +20-40\% faster hit recovery\\
 +20-50\% faster cast rate\\
@@ -2086,28 +2084,28 @@ Nightsmoke&Belt&100&
 50\% L50 Energy Shield when struck\\
 \end{tabular}\\
 \hline
-Goldwrap&Heavy Belt&103&
+Goldwrap&Heavy Belt&107&
 \begin{tabular}{@{}c@{}}
 +1 All Skills\\
 \end{tabular}\\
 \hline
-Wizendraw&Long Battle Bow&106&
+Wizendraw&Long Battle Bow&115&
 \begin{tabular}{@{}c@{}}
 50\% L30 Blizzard on hit\\
 6 sockets\\
 \end{tabular}\\
 \hline
-Ume's Lament&Grim Wand&104&
+Ume's Lament&Grim Wand&110&
 \begin{tabular}{@{}c@{}}
 +7 to random necromancer skill\\
 \end{tabular}\\
 \hline
-Rockstopper&Sallet&101&
+Rockstopper&Sallet&102&
 \begin{tabular}{@{}c@{}}
 L20-30 Thorns Aura\\
 \end{tabular}\\
 \hline
-Stealskull&Casque&103&
+Stealskull&Casque&107&
 \begin{tabular}{@{}c@{}}
 L10-20 Blessed Aim Aura\\
 \end{tabular}\\
@@ -2121,46 +2119,46 @@ L10-20 Blessed Aim Aura\\
 {
 \begin{tabular}{|c|c|c|c|}
 \hline
-Duriel's Shell&Cuirass&102&
+Duriel's Shell&Cuirass&105&
 \begin{tabular}{@{}c@{}}
 20\% L15 Bone Armor when hit\\
 20\% L15 Cyclone Armor when hit\\
 \end{tabular}\\
 \hline
-Skullder's Ire&Russet Armor&107&
+Skullder's Ire&Russet Armor&118&
 \begin{tabular}{@{}c@{}}
 +2 to random class skills\\
 \end{tabular}\\
 \hline
-Guardian Angel&Templar Coat&107&
+Guardian Angel&Templar Coat&118&
 \begin{tabular}{@{}c@{}}
 +1-3 Combat Skills (paladin)\\
 +1-3 Offensive Auras (paladin)\\
 +1-3 Defensive Auras (paladin)\\
 \end{tabular}\\
 \hline
-Lava Gout&Battle Gauntlets&104&
+Lava Gout&Battle Gauntlets&110&
 \begin{tabular}{@{}c@{}}
 +15-45\% fire skill damage\\
 \end{tabular}\\
 \hline
-Infernostride&Demonhide Boots&101&
+Infernostride&Demonhide Boots&102&
 \begin{tabular}{@{}c@{}}
 100\% L50 Blaze on kill\\
 +10-20\% fire skill damage\\
 \end{tabular}\\
 \hline
-Gloom's Trap&Mesh Belt&105&
+Gloom's Trap&Mesh Belt&112&
 \begin{tabular}{@{}c@{}}
 L40-50 Meditation Aura\\
 \end{tabular}\\
 \hline
-Islestrike&Twin Axe&104&
+Islestrike&Twin Axe&110&
 \begin{tabular}{@{}c@{}}
 10\% L20 Heart of Wolverine on hit\\
 \end{tabular}\\
 \hline
-Spellsteel&Bearded Axe&107&
+Spellsteel&Bearded Axe&118&
 \begin{tabular}{@{}c@{}}
 +1-7 All Skills\\
 +7 to random class skills\\
@@ -2171,24 +2169,24 @@ The Minotaur&Ancient Axe&100&
 +1-6 sockets\\
 \end{tabular}\\
 \hline
-Riphook&Razor Bow&101&
+Riphook&Razor Bow&102&
 \begin{tabular}{@{}c@{}}
 Knockback\\
 25\% L15 Amplify Damage on hit\\
 \end{tabular}\\
 \hline
-Kuko Shakaku&Cedar Bow&105&
+Kuko Shakaku&Cedar Bow&112&
 \begin{tabular}{@{}c@{}}
 L50 Holy Fire Aura\\
 \end{tabular}\\
 \hline
-Goldstrike Arch&Gothic Bow&104&
+Goldstrike Arch&Gothic Bow&110&
 \begin{tabular}{@{}c@{}}
 L50 Sanctuary Aura\\
 (modify)15\% L25 Fist of Heavens on hit\\
 \end{tabular}\\
 \hline
-Pus Spitter&Siege Crossbow&102&
+Pus Spitter&Siege Crossbow&105&
 \begin{tabular}{@{}c@{}}
 (modify)10\% L30 Poison Nova on hit\\
 (modify) 15\% L10 Lower Resist on hit\\
@@ -2211,25 +2209,25 @@ Pierre Tombale Couant&Partizan&100&
 +1-5 sockets\\
 \end{tabular}\\
 \hline
-Husoldal Evo&Bec-De-Corbin&101&
+Husoldal Evo&Bec-De-Corbin&102&
 \begin{tabular}{@{}c@{}}
 L10-20 Might Aura\\
 \end{tabular}\\
 \hline
-Hone Sundan&Yari&102&
+Hone Sundan&Yari&105&
 \begin{tabular}{@{}c@{}}
 40\% increased attack speed\\
 50\% bonus to attack rating\\
 \end{tabular}\\
 \hline
-Spire of Honor&Lance&102&
+Spire of Honor&Lance&105&
 \begin{tabular}{@{}c@{}}
 Ethereal\\
 Indestructible\\
 1-6 sockets\\
 \end{tabular}\\
 \hline
-Chromatic Ire&Cedar Staff&104&
+Chromatic Ire&Cedar Staff&110&
 \begin{tabular}{@{}c@{}}
 (modify)+3-5 to All Skills\\
 (modify)+1-7 to Cold Mastery (any class)\\
@@ -2237,24 +2235,24 @@ Chromatic Ire&Cedar Staff&104&
 (modify)+1-7 to Fire Mastery (any class)\\
 \end{tabular}\\
 \hline
-Blade of Ali Baba&Tulwar&103&
+Blade of Ali Baba&Tulwar&107&
 \begin{tabular}{@{}c@{}}
 +1-2 All Skills\\
 +10-30\% faster cast rate\\
 \end{tabular}\\
 \hline
-The Atlantean&Ancient Sword&102&
+The Atlantean&Ancient Sword&105&
 \begin{tabular}{@{}c@{}}
 +1 Sword Mastery\\
 \end{tabular}\\
 \hline
-Carin Shard&Petrified Wand&103&
+Carin Shard&Petrified Wand&107&
 \begin{tabular}{@{}c@{}}
 +20-40 All Res\\
 10\% reduced damage\\
 \end{tabular}\\
 \hline
-Blackhand key&Grave Wand&106&
+Blackhand key&Grave Wand&115&
 \begin{tabular}{@{}c@{}}
 +7 to random necromancer skill\\
 \end{tabular}\\
@@ -2268,132 +2266,132 @@ Blackhand key&Grave Wand&106&
 {
 \begin{tabular}{|c|c|c|c|}
 \hline
-Andariel's Visage&Demonhead&101&
+Andariel's Visage&Demonhead&102&
 \begin{tabular}{@{}c@{}}
 +3/lvl life\\
 \end{tabular}\\
 \hline
-Spirit Ward&Ward&102&
+Spirit Ward&Ward&105&
 \begin{tabular}{@{}c@{}}
 Requirements -100\%\\
 4 sockets\\
 \end{tabular}\\
 \hline
-Marrowwalk&Boneweave Boots&108&
+Marrowwalk&Boneweave Boots&121&
 \begin{tabular}{@{}c@{}}
 +1-2 necromancer skills\\
 \end{tabular}\\
 \hline
-Cranebeak&War Spike&103&
+Cranebeak&War Spike&107&
 \begin{tabular}{@{}c@{}}
 L10-20 Holy Shock Aura\\
 \end{tabular}\\
 \hline
-Widowmaker&Ward Bow&104&
+Widowmaker&Ward Bow&110&
 \begin{tabular}{@{}c@{}}
 +2/lvl\% enhanced damage\\
 \end{tabular}\\
 \hline
-Hellrack&Colossus Crossbow&102&
+Hellrack&Colossus Crossbow&105&
 \begin{tabular}{@{}c@{}}
 -10-25\% fire res\\
 -10-25\% lightning res\\
 -10-25\% cold res\\
 \end{tabular}\\
 \hline
-Wizardspike&Bone Knife&107&
+Wizardspike&Bone Knife&118&
 \begin{tabular}{@{}c@{}}
 +1-3 All Skills\\
 \end{tabular}\\
 \hline
-Fleshripper&Fanged Knife&104&
+Fleshripper&Fanged Knife&110&
 \begin{tabular}{@{}c@{}}
 L10-20 Concentration Aura\\
 \end{tabular}\\
 \hline
-Ghostflame&Legend Spike&103&
+Ghostflame&Legend Spike&107&
 \begin{tabular}{@{}c@{}}
 Level 50 Venom 100 Charges\\
 Level 50 Enchant 100 Charges\\
 \end{tabular}\\
 \hline
-Demon's Arch&Balrog Spear&103&
+Demon's Arch&Balrog Spear&107&
 \begin{tabular}{@{}c@{}}
 10\% L30 Burst of Speed on kill\\
 \end{tabular}\\
 \hline
-Baranar's Star&Devil Star&107&
+Baranar's Star&Devil Star&118&
 \begin{tabular}{@{}c@{}}
 L10-20 Conviction Aura\\
 \end{tabular}\\
 \hline
-Schaefer's Hammer&Legendary Mallet&107&
+Schaefer's Hammer&Legendary Mallet&118&
 \begin{tabular}{@{}c@{}}
 +1.5/lvl\% enhanced damage\\
 \end{tabular}\\
 \hline
-Bonehew&Ogre Axe&101&
+Bonehew&Ogre Axe&102&
 \begin{tabular}{@{}c@{}}
 (modify)50\% L30 Bone Spear on hit\\
 50\% L30 Bone Spirit on hit\\
 50\% L30 Teeth on hit\\
 \end{tabular}\\
 \hline
-The Redeemer&Mighty Scepter&108&
+The Redeemer&Mighty Scepter&121&
 \begin{tabular}{@{}c@{}}
 (modify)Damage +400-500\\
 +7 to Smite\\
 \end{tabular}\\
 \hline
-Ondal's Wisdom&Elder Staff&109&
+Ondal's Wisdom&Elder Staff&125&
 \begin{tabular}{@{}c@{}}
 L20 Redemption Aura\\
 4 sockets\\
 \end{tabular}\\
 \hline
-Flamebellow&Balrog Blade&101&
+Flamebellow&Balrog Blade&102&
 \begin{tabular}{@{}c@{}}
 100\% L40 Fire Wall on kill\\
 \end{tabular}\\
 \hline
-Lacerator&Winged Axe&103&
+Lacerator&Winged Axe&107&
 \begin{tabular}{@{}c@{}}
 L15-25 Fanatism Aura\\
 \end{tabular}\\
 \hline
-Ars Al'Diabolos&Blasphemous Grimoire&108&
+Ars Al'Diabolos&Blasphemous Grimoire&121&
 \begin{tabular}{@{}c@{}}
 +3-7 to Lower Resistances\\
 \end{tabular}\\
 \hline
-Ars Dul'Mephistos&Occult Tome&105&
+Ars Dul'Mephistos&Occult Tome&112&
 \begin{tabular}{@{}c@{}}
 +1-3 to eldritch skills\\
 \end{tabular}\\
 \hline
-Ars Tor'Baalos&Blasphemous Compendium&106&
+Ars Tor'Baalos&Blasphemous Compendium&115&
 \begin{tabular}{@{}c@{}}
 +1-5 Battle Orders\\
 +1-5 Battle Command\\
 \end{tabular}\\
 \hline
-Gheed's Wager&Troll Belt&104&
+Gheed's Wager&Troll Belt&110&
 \begin{tabular}{@{}c@{}}
 +25-50\% magic find\\
 \end{tabular}\\
 \hline
-Wraithstep&Mirrored Boots&102&
+Wraithstep&Mirrored Boots&105&
 \begin{tabular}{@{}c@{}}
 +10\% attack speed\\
 +10\% faster cast rate\\
 \end{tabular}\\
 \hline
-Bloodpact Shard&Mithril Point&106&
+Bloodpact Shard&Mithril Point&115&
 \begin{tabular}{@{}c@{}}
 +1-5 to demon skills\\
 \end{tabular}\\
 \hline
-Dreadfang&Legend Sword&107&
+Dreadfang&Legend Sword&118&
 \begin{tabular}{@{}c@{}}
 +300-1500 magic damage\\
 \end{tabular}\\
@@ -2403,7 +2401,7 @@ Sling&Ring&100&
 10\% reduced damage\\
 \end{tabular}\\
 \hline
-Opalvein&Ring&109&
+Opalvein&Ring&125&
 \begin{tabular}{@{}c@{}}
 +1 to random class skills\\
 \end{tabular}\\
@@ -2412,7 +2410,7 @@ Opalvein&Ring&109&
 }
 \end{center}
 
-\subsection{Level over 110 uniques}
+\subsection{Super high tier uniques}
 
 These can only be dropped by heralds of certain tiers. These are the modifications we make to heralds, apart from increasing their chance of uniques:
 
@@ -2528,7 +2526,6 @@ Soul of Acheron&Jewel&27&1500&
 
 \begin{itemize}
 
-\item Spread level bonuses for terror zones, below and above 109, and significantly increase differences in health and damage based on this level. Main purpose is to give a real value to potions.
 \item Quest items that drop from terrorized enemies. Can be used for horadric cube recipes and/or something that indicates the character is complete.
 \item Mutate uniques with unique essences for negative stats but sometimes random bonuses.
 \item More ethereal uniques / unique versions. With bigger ranges on bonuses? 
