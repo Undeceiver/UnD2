@@ -545,7 +545,7 @@ The Reedeemer	541	100		1					1		121	72	7sc	mighty scepter		3	5000								dmg%		2
 Ondal's Wisdom	542	100		1					1		125	66	6cs	elder staff		3	5000				invcstu				cast2		45	45	enr		40	50	allskills		2	4	ac		450	550	addxp		5	5	red-mag		5	8	aura	124	20	20	sock		4	4																		0
 Flamebellow	543	100		1					1		102	71	7gs	balrog blade		3	5000	cred	cred		invgisu				dmg%		170	240	dmg-fire		233	482	fireskill		3	3	abs-fire%		20	30	hit-skill	Firestorm	12	16	str		10	20	vit		5	10	oskill	Inferno	12	18	kill-skill	51	100	40	addxp		1	1										0
 Lacerator	544	100		1					1		107	68	7b8	winged axe		5	5000	blac	blac						dmg%		150	210	rep-quant	25			swing2		30	30	noheal		1	1	openwounds		33	33	howl		64	64	hit-skill	Amplify Damage	33	3	aura	122	15	25	addxp		1	1														0
-Pure Hellfire	545	100		1					1		85	1	glr	flawless ruby		5	5000																																																									0
+Pure Hellfire	545	100		1					1		120	90	bpl	Pure Hellfire	1003	3	5000			flptrch	invtrch	item_gem	12	item_gem	oskill	Townportal O Skill	1	1	addxp		10	10	gold%		100	100	cheap		5	5																																		0
 Warlock Class Pack																																																																										0
 Ars Al'Diablolos	546	100		1					2		85	80	waf	blasphemous grimoire		5	5000	cred	cred		invbbb				skilltab	23	2	2	gethit-skill	Terror	15	1	cast1		25	25	ac%		170	200	extra-fire		15	25	light		5	10	mana-kill		5	10	res-fire		20	30	skill	Apocalypse	3	5														0
 Ars Tor'Baalos	547	100		1					2		85	73	wae	blasphemous compendium		5	5000				invbbb				skilltab	21	2	2	gethit-skill	Decrepify	15	1	skill	Demonic Mastery	2	3	skill	Blood Boil	2	4	skill	Engorge	2	3	skill	Consume	2	3	ac%	 	120	150	hp/lvl	12			red-dmg%		5	10														0
