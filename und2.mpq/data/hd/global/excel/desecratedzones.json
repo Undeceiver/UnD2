@@ -119,7 +119,6 @@
                         "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell",
                         "ladder_enabled": true,
                         "non_ladder_enabled": true,
-                        "max_herald_tokens": 5,
                         "max_herald_tiers": 27,
                         "always_unique_mod_pool": [
                             {
@@ -183,9 +182,7 @@
                             "bound_incl_min": 70,
                             "bound_incl_max": 106,
                             "boost_level": 7,
-                            "boost_experience_percent": 25,
-                            "chance_to_gain_herald_token": 10.0,
-                            "chance_for_token_to_convert_to_herald": 5.0,
+                            "boost_experience_percent": 25,                            
                             "unique_mod_chance_boosts": [
                                 {
                                     "type": "UniqueModChanceBoost",
@@ -226,7 +223,13 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    // "zone_chance_asymptote": 7.0,
+                                    "zone_chance_asymptote": 50.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    // "zone_chance_vertical_shift": -3.4
+                                    "zone_chance_vertical_shift": 50.0
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -258,7 +261,13 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    // "zone_chance_asymptote": 7.0,
+                                    "zone_chance_asymptote": 50.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    // "zone_chance_vertical_shift": -3.4
+                                    "zone_chance_vertical_shift": 50.0
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -291,7 +300,13 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    // "zone_chance_asymptote": 7.0,
+                                    "zone_chance_asymptote": 50.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    // "zone_chance_vertical_shift": -3.4
+                                    "zone_chance_vertical_shift": 50.0
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -324,7 +339,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -357,7 +376,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -390,7 +413,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -423,7 +450,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -456,7 +487,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -489,7 +524,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -522,7 +561,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -555,7 +598,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -588,7 +635,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -621,7 +672,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -654,7 +709,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -687,7 +746,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -720,7 +783,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -753,7 +820,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -786,7 +857,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -819,7 +894,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -852,7 +931,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -885,7 +968,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -918,7 +1005,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -951,7 +1042,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -984,7 +1079,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -1017,7 +1116,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -1050,7 +1153,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 },
                                 {
                                     "type": "DesecratedHeraldTier",
@@ -1083,7 +1190,11 @@
                                             "boost": 1,
                                             "behavior": 1
                                         }
-                                    ]
+                                    ],
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 44.0,
+                                    "zone_chance_slope": 0.04,
+                                    "zone_chance_vertical_shift": -3.4
                                 }
                             ]
                         }
@@ -1132,6 +1243,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_0",
                                     "level_id": 33,
                                     "waypoint_level_id": 32,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1151,6 +1263,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_1",
                                     "level_id": 17,
                                     "waypoint_level_id": 3,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1169,6 +1282,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_2",
                                     "level_id": 18,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1187,6 +1301,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_3",
                                     "level_id": 19,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1205,6 +1320,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_4",
                                     "level_id": 34,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1224,6 +1340,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_5",
                                     "level_id": 35,
                                     "waypoint_level_id": 35,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1242,6 +1359,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_6",
                                     "level_id": 36,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1260,6 +1378,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_7",
                                     "level_id": 37,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1278,6 +1397,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_8",
                                     "level_id": 32,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1297,6 +1417,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_9",
                                     "level_id": 3,
                                     "waypoint_level_id": 3,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1315,6 +1436,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_10",
                                     "level_id": 9,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1333,6 +1455,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_11",
                                     "level_id": 13,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1352,6 +1475,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_12",
                                     "level_id": 5,
                                     "waypoint_level_id": 5,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1370,6 +1494,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_13",
                                     "level_id": 10,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1388,6 +1513,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_14",
                                     "level_id": 14,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1407,6 +1533,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_15",
                                     "level_id": 2,
                                     "waypoint_level_id": 1,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1425,6 +1552,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_16",
                                     "level_id": 8,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1444,6 +1572,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_17",
                                     "level_id": 28,
                                     "waypoint_level_id": 0,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1463,6 +1592,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_18",
                                     "level_id": 29,
                                     "waypoint_level_id": 29,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1481,6 +1611,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_19",
                                     "level_id": 30,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1499,6 +1630,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_20",
                                     "level_id": 31,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1518,6 +1650,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_22",
                                     "level_id": 4,
                                     "waypoint_level_id": 4,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1536,6 +1669,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_23",
                                     "level_id": 38,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1555,6 +1689,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_24",
                                     "level_id": 6,
                                     "waypoint_level_id": 6,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1573,6 +1708,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_25",
                                     "level_id": 11,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1591,6 +1727,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_26",
                                     "level_id": 15,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1609,6 +1746,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_27",
                                     "level_id": 20,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1627,6 +1765,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_28",
                                     "level_id": 21,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1645,6 +1784,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_29",
                                     "level_id": 22,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1663,6 +1803,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_30",
                                     "level_id": 23,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1681,6 +1822,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_31",
                                     "level_id": 24,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1699,6 +1841,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_32",
                                     "level_id": 25,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1718,6 +1861,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_33",
                                     "level_id": 7,
                                     "waypoint_level_id": 27,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1736,6 +1880,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_34",
                                     "level_id": 12,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1754,6 +1899,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_35",
                                     "level_id": 16,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1772,6 +1918,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_36",
                                     "level_id": 26,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1790,6 +1937,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_0_zones_0_levels_37",
                                     "level_id": 27,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1823,6 +1971,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_0",
                                     "level_id": 47,
                                     "waypoint_level_id": 40,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1842,6 +1991,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_1",
                                     "level_id": 48,
                                     "waypoint_level_id": 48,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1860,6 +2010,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_2",
                                     "level_id": 49,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1879,6 +2030,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_3",
                                     "level_id": 41,
                                     "waypoint_level_id": 40,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1897,6 +2049,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_4",
                                     "level_id": 55,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1915,6 +2068,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_5",
                                     "level_id": 59,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1934,6 +2088,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_6",
                                     "level_id": 42,
                                     "waypoint_level_id": 42,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1952,6 +2107,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_7",
                                     "level_id": 56,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1971,6 +2127,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_8",
                                     "level_id": 57,
                                     "waypoint_level_id": 57,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -1989,6 +2146,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_9",
                                     "level_id": 60,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2008,6 +2166,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_10",
                                     "level_id": 43,
                                     "waypoint_level_id": 43,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2026,6 +2185,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_11",
                                     "level_id": 62,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2044,6 +2204,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_12",
                                     "level_id": 63,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2062,6 +2223,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_13",
                                     "level_id": 64,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2081,6 +2243,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_14",
                                     "level_id": 44,
                                     "waypoint_level_id": 44,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2099,6 +2262,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_15",
                                     "level_id": 45,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2117,6 +2281,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_16",
                                     "level_id": 58,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2135,6 +2300,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_17",
                                     "level_id": 61,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2153,6 +2319,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_18",
                                     "level_id": 65,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2172,6 +2339,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_19",
                                     "level_id": 66,
                                     "waypoint_level_id": 46,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2190,6 +2358,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_20",
                                     "level_id": 67,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2208,6 +2377,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_21",
                                     "level_id": 68,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2226,6 +2396,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_22",
                                     "level_id": 69,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2244,6 +2415,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_23",
                                     "level_id": 70,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2262,6 +2434,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_24",
                                     "level_id": 71,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2280,6 +2453,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_25",
                                     "level_id": 72,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2298,6 +2472,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_26",
                                     "level_id": 73,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2316,6 +2491,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_27",
                                     "level_id": 46,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2335,6 +2511,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_28",
                                     "level_id": 74,
                                     "waypoint_level_id": 74,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2353,6 +2530,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_29",
                                     "level_id": 50,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2371,6 +2549,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_30",
                                     "level_id": 51,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2390,6 +2569,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_31",
                                     "level_id": 52,
                                     "waypoint_level_id": 52,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2408,6 +2588,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_32",
                                     "level_id": 53,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2426,6 +2607,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_1_zones_0_levels_33",
                                     "level_id": 54,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2459,6 +2641,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_0",
                                     "level_id": 76,
                                     "waypoint_level_id": 76,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2478,6 +2661,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_1",
                                     "level_id": 85,
                                     "waypoint_level_id": 75,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2496,6 +2680,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_26",
                                     "level_id": 84,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2515,6 +2700,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_2",
                                     "level_id": 77,
                                     "waypoint_level_id": 77,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2534,6 +2720,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_3",
                                     "level_id": 78,
                                     "waypoint_level_id": 78,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2552,6 +2739,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_4",
                                     "level_id": 88,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2570,6 +2758,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_5",
                                     "level_id": 89,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2588,6 +2777,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_6",
                                     "level_id": 91,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2606,6 +2796,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_7",
                                     "level_id": 86,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2624,6 +2815,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_8",
                                     "level_id": 87,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2642,6 +2834,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_9",
                                     "level_id": 90,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2661,6 +2854,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_10",
                                     "level_id": 80,
                                     "waypoint_level_id": 80,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2680,6 +2874,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_11",
                                     "level_id": 79,
                                     "waypoint_level_id": 79,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2699,6 +2894,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_12",
                                     "level_id": 81,
                                     "waypoint_level_id": 81,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2717,6 +2913,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_13",
                                     "level_id": 82,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2735,6 +2932,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_14",
                                     "level_id": 92,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2753,6 +2951,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_15",
                                     "level_id": 93,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2771,6 +2970,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_16",
                                     "level_id": 94,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2789,6 +2989,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_17",
                                     "level_id": 95,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2807,6 +3008,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_18",
                                     "level_id": 96,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2825,6 +3027,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_19",
                                     "level_id": 97,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2843,6 +3046,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_20",
                                     "level_id": 98,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2861,6 +3065,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_21",
                                     "level_id": 99,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2880,6 +3085,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_22",
                                     "level_id": 83,
                                     "waypoint_level_id": 83,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2898,6 +3104,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_23",
                                     "level_id": 100,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2917,6 +3124,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_24",
                                     "level_id": 101,
                                     "waypoint_level_id": 101,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2935,6 +3143,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_2_zones_0_levels_25",
                                     "level_id": 102,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2968,6 +3177,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_3_zones_0_levels_0",
                                     "level_id": 104,
                                     "waypoint_level_id": 103,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -2986,6 +3196,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_3_zones_0_levels_1",
                                     "level_id": 105,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3005,6 +3216,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_3_zones_0_levels_2",
                                     "level_id": 106,
                                     "waypoint_level_id": 106,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3024,6 +3236,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_3_zones_0_levels_3",
                                     "level_id": 107,
                                     "waypoint_level_id": 107,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3043,6 +3256,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_3_zones_0_levels_4",
                                     "level_id": 108,
                                     "waypoint_level_id": 107,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3076,6 +3290,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_0",
                                     "level_id": 111,
                                     "waypoint_level_id": 111,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3094,6 +3309,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_1",
                                     "level_id": 110,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3112,6 +3328,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_2",
                                     "level_id": 125,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3131,6 +3348,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_3",
                                     "level_id": 112,
                                     "waypoint_level_id": 112,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3149,6 +3367,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_4",
                                     "level_id": 126,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3168,6 +3387,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_5",
                                     "level_id": 113,
                                     "waypoint_level_id": 113,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3186,6 +3406,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_6",
                                     "level_id": 114,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3205,6 +3426,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_7",
                                     "level_id": 121,
                                     "waypoint_level_id": 109,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3223,6 +3445,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_8",
                                     "level_id": 122,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3242,6 +3465,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_9",
                                     "level_id": 123,
                                     "waypoint_level_id": 123,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3260,6 +3484,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_10",
                                     "level_id": 124,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3279,6 +3504,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_11",
                                     "level_id": 115,
                                     "waypoint_level_id": 115,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3297,6 +3523,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_12",
                                     "level_id": 116,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3316,6 +3543,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_13",
                                     "level_id": 118,
                                     "waypoint_level_id": 118,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3334,6 +3562,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_14",
                                     "level_id": 119,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3353,6 +3582,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_15",
                                     "level_id": 117,
                                     "waypoint_level_id": 117,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3371,6 +3601,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_16",
                                     "level_id": 127,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3389,6 +3620,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_17",
                                     "level_id": 128,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3408,6 +3640,7 @@
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_18",
                                     "level_id": 129,
                                     "waypoint_level_id": 129,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3426,6 +3659,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_19",
                                     "level_id": 130,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3444,6 +3678,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_20",
                                     "level_id": 131,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3462,6 +3697,7 @@
                                     "type": "DesecratedLevel",
                                     "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_0_levels_21",
                                     "level_id": 132,
+                                    "zone_completion_weight": 1.0,
                                     "difficulties": {
                                         "rotw": {
                                             "hell": {
@@ -3492,6 +3728,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
                             "level_id": 77,
                             "waypoint_level_id": 77,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3511,6 +3748,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_0",
                             "level_id": 17,
                             "waypoint_level_id": 3,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3529,6 +3767,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_1",
                             "level_id": 18,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3547,6 +3786,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_2",
                             "level_id": 19,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3573,6 +3813,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
                             "level_id": 43,
                             "waypoint_level_id": 43,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3591,6 +3832,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_1",
                             "level_id": 62,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3609,6 +3851,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_2",
                             "level_id": 63,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3627,6 +3870,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_3",
                             "level_id": 64,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3646,6 +3890,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_0",
                             "level_id": 33,
                             "waypoint_level_id": 32,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3664,6 +3909,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_1",
                             "level_id": 34,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3683,6 +3929,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_2",
                             "level_id": 35,
                             "waypoint_level_id": 35,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3701,6 +3948,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_3",
                             "level_id": 36,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3719,6 +3967,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_4",
                             "level_id": 37,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3737,6 +3986,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_5",
                             "level_id": 32,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3763,6 +4013,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_34_levels_0",
                             "level_id": 118,
                             "waypoint_level_id": 118,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3781,6 +4032,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_34_levels_1",
                             "level_id": 119,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3800,6 +4052,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
                             "level_id": 3,
                             "waypoint_level_id": 3,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3818,6 +4071,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_1",
                             "level_id": 9,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3836,6 +4090,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_2",
                             "level_id": 13,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3855,6 +4110,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_4_levels_0",
                             "level_id": 2,
                             "waypoint_level_id": 1,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3886,6 +4142,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_0",
                             "level_id": 80,
                             "waypoint_level_id": 80,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3905,6 +4162,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_1",
                             "level_id": 79,
                             "waypoint_level_id": 79,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3924,6 +4182,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_2",
                             "level_id": 81,
                             "waypoint_level_id": 81,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3942,6 +4201,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_3",
                             "level_id": 82,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3960,6 +4220,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_4",
                             "level_id": 92,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3978,6 +4239,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_5",
                             "level_id": 93,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -3996,6 +4258,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_6",
                             "level_id": 94,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4014,6 +4277,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_7",
                             "level_id": 95,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4032,6 +4296,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_8",
                             "level_id": 96,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4050,6 +4315,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_9",
                             "level_id": 97,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4068,6 +4334,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_10",
                             "level_id": 98,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4086,6 +4353,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_11",
                             "level_id": 99,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4110,6 +4378,8 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_0",
                             "level_id": 5,
                             "waypoint_level_id": 5,
+                            "zone_completion_weight": 1.0,
+                            "zone_data_id": "Act1-DarkWood",
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4118,8 +4388,7 @@
                                         "bound_incl_max": 123,
                                         "boost_level": 13,
                                         "boost_experience_percent": 25,
-                                        "chance_to_gain_herald_token": 10.0,
-                                        "chance_for_token_to_convert_to_herald": 5.0
+                                        "zone_completion_weight": 1.0
                                     }
                                 }
                             }
@@ -4128,6 +4397,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_1",
                             "level_id": 10,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4146,6 +4416,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_2",
                             "level_id": 14,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4172,6 +4443,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_34_levels_0",
                             "level_id": 118,
                             "waypoint_level_id": 118,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4190,6 +4462,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_34_levels_1",
                             "level_id": 119,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4209,6 +4482,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
                             "level_id": 3,
                             "waypoint_level_id": 3,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4227,6 +4501,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_1",
                             "level_id": 9,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4245,6 +4520,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_2",
                             "level_id": 13,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4264,6 +4540,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_4_levels_0",
                             "level_id": 2,
                             "waypoint_level_id": 1,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4295,6 +4572,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_0",
                             "level_id": 44,
                             "waypoint_level_id": 44,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4313,6 +4591,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_1",
                             "level_id": 45,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4331,6 +4610,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_2",
                             "level_id": 58,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4349,6 +4629,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_3",
                             "level_id": 61,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4367,6 +4648,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_4",
                             "level_id": 65,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4386,6 +4668,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_0",
                             "level_id": 28,
                             "waypoint_level_id": 0,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4405,6 +4688,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_1",
                             "level_id": 29,
                             "waypoint_level_id": 29,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4423,6 +4707,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_2",
                             "level_id": 30,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4441,6 +4726,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_3",
                             "level_id": 31,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4461,7 +4747,8 @@
                     "type": "DesecratedZone",
                     "name": "desecratedzones_desecrated_zones_0_zones_6",
                     "id": "Act1-MooMooFarm",
-                    "difficulties": {
+                    "zone_completion_weight": 1.0,
+                            "difficulties": {
                         "rotw": {
                             "hell": {
                                 "type": "DesecratedDifficultyConfig",                                        
@@ -4498,6 +4785,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_1",
                             "level_id": 27,
                             "waypoint_level_id": 27,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4516,6 +4804,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_2",
                             "level_id": 12,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4534,6 +4823,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_3",
                             "level_id": 16,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4552,6 +4842,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_4",
                             "level_id": 26,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4571,6 +4862,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_7_levels_0",
                             "level_id": 4,
                             "waypoint_level_id": 4,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4589,6 +4881,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_7_levels_1",
                             "level_id": 38,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4615,6 +4908,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_8_levels_3",
                             "level_id": 20,
                             "waypoint_level_id": 6,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4633,6 +4927,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_8_levels_4",
                             "level_id": 21,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4651,6 +4946,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_8_levels_5",
                             "level_id": 22,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4669,6 +4965,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_8_levels_6",
                             "level_id": 23,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4687,6 +4984,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_8_levels_7",
                             "level_id": 24,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4705,6 +5003,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_8_levels_8",
                             "level_id": 25,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4736,6 +5035,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_1",
                             "level_id": 27,
                             "waypoint_level_id": 27,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4754,6 +5054,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_2",
                             "level_id": 12,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4772,6 +5073,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_3",
                             "level_id": 16,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4790,6 +5092,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_9_levels_4",
                             "level_id": 26,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4809,6 +5112,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_7_levels_0",
                             "level_id": 4,
                             "waypoint_level_id": 4,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4827,6 +5131,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_7_levels_1",
                             "level_id": 38,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4853,6 +5158,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_0",
                             "level_id": 121,
                             "waypoint_level_id": 109,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4871,6 +5177,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_1",
                             "level_id": 122,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4890,6 +5197,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_2",
                             "level_id": 123,
                             "waypoint_level_id": 123,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4908,6 +5216,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_3",
                             "level_id": 124,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4927,6 +5236,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_1",
                             "level_id": 47,
                             "waypoint_level_id": 40,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4946,6 +5256,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_2",
                             "level_id": 48,
                             "waypoint_level_id": 48,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4964,6 +5275,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_3",
                             "level_id": 49,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -4990,6 +5302,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_35_levels_0",
                             "level_id": 117,
                             "waypoint_level_id": 117,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5008,6 +5321,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_35_levels_1",
                             "level_id": 127,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5027,6 +5341,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_30_levels_0",
                             "level_id": 112,
                             "waypoint_level_id": 112,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5045,6 +5360,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_30_levels_1",
                             "level_id": 126,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5064,6 +5380,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_0",
                             "level_id": 41,
                             "waypoint_level_id": 40,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5082,6 +5399,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_1",
                             "level_id": 55,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5100,6 +5418,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
                             "level_id": 59,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5126,6 +5445,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_33_levels_0",
                             "level_id": 115,
                             "waypoint_level_id": 115,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5144,6 +5464,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_33_levels_1",
                             "level_id": 116,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5163,6 +5484,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_26_levels_0",
                             "level_id": 104,
                             "waypoint_level_id": 103,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5181,6 +5503,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_26_levels_1",
                             "level_id": 105,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5200,6 +5523,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
                             "level_id": 42,
                             "waypoint_level_id": 42,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5218,6 +5542,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_1",
                             "level_id": 56,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5237,6 +5562,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_2",
                             "level_id": 57,
                             "waypoint_level_id": 57,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5255,6 +5581,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
                             "level_id": 60,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5281,6 +5608,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_0",
                             "level_id": 43,
                             "waypoint_level_id": 43,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5299,6 +5627,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_1",
                             "level_id": 62,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5317,6 +5646,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_2",
                             "level_id": 63,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5335,6 +5665,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_16_levels_3",
                             "level_id": 64,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5354,6 +5685,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_0",
                             "level_id": 33,
                             "waypoint_level_id": 32,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5372,6 +5704,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_1",
                             "level_id": 34,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5391,6 +5724,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_2",
                             "level_id": 35,
                             "waypoint_level_id": 35,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5409,6 +5743,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_3",
                             "level_id": 36,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5427,6 +5762,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_4",
                             "level_id": 37,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5445,6 +5781,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_1_levels_5",
                             "level_id": 32,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5471,6 +5808,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_0",
                             "level_id": 44,
                             "waypoint_level_id": 44,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5489,6 +5827,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_1",
                             "level_id": 45,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5507,6 +5846,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_2",
                             "level_id": 58,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5525,6 +5865,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_3",
                             "level_id": 61,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5543,6 +5884,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_17_levels_4",
                             "level_id": 65,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5562,6 +5904,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_0",
                             "level_id": 28,
                             "waypoint_level_id": 0,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5581,6 +5924,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_1",
                             "level_id": 29,
                             "waypoint_level_id": 29,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5599,6 +5943,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_2",
                             "level_id": 30,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5617,6 +5962,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_5_levels_3",
                             "level_id": 31,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5642,6 +5988,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
                             "level_id": 100,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5661,6 +6008,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_1",
                             "level_id": 101,
                             "waypoint_level_id": 101,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5679,6 +6027,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_2",
                             "level_id": 102,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5698,6 +6047,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_0",
                             "level_id": 66,
                             "waypoint_level_id": 46,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5716,6 +6066,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_1",
                             "level_id": 67,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5734,6 +6085,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_2",
                             "level_id": 68,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5752,6 +6104,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_3",
                             "level_id": 69,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5770,6 +6123,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_4",
                             "level_id": 70,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5788,6 +6142,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_5",
                             "level_id": 71,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5806,6 +6161,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_6",
                             "level_id": 72,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5824,6 +6180,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_7",
                             "level_id": 73,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5842,6 +6199,8 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
                             "level_id": 46,
+                            "zone_completion_weight": 1.0,
+                            "zone_data_id": "Act2-TalRashas",
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5868,6 +6227,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_19_levels_0",
                             "level_id": 74,
                             "waypoint_level_id": 74  ,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5886,6 +6246,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_19_levels_1",
                             "level_id": 50,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5904,6 +6265,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_19_levels_2",
                             "level_id": 51,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5923,6 +6285,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_19_levels_3",
                             "level_id": 52,
                             "waypoint_level_id": 52,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5941,6 +6304,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_19_levels_4",
                             "level_id": 53,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5959,6 +6323,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_19_levels_5",
                             "level_id": 54,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -5985,6 +6350,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_31_levels_0",
                             "level_id": 113,
                             "waypoint_level_id": 113,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6003,6 +6369,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_31_levels_1",
                             "level_id": 114,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6022,6 +6389,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_27_levels_0",
                             "level_id": 106,
                             "waypoint_level_id": 106,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6041,6 +6409,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_27_levels_1",
                             "level_id": 107,
                             "waypoint_level_id": 107,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6060,6 +6429,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_0",
                             "level_id": 76,
                             "waypoint_level_id": 76,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6078,6 +6448,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_2",
                             "level_id": 84,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6096,6 +6467,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
                             "level_id": 85,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6122,6 +6494,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_21_levels_0",
                             "level_id": 77,
                             "waypoint_level_id": 77,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6141,6 +6514,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_0",
                             "level_id": 17,
                             "waypoint_level_id": 3,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6159,6 +6533,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_1",
                             "level_id": 18,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6177,6 +6552,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_0_levels_2",
                             "level_id": 19,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6202,6 +6578,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_29_levels_0",
                             "level_id": 110,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6221,6 +6598,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_29_levels_1",
                             "level_id": 111,
                             "waypoint_level_id": 111,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6239,6 +6617,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_29_levels_2",
                             "level_id": 125,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6258,6 +6637,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_0",
                             "level_id": 78,
                             "waypoint_level_id": 78,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6276,6 +6656,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_1",
                             "level_id": 88,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6294,6 +6675,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_2",
                             "level_id": 89,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6312,6 +6694,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_3",
                             "level_id": 91,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6330,6 +6713,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_4",
                             "level_id": 86,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6348,6 +6732,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_5",
                             "level_id": 87,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6366,6 +6751,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_6",
                             "level_id": 90,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6392,6 +6778,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_0",
                             "level_id": 80,
                             "waypoint_level_id": 80,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6411,6 +6798,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_1",
                             "level_id": 79,
                             "waypoint_level_id": 79,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6430,6 +6818,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_2",
                             "level_id": 81,
                             "waypoint_level_id": 81,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6448,6 +6837,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_3",
                             "level_id": 82,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6466,6 +6856,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_4",
                             "level_id": 92,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6484,6 +6875,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_5",
                             "level_id": 93,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6502,6 +6894,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_6",
                             "level_id": 94,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6520,6 +6913,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_7",
                             "level_id": 95,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6538,6 +6932,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_8",
                             "level_id": 96,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6556,6 +6951,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_9",
                             "level_id": 97,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6574,6 +6970,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_10",
                             "level_id": 98,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6592,6 +6989,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_23_levels_11",
                             "level_id": 99,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6616,6 +7014,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_0",
                             "level_id": 5,
                             "waypoint_level_id": 5,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6634,6 +7033,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_1",
                             "level_id": 10,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6652,6 +7052,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_3_levels_2",
                             "level_id": 14,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6678,6 +7079,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_24_levels_0",
                             "level_id": 83,
                             "waypoint_level_id": 83,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6703,6 +7105,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_0",
                             "level_id": 100,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6722,6 +7125,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_1",
                             "level_id": 101,
                             "waypoint_level_id": 101,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6740,6 +7144,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_25_levels_2",
                             "level_id": 102,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6759,6 +7164,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_0",
                             "level_id": 66,
                             "waypoint_level_id": 46,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6777,6 +7183,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_1",
                             "level_id": 67,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6795,6 +7202,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_2",
                             "level_id": 68,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6813,6 +7221,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_3",
                             "level_id": 69,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6831,6 +7240,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_4",
                             "level_id": 70,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6849,6 +7259,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_5",
                             "level_id": 71,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6867,6 +7278,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_6",
                             "level_id": 72,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6885,6 +7297,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_7",
                             "level_id": 73,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6903,6 +7316,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_18_levels_8",
                             "level_id": 46,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6929,6 +7343,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_33_levels_0",
                             "level_id": 115,
                             "waypoint_level_id": 115,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6947,6 +7362,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_33_levels_1",
                             "level_id": 116,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6966,6 +7382,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_26_levels_0",
                             "level_id": 104,
                             "waypoint_level_id": 103,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -6984,6 +7401,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_26_levels_1",
                             "level_id": 105,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7003,6 +7421,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
                             "level_id": 42,
                             "waypoint_level_id": 42,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7021,6 +7440,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_1",
                             "level_id": 56,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7040,6 +7460,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_2",
                             "level_id": 57,
                             "waypoint_level_id": 57,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7058,6 +7479,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
                             "level_id": 60,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7084,6 +7506,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_31_levels_0",
                             "level_id": 113,
                             "waypoint_level_id": 113,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7102,6 +7525,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_31_levels_1",
                             "level_id": 114,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7121,6 +7545,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_27_levels_0",
                             "level_id": 106,
                             "waypoint_level_id": 106,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7140,6 +7565,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_27_levels_1",
                             "level_id": 107,
                             "waypoint_level_id": 107,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7159,6 +7585,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_0",
                             "level_id": 76,
                             "waypoint_level_id": 76,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7177,6 +7604,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_2",
                             "level_id": 84,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7195,6 +7623,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
                             "level_id": 85,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7221,6 +7650,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_28_levels_0",
                             "level_id": 108,
                             "waypoint_level_id": 107,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7246,6 +7676,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_29_levels_0",
                             "level_id": 110,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7265,6 +7696,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_29_levels_1",
                             "level_id": 111,
                             "waypoint_level_id": 111,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7283,6 +7715,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_29_levels_2",
                             "level_id": 125,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7302,6 +7735,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_0",
                             "level_id": 78,
                             "waypoint_level_id": 78,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7320,6 +7754,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_1",
                             "level_id": 88,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7338,6 +7773,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_2",
                             "level_id": 89,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7356,6 +7792,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_3",
                             "level_id": 91,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7374,6 +7811,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_4",
                             "level_id": 86,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7392,6 +7830,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_5",
                             "level_id": 87,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7410,6 +7849,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_22_levels_6",
                             "level_id": 90,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7436,6 +7876,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_35_levels_0",
                             "level_id": 117,
                             "waypoint_level_id": 117,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7454,6 +7895,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_35_levels_1",
                             "level_id": 127,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7473,6 +7915,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_30_levels_0",
                             "level_id": 112,
                             "waypoint_level_id": 112,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7491,6 +7934,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_30_levels_1",
                             "level_id": 126,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7510,6 +7954,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_0",
                             "level_id": 41,
                             "waypoint_level_id": 40,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7528,6 +7973,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_1",
                             "level_id": 55,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7546,6 +7992,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
                             "level_id": 59,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7572,6 +8019,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_31_levels_0",
                             "level_id": 113,
                             "waypoint_level_id": 113,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7590,6 +8038,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_31_levels_1",
                             "level_id": 114,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7609,6 +8058,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_27_levels_0",
                             "level_id": 106,
                             "waypoint_level_id": 106,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7628,6 +8078,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_27_levels_1",
                             "level_id": 107,
                             "waypoint_level_id": 107,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7647,6 +8098,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_0",
                             "level_id": 76,
                             "waypoint_level_id": 76,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7665,6 +8117,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_2",
                             "level_id": 84,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7683,6 +8136,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_20_levels_1",
                             "level_id": 85,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7709,6 +8163,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_0",
                             "level_id": 121,
                             "waypoint_level_id": 109,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7727,6 +8182,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_1",
                             "level_id": 122,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7746,6 +8202,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_2",
                             "level_id": 123,
                             "waypoint_level_id": 123,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7764,6 +8221,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_32_levels_3",
                             "level_id": 124,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7783,6 +8241,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_1",
                             "level_id": 47,
                             "waypoint_level_id": 40,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7802,6 +8261,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_2",
                             "level_id": 48,
                             "waypoint_level_id": 48,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7820,6 +8280,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_11_levels_3",
                             "level_id": 49,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7846,6 +8307,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_33_levels_0",
                             "level_id": 115,
                             "waypoint_level_id": 115,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7864,6 +8326,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_33_levels_1",
                             "level_id": 116,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7883,6 +8346,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_26_levels_0",
                             "level_id": 104,
                             "waypoint_level_id": 103,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7901,6 +8365,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_26_levels_1",
                             "level_id": 105,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7920,6 +8385,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_0",
                             "level_id": 42,
                             "waypoint_level_id": 42,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7938,6 +8404,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_1",
                             "level_id": 56,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7957,6 +8424,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_2",
                             "level_id": 57,
                             "waypoint_level_id": 57,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -7975,6 +8443,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_15_levels_3",
                             "level_id": 60,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8001,6 +8470,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_34_levels_0",
                             "level_id": 118,
                             "waypoint_level_id": 118,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8019,6 +8489,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_34_levels_1",
                             "level_id": 119,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8038,6 +8509,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_0",
                             "level_id": 3,
                             "waypoint_level_id": 3,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8056,6 +8528,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_1",
                             "level_id": 9,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8074,6 +8547,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_2_levels_2",
                             "level_id": 13,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8093,6 +8567,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_4_levels_0",
                             "level_id": 2,
                             "waypoint_level_id": 1,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8124,6 +8599,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_35_levels_0",
                             "level_id": 117,
                             "waypoint_level_id": 117,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8142,6 +8618,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_35_levels_1",
                             "level_id": 127,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8161,6 +8638,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_30_levels_0",
                             "level_id": 112,
                             "waypoint_level_id": 112,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8179,6 +8657,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_30_levels_1",
                             "level_id": 126,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8198,6 +8677,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_0",
                             "level_id": 41,
                             "waypoint_level_id": 40,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8216,6 +8696,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_1",
                             "level_id": 55,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8234,6 +8715,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_14_levels_2",
                             "level_id": 59,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8259,6 +8741,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_36_levels_0",
                             "level_id": 128,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8278,6 +8761,7 @@
                             "name": "desecratedzones_desecrated_zones_0_zones_36_levels_1",
                             "level_id": 129,
                             "waypoint_level_id": 129,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8296,6 +8780,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_36_levels_2",
                             "level_id": 130,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8314,6 +8799,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_36_levels_3",
                             "level_id": 131,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
@@ -8332,6 +8818,7 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_36_levels_4",
                             "level_id": 132,
+                            "zone_completion_weight": 1.0,
                             "difficulties": {
                                 "rotw": {
                                     "hell": {
