@@ -29000,5 +29000,22 @@
     "ptBR": "Poção de Cura Menor",
     "ruRU": "Слабое зелье исцеления",
     "zhCN": "初级治疗药水"
-  }
+  },
+  {
+    "id": 82528,
+    "Key": "bpl",
+    "enUS": "{Large Charm}",
+    "zhTW": "弱效生命藥水",
+    "deDE": "schwacher Heiltrank",
+    "esES": "Poción de salud menor",
+    "frFR": "Potion de vie mineure",
+    "itIT": "Pozione Guaritrice Minore",
+    "koKR": "미량의 치유 물약",
+    "plPL": "Mniejsza mikstura leczenia",
+    "esMX": "Poción de vida menor",
+    "jaJP": "ライフ・ポーション（極小）",
+    "ptBR": "Poção de Cura Menor",
+    "ruRU": "Слабое зелье исцеления",
+    "zhCN": "初级治疗药水"
+  }  
 ]
