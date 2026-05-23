@@ -228,16 +228,17 @@ madawclightpierce	225					1																		1																			madawclightpier
 korliccoldpierce	226					1																			1																		korliccoldpierce																															0
 bind_demon_underling	227																																																		19						70	130																0
 herald	228																																										herald																															0
-apocalypse	229																																																																									
-potion_skill	230																																										energyshield							item_allskills												paladin_aura_sanctuary	paladin_redeemed_soul											0
-potion_elemental	231																																										aura_resistall_front	aura_resistall_back						passive_fire_mastery												paladin_aura_salvation	paladin_redeemed_soul											0
-potion_damage	232																																										bladeshield							item_normaldamage												barbarian_battlecry_state	paladin_redeemed_soul											0
-potion_survival	233																																										valkyrie							maxhp												paladin_aura_defiance	paladin_redeemed_soul											0
-potion_poison	234																																										rabiesplague							passive_pois_mastery												impact_poison_1	paladin_redeemed_soul											0
-amethyst_frw	235																																																	item_fastermovevelocity																								0
-topaz_mf	236																																																	item_magicbonus																								0
-sapphire_mreg	237																																																	manarecoverybonus																								0
-emerald_xp	238																																																	item_addexperience																								0
-ruby_hpreg	239																																																	hpregen																								0
-diamond_gf	240																																																	item_goldbonus																								0
-skull_dr	241																																																	damageresist																								0
+apocalypse	229																																																																									0
+missilelimit	230																																																																									0
+potion_skill	231																																										energyshield							item_allskills												paladin_aura_sanctuary	paladin_redeemed_soul											0
+potion_elemental	232																																										aura_resistall_front	aura_resistall_back						passive_fire_mastery												paladin_aura_salvation	paladin_redeemed_soul											0
+potion_damage	233																																										bladeshield							item_normaldamage												barbarian_battlecry_state	paladin_redeemed_soul											0
+potion_survival	234																																										valkyrie							maxhp												paladin_aura_defiance	paladin_redeemed_soul											0
+potion_poison	235																																										rabiesplague							passive_pois_mastery												impact_poison_1	paladin_redeemed_soul											0
+amethyst_frw	236																																																	item_fastermovevelocity																								0
+topaz_mf	237																																																	item_magicbonus																								0
+sapphire_mreg	238																																																	manarecoverybonus																								0
+emerald_xp	239																																																	item_addexperience																								0
+ruby_hpreg	240																																																	hpregen																								0
+diamond_gf	241																																																	item_goldbonus																								0
+skull_dr	242																																																	damageresist																								0
