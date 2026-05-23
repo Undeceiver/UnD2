@@ -683,7 +683,7 @@ Obsidian TC			1					1000	Obsidian Ring of the Zodiac	1																						"con
 Damned Halo TC			1					1000	Damned Halo	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >12) "						0
 Cloak of Abbadon TC			1					1000	The Cloak of Abbadon	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >19) "						0
 Soul of Acheron TC			1					1000	Soul of Acheron	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >26) "						0
-Pure Hellfire TC			1					250	Pure Hellfire	1																						"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >15) "						0
+Pure Hellfire TC			1					250	Pure Hellfire	1																												0
 Herald Ultra Uniques			1					25000	Soul of Acheron TC	5	Cloak of Abbadon TC	10	Damned Halo TC	15	Obsidian TC	20	Pure Hellfire TC	20																				0
 Herald Tier Indicator 1			1					0	gcv	1																						(stat('heraldtier'.accr) < 2)						0
 Herald Tier Indicator 2			1					0	gcy	1																						(stat('heraldtier'.accr)>1) * (stat('heraldtier'.accr) < 3)						0
