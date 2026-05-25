@@ -224,8 +224,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 8.0,
-                                    "zone_chance_midpoint": 50.0,
+                                    "zone_chance_asymptote": 4.0,
+                                    "zone_chance_midpoint": 65.0,
                                     "zone_chance_slope": 0.05,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -260,8 +260,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 9.0,
-                                    "zone_chance_midpoint": 45.0,
+                                    "zone_chance_asymptote": 5.0,
+                                    "zone_chance_midpoint": 60.0,
                                     "zone_chance_slope": 0.05,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -297,8 +297,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 10.0,
-                                    "zone_chance_midpoint": 40.0,
+                                    "zone_chance_asymptote": 6.0,
+                                    "zone_chance_midpoint": 55.0,
                                     "zone_chance_slope": 0.05,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -334,8 +334,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 11.0,
-                                    "zone_chance_midpoint": 35.0,
+                                    "zone_chance_asymptote": 7.0,
+                                    "zone_chance_midpoint": 50.0,
                                     "zone_chance_slope": 0.04,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -371,8 +371,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 12.0,
-                                    "zone_chance_midpoint": 30.0,
+                                    "zone_chance_asymptote": 8.0,
+                                    "zone_chance_midpoint": 45.0,
                                     "zone_chance_slope": 0.04,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -408,8 +408,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 13.0,
-                                    "zone_chance_midpoint": 25.0,
+                                    "zone_chance_asymptote": 9.0,
+                                    "zone_chance_midpoint": 40.0,
                                     "zone_chance_slope": 0.04,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -445,8 +445,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 14.0,
-                                    "zone_chance_midpoint": 25.0,
+                                    "zone_chance_asymptote": 10.0,
+                                    "zone_chance_midpoint": 40.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -482,8 +482,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 16.0,
-                                    "zone_chance_midpoint": 25.0,
+                                    "zone_chance_asymptote": 13.0,
+                                    "zone_chance_midpoint": 40.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -519,8 +519,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 17.0,
-                                    "zone_chance_midpoint": 25.0,
+                                    "zone_chance_asymptote": 14.0,
+                                    "zone_chance_midpoint": 40.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -556,8 +556,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 18.0,
-                                    "zone_chance_midpoint": 25.0,
+                                    "zone_chance_asymptote": 15.0,
+                                    "zone_chance_midpoint": 40.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -593,8 +593,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 19.0,
-                                    "zone_chance_midpoint": 25.0,
+                                    "zone_chance_asymptote": 16.0,
+                                    "zone_chance_midpoint": 40.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -630,8 +630,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 20.0,
-                                    "zone_chance_midpoint": 20.0,
+                                    "zone_chance_asymptote": 18.0,
+                                    "zone_chance_midpoint": 35.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -667,8 +667,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 21.0,
-                                    "zone_chance_midpoint": 20.0,
+                                    "zone_chance_asymptote": 19.0,
+                                    "zone_chance_midpoint": 35.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -704,8 +704,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 22.0,
-                                    "zone_chance_midpoint": 20.0,
+                                    "zone_chance_asymptote": 20.0,
+                                    "zone_chance_midpoint": 35.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -741,8 +741,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 23.0,
-                                    "zone_chance_midpoint": 20.0,
+                                    "zone_chance_asymptote": 21.0,
+                                    "zone_chance_midpoint": 35.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -778,8 +778,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 24.0,
-                                    "zone_chance_midpoint": 20.0,
+                                    "zone_chance_asymptote": 21.0,
+                                    "zone_chance_midpoint": 35.0,
                                     "zone_chance_slope": 0.03,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -815,8 +815,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 20.0,
+                                    "zone_chance_asymptote": 22.0,
+                                    "zone_chance_midpoint": 35.0,
                                     "zone_chance_slope": 0.02,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -852,8 +852,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 18.0,
+                                    "zone_chance_asymptote": 22.0,
+                                    "zone_chance_midpoint": 30.0,
                                     "zone_chance_slope": 0.02,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -889,8 +889,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 16.0,
+                                    "zone_chance_asymptote": 22.0,
+                                    "zone_chance_midpoint": 28.0,
                                     "zone_chance_slope": 0.02,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -926,8 +926,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 14.0,
+                                    "zone_chance_asymptote": 23.0,
+                                    "zone_chance_midpoint": 25.0,
                                     "zone_chance_slope": 0.02,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -963,8 +963,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 12.0,
+                                    "zone_chance_asymptote": 23.0,
+                                    "zone_chance_midpoint": 23.0,
                                     "zone_chance_slope": 0.02,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -1000,8 +1000,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 10.0,
+                                    "zone_chance_asymptote": 23.0,
+                                    "zone_chance_midpoint": 20.0,
                                     "zone_chance_slope": 0.02,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -1037,8 +1037,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 10.0,
+                                    "zone_chance_asymptote": 23.0,
+                                    "zone_chance_midpoint": 20.0,
                                     "zone_chance_slope": 0.01,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -1074,8 +1074,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 9.0,
+                                    "zone_chance_asymptote": 23.0,
+                                    "zone_chance_midpoint": 19.0,
                                     "zone_chance_slope": 0.01,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -1111,8 +1111,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 8.0,
+                                    "zone_chance_asymptote": 24.0,
+                                    "zone_chance_midpoint": 18.0,
                                     "zone_chance_slope": 0.01,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -1148,8 +1148,8 @@
                                             "behavior": 1
                                         }
                                     ],
-                                    "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 7.0,
+                                    "zone_chance_asymptote": 24.0,
+                                    "zone_chance_midpoint": 17.0,
                                     "zone_chance_slope": 0.01,
                                     "zone_chance_vertical_shift": 0.0
                                 },
@@ -1186,7 +1186,7 @@
                                         }
                                     ],
                                     "zone_chance_asymptote": 25.0,
-                                    "zone_chance_midpoint": 6.0,
+                                    "zone_chance_midpoint": 16.0,
                                     "zone_chance_slope": 0.01,
                                     "zone_chance_vertical_shift": 0.0
                                 }
