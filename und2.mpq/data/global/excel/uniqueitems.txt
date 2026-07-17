@@ -620,3 +620,4 @@ Templar's Might	615	100		1					16		125	74	uar	sacred armor		5	5000	cgrn	cgrn		in
 Nosferatu's Coil	616	100		1					1		111	51	uvc	vampirefang belt		5	5000								str		15	50	mana-kill		2	2	slow		10	100	lifesteal		5	50	swing2		10	60	light		-3	-3	addxp		1	1																						0
 Arioc's Needle	617	100		1					1		113	81	7sr	hyperion spear		3	5000								dmg%		180	450	dmg-pois	250	403	403	deadly		50	50	ignore-ac		1	1	allskills		2	7	swing2		30	60	addxp		1	1																						0
 Lightsabre	618	100		1					10		117	58	7cr	Phase Blade		5	5000	lblu			invcrsu				light		7	7	att-skill	53	5	0	ignore-ac	1	1	1	abs-ltng%		25	25	swing2		20	60	dmg-mag		60	300	dmg-ltng		1	400	manasteal		5	50	dmg%		150	450	dmg-norm		10	200	addxp		1	1						0
+Unassailable Spirit	619	100		1					1		80	75	7st	Ghost Spear		5	5000								dmg%		200	400	att%/lvl		4	4	gethit-skill	236	50	20	reanimate	437	20	20	lifesteal		10	20	gethit-skill	137	50	20	aura	109	10	20	block		35	35	dmg-to-mana		50	50														0
