@@ -290,3 +290,4 @@ war-tab-rand	282	1	10	item_addskill_tab		21	10	item_addskill_tab		22	10	item_add
 extra-mag	283	1	1	passive_mag_mastery																												+#% to Magic Skill Damage		Min %	Max %		0
 randclassskill-one	288	1	36	item_addclassskills		1																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
 abs-all%	289	1	1	item_absorbfire_percent			3	item_absorblight_percent			3	item_absorbcold_percent			3	item_absorbmagic_percent																		Min %	Max %	Currently Not Used	0
+oskill-rand	290	1	12	item_nonclassskill																											2	+# to [Skill]	Skill Level	Min Skill ID	Max Skill ID		0
