@@ -199,7 +199,7 @@ However, cube recipes only allow to output 3 items. Thus, to produce more, we cr
 
 Additionally, we add recipes to reroll rings and amulets, which have many unique and set versions, some of which are much more rare and interesting to the others, where a set or unique ring or amulet plus 5 Essences (of the adequate type) generates a new item  of the same kind (ring/amulet and unique/set) with the same item level, but potentially a different unique or set  version. This also makes unique rings, amulets, and set amulet drops a lot more valuable by themselves.\\
 
-Sometimes there will be excess of set or unique essences. To this end, we add recipes to burn them inefficiently: 12 set essences is 1 random jewelry, and 12 unique essences is 2 random jewelry.\\
+Sometimes there will be excess of set or unique essences. To this end, we add recipes to burn them inefficiently: 12 set essences is 1 random jewelry and 1 perfect gem, and 12 unique essences is 2 random jewelry and 1 perfect gem.\\
 
 We also make a couple of small changes to make certain unique items or item types more interesting. First, we reduce the item level for Annihilius (unique small charm) to 94. This means that Baal, Diablo, and Nihlathak can now regularly drop it. It is still a fairly rare item, though. Similarly, we added quite a few new unique items, mostly for item types that did not have any unique before. Among these, we felt that ethereality was not entirely exploited in the game, and added powerful ethereal unique items. Some are ethereal and unsocketable, meaning that it is impossible to make them indestructible. Others are ethereal and only hold charges in powerful skills. In turn, this makes these unique items inherently temporary, while also being very rare and very powerful. These are the new uniques, all of them have some special flavour that was not really present in the game before:
 
@@ -1640,7 +1640,7 @@ The first change was to make all TC85 blue or rarer items have some value. As su
 \item Any rare item from TC85 $\rightarrow$ Two random organs
 \end{itemize}
 
-There are 7 types of organs: Hearts, Brains, Eyes, Spleens, Jawbones, Fangs, and Horns. Another source of random organs are 12 flawless gems. This was added as converting flawless gems into perfect gems became irrelevant when perfect gems could be obtained from rings and amulets in much larger numbers. To a large degree, flawless gems are now more valuable than perfect gems, but this makes a lot of sense given how they are obtained now. There are two families of cube recipes that organs can be used for. One generates random valuable items, the other creates special rare belts that can be potentially really good, but with low probabilities for good combinations of statistics. We chose belts because they are overall the least exciting piece of equipment with not really that many great options, even with Augments.
+There are 7 types of organs: Hearts, Brains, Eyes, Spleens, Jawbones, Fangs, and Horns. Another source of random organs are 12 flawless gems, which give 1 organ, 1 random jewelry, and 1 perfect gem. This was added as converting flawless gems into perfect gems became irrelevant when perfect gems could be obtained from rings and amulets in much larger numbers. To a large degree, flawless gems are now more valuable than perfect gems, but this makes a lot of sense given how they are obtained now. There are two families of cube recipes that organs can be used for. One generates random valuable items (3 organs of the same type result in 1 rune, 1 random top jewelry, and 1 random ring), the other creates special rare belts that can be potentially really good, but with low probabilities for good combinations of statistics. We chose belts because they are overall the least exciting piece of equipment with not really that many great options, even with Augments.
 
 \begin{center}
 \makebox[0.1cm]
@@ -1648,20 +1648,6 @@ There are 7 types of organs: Hearts, Brains, Eyes, Spleens, Jawbones, Fangs, and
 \begin{tabular}{|c|c|}
 \hline
 {\bf{Inputs}}&{\bf{Output}}\\
-\hline
-3 hearts&Random rune\\
-\hline
-3 brains&Random rune\\
-\hline
-3 eyes&Random rune\\
-\hline
-3 spleens&Random set armor\\
-\hline
-3 jawbones&Random unique armor\\
-\hline
-3 fangs&Random set weapon\\
-\hline
-3 horns&Random unique weapon\\
 \hline
 Eye, brain, heart, spleen, fang&
 \begin{tabular}{@{}c@{}}
@@ -1807,7 +1793,7 @@ Ars Tor'Baalos&+3 demon skills\\
 
 Another two types of item that are supposed to be valuable, and encourages farming variety, but which can become pointless depending on the situation, are keys for the pandemonium event and essences used for reset tokens. These are particularly useless when there is a big imbalance between ones and others for other reasons (for example, excess of Keys of Terror due to Countess runs).\\
 
-Similarly, one underexploited feature of Diablo 2 involves temporary bonuses from consumable items. With scarce items, and very powerful bonuses that last about half an hour, this can help farm very high level areas while encouraging making the most of the run (since the bonuses are lost when quitting). We introduced recipes to generate random special potions from 12 essences, and random top jewelry from 6 keys.\\
+Similarly, one underexploited feature of Diablo 2 involves temporary bonuses from consumable items. With scarce items, and very powerful bonuses that last about half an hour, this can help farm very high level areas while encouraging making the most of the run (since the bonuses are lost when quitting). We introduced recipes to generate random special potions from 12 essences (plus a random top jewelry and a random amulet), and an organ, a rune, and a random top jewelry from 6 keys.\\
 
 \begin{center}
 \makebox[0.1cm]
@@ -1855,7 +1841,7 @@ First, we define the generic Jewelry type to include the following:
 
 Then, we add cube recipes that either 3 small charms, or 3 jewels will result in a random Jewelry. This can sometimes be really good, with a high level rune, an organ or a scroll of knowledge; or quite bad, with a perfect gem, a bad magic ring, or a low rune. One grand charm produces one random misc in general, which can be better but can also be worse, this makes it so that holding grand charms is not a thing.\\
 
-We additionally define Top Jewelry to be specifically concentrated unique and set essences, organs, scrolls of knowledge, Keys and chaotic Tristram organs, special potions, and well as Standards of Heroes. We then add a recipe that a Standard of Heroes will result in 1 Top Jewelry and 2 other random Jewelries, giving more incentive for chaotic Tristram.\\
+We additionally define Top Jewelry to be specifically concentrated unique and set essences, organs, scrolls of knowledge, Keys and chaotic Tristram organs, special potions, and well as Standards of Heroes. We then add a recipe that a Standard of Heroes will result in 1 Top Jewelry, a set ring, and a random jewelry, giving more incentive for chaotic Tristram.\\
 
 A scroll of knowledge is a new item that can only be obtained through these recipes that is used to make unique and set items more attractive, by adding a recipe that allows adding 2 sockets to a unique or set item with a scroll of knowledge, or give increased stack size and replenish quantity to throwable weapons.\\
 
@@ -1960,7 +1946,9 @@ To limit how many times it can be performed, we add additional final augments. T
 
 Statistically, this means that there will be on average 4-5 augments before a final augment is added. In other words, in the long term, the bonus is useful, but not game breaking, and it has a potential to be really good, but is very unlikely to reach that level. This also might incentivize rolling new torches and getting new torches, which keeps the pandemonium event permanently relevant.\\
 
-Each augment requires 2 set amulets or 3 set rings.
+Each augment requires 2 set amulets or 3 set rings.\\
+
+We also add a recipe that transforms a torch into 2 set amulets and a random top jewelry, for excess torches for the wrong classes.
 
 \section{Terrorized zones}
 
@@ -3422,6 +3410,8 @@ One issue with this game sometimes is that a character easily becomes irrelevant
 \item 100+ versions of bad uniques that just have wider ranges on attributes (big potential, requires luck).
 \end{itemize} 
 
+\item More and more interesting mutations that use organs.
+\item Temporary charges on charms from combination recipes.
 \item Iron Golem item by above 100 level requirement
 \item Casting monster abilities
 \item All class-specific runewords

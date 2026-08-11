@@ -1177,21 +1177,21 @@ Grand charm + Horazons Legacy - +2 war 50% mana regen	1				100					2	cm3	utb,set
 Grand charm + Ars Al'Diabolos - +7 apocalypse	1				100					2	cm3	waf,uni						useitem				skill		401	7	7																																																																															0
 Grand charm + Ars Dul'Mephistos - -15% magic res	1				100					2	cm3	wac,uni						useitem				pierce-mag			15	15																																																																															0
 Grand charm + Ars Ars Tor'Baalos - +3 demon skills	1				100					2	cm3	wae,uni						useitem				skilltab		21	3	3																																																																															0
-12 charged essences of hatred -> Special potion	1				100					12	ceh,qty=12							spp																																																																																							0
-12 twisted essences of suffering -> Special potion	1				100					12	tes,qty=12							spp																																																																																							0
-12 burning essences of terror -> Special potion	1				100					12	bet,qty=12							spp																																																																																							0
-12 festering essences of destruction -> Special potion	1				100					12	fed,qty=12							spp																																																																																							0
-6 keys of terror -> Random top jewelry	1				100					6	pk1,qty=6							tjw	98																																																																																						0
-6 keys of hate -> Random top jewelry	1				100					6	pk2,qty=6							tjw	98																																																																																						0
-6 keys of destruction -> Random top jewelry	1				100					6	pk3,qty=6							tjw	98																																																																																						0
-12 flawless gems -> Random body part	1				100					12	gem3,qty=12							torc	98																																																																																						0
-3 hearts -> Random rune	1				100					3	hrt,qty=3							rune	98																																																																																						0
-3 brains -> Random rune	1				100					3	brz,qty=3							rune	98																																																																																						0
-3 eyes -> Random rune	1				100					3	eyz,qty=3							rune	98																																																																																						0
-3 spleens -> Random set armor	1				100					3	spe,qty=3							armo,mag	98																												tal																																																										0
-3 jawbones -> Random unique armor	1				100					3	jaw,qty=3							armo,mag	98																												sol																																																										0
-3 fangs -> Random set weapon	1				100					3	fng,qty=3							weap,mag	98																												tal																																																										0
-3 horns -> Random unique armor	1				100					3	hrn,qty=3							weap,mag	98																												sol																																																										0
+12 charged essences of hatred -> Special potion, random top jewelry, random amulet	1				100					12	ceh,qty=12							spp																													tjw	98																												amu	98																												0
+12 twisted essences of suffering -> Special potion, random top jewelry, random amulet	1				100					12	tes,qty=12							spp																													tjw	98																												amu	98																												0
+12 burning essences of terror -> Special potion, random top jewelry, random amulet	1				100					12	bet,qty=12							spp																													tjw	98																												amu	98																												0
+12 festering essences of destruction -> Special potion, random top jewelry, random amulet	1				100					12	fed,qty=12							spp																													tjw	98																												amu	98																												0
+6 keys of terror -> Random organ, random top jewelry, random rune	1				100					6	pk1,qty=6							tjw	98																												rune																													torc																													0
+6 keys of hate -> Random organ, random top jewelry, random rune	1				100					6	pk2,qty=6							tjw	98																												rune																													torc																													0
+6 keys of destruction -> Random organ, random top jewelry, random rune	1				100					6	pk3,qty=6							tjw	98																												rune																													torc																													0
+12 flawless gems -> Random organ, random jewelry, perfect gem	1				100					12	gem3,qty=12							torc	98																												jwry	98																												gem4																													0
+3 hearts -> Random rune, random top jewelry, random ring	1				100					3	hrt,qty=3							rune	98																												tjw	98																												ring	98																												0
+3 brains -> Random rune, random top jewelry, random ring	1				100					3	brz,qty=3							rune	98																												tjw	98																												ring	98																												0
+3 eyes -> Random rune, random top jewelry, random ring	1				100					3	eyz,qty=3							rune	98																												tjw	98																												ring	98																												0
+3 spleens -> Random rune, random top jewelry, random ring	1				100					3	spe,qty=3							rune	98																												tjw	98																												ring	98																												0
+3 jawbones -> Random rune, random top jewelry, random ring	1				100					3	jaw,qty=3							rune	98																												tjw	98																												ring	98																												0
+3 fangs -> Random rune, random top jewelry, random ring	1				100					3	fng,qty=3							rune	98																												tjw	98																												ring	98																												0
+3 horns -> Random rune, random top jewelry, random ring	1				100					3	hrn,qty=3							rune	98																												tjw	98																												ring	98																												0
 Item + tail -> Set version (Only to be used as a continuation of the above)	1				100					2	any,mag	tal						usetype,set	98																																																																																						0
 Item + tail -> Set version (Only to be used as a continuation of the above)	1				100					2	any,rar	tal						usetype,set	98																																																																																						0
 Item + sol -> Unique version (Only to be used as a continuation of the above)	1				100					2	any,mag	sol						usetype,uni	98																																																																																						0
@@ -1210,7 +1210,7 @@ Scroll of knowledge + Unique item -> 2 sockets	1				100					2	weap,uni	0sc						
 Scroll of knowledge + Unique item -> 2 sockets	1				100					2	armo,uni	0sc						useitem				addxp			5	5	sock			2	2																																																																										0
 Scroll of knowledge + Set item -> 2 sockets	1				100					2	weap,set	0sc						useitem				addxp			5	5	sock			2	2																																																																										0
 Scroll of knowledge + Set item -> 2 sockets	1				100					2	armo,set	0sc						useitem				addxp			5	5	sock			2	2																																																																										0
-Standard of heroes -> 3 jewelry, 1 guaranteed top	1				100					1	std							tjw	98																												jwry	98																												jwry	98																												0
+Standard of heroes -> 1 top jewelry, 1 set ring, 1 random jewelry	1				100					1	std							tjw	98																												ring,set	98																												jwry	98																												0
 Raw Jewel -> Random piece of jewelry	1				100					1	tch							jwry	98																																																																																						0
 2 set amulets + torch -> Amazon augmented torch	1				100					3	cm2,uni	amu,set,qty=2						useitem			100	skill-rand		2	6	35	reanimate	10	638	10	10	reanimate	7	712	10	10	reanimate	5	573	5	5	reanimate	3	256	1	1																																																											0
 3 set rings + torch -> Amazon augmented torch	1				100					4	cm2,uni	ring,set,qty=3						useitem			100	skill-rand		2	6	35	reanimate	10	638	10	10	reanimate	7	712	10	10	reanimate	5	573	5	5	reanimate	3	256	1	1																																																											0
@@ -2194,5 +2194,6 @@ Unique weapon - 3UE Ort - Lightning strength mutation	1				100					5	weap,uni	el
 Unique weapon - 3UE Thul - Cold strength mutation	1				100					5	weap,uni	elx,qty=3	r10					useitem				str			-15	-5	extra-cold	4		15	50	pierce-cold	4		15	50	oskill	4	91	1	20	pierce-immunity-cold	1		300	300																																																											0
 Unique weapon - 3UE Tal - Poison strength mutation	1				100					5	weap,uni	elx,qty=3	r07					useitem				str			-15	-5	extra-pois	4		15	50	pierce-pois	4		15	50	oskill	4	91	1	20	pierce-immunity-poison	1		300	300																																																											0
 Unique weapon - 3UE Eld - Dexterity mutation	1				100					5	weap,uni	elx,qty=3	r02					useitem				dex			-15	-5	pierce-immunity-damage	4		300	300	att%	4		75	300	crush	4		15	75	aura	1	122	10	30																																																											0
-12 set essences - Random jewelry	1				100					12	hrb,qty=12							jwry	98																																																																																						0
-12 unique essences - 2 Random jewelry	1				100					12	elx,qty=12							jwry	98																												jwry	98																																																									0
+12 set essences - Random jewelry and perfect gem	1				100					12	hrb,qty=12							jwry	98																												gem4																																																										0
+12 unique essences - 2 Random jewelry and perfect gem	1				100					12	elx,qty=12							jwry	98																												jwry	98																												gem4																													0
+Torch -> 2 set amulets, 1 top jewelry	1				100					1	cm2,uni							amu,set	98																												amu,set	98																												tjw	98																												0
