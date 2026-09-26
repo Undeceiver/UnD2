@@ -242,3 +242,4 @@ emerald_xp	239																																																	item_addexperienc
 ruby_hpreg	240																																																	hpregen																								0
 diamond_gf	241																																																	item_goldbonus																								0
 skull_dr	242																																																	damageresist																								0
+primeevil_threat	243																																																																									0
