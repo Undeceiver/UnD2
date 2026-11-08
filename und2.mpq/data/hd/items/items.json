@@ -607,7 +607,7 @@
   { "cm3": { "asset": "charm/charm_large" } },
   { "rps": { "asset": "potion/healing_potion" } },
   { "rpl": { "asset": "potion/full_healing_potion" } },
-  { "bps": { "asset": "charm/charm_medium" } },
+  { "bps": { "asset": "gold/gold" } },
   { "bpl": { "asset": "charm/charm_medium" } },
   { "r01": { "asset": "rune/el_rune" } },
   { "r02": { "asset": "rune/eld_rune" } },

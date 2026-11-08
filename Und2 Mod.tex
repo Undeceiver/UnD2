@@ -1818,12 +1818,11 @@ First, we define the generic Jewelry type to include the following:
 \item Essences of Suffering, Hatred, Terror, Destruction.
 \item Token of Absolution.
 \item Special potions.
-\item Standard of Heroes.
 \end{itemize}
 
 Then, we add cube recipes that either 3 small charms, or 3 jewels will result in a random Jewelry. This can sometimes be really good, with a high level rune, an organ or a scroll of knowledge; or quite bad, with a perfect gem, a bad magic ring, or a low rune. One grand charm produces one random misc in general, which can be better but can also be worse, this makes it so that holding grand charms is not a thing.\\
 
-We additionally define Top Jewelry to be specifically concentrated unique and set essences, organs, scrolls of knowledge, Keys and chaotic Tristram organs, special potions, and well as Standards of Heroes. We then add a recipe that a Standard of Heroes will result in 1 Top Jewelry, a set ring, and a random jewelry, giving more incentive for chaotic Tristram.\\
+We additionally define Top Jewelry to be specifically concentrated unique and set essences, organs, scrolls of knowledge, Keys and chaotic Tristram organs, and special potions.\\
 
 A scroll of knowledge is a new item that can only be obtained through these recipes that is used to make unique and set items more attractive, by adding a recipe that allows adding 2 sockets to a unique or set item with a scroll of knowledge, or give increased stack size and replenish quantity to throwable weapons.\\
 
@@ -1843,7 +1842,7 @@ For Large Charms, which are normally not very useful, we do something a little d
 
 We also wanted to make both some additional ways to make gold easier to obtain in large quantities and in general incentivize killing large amounts of low level enemies, rather than focusing exclusively on elites. In particular, we make regular keys have quite a bit of  gold value, so they can be sold to NPCs for gold and are worth picking up. We also increase the maximum stack size for keys to 100. Each key is worth 2500 gold\\
 
-While we want gambling to still be one of the main ways to use gold, both to obtain good bases and rings/amulets to generate perfect gems for upgrading runes, sometimes there just is not a good target to gamble for, since we are not looking for any particular item or base that we do not have like that, nor for additional gems to upgrade runes. Thus, we add a new relatively inefficient item to buy at NPCs, a Raw Jewel, costing 150000 gold and resulting in a random piece of Jewelry in the horadric cube. This, again, could be really good if landing a really valuable Jewelry like a high l evel rune, Standard of Heroes, or organ; or a waste of money, if landing a perfect gem or bad magic ring.\\
+While we want gambling to still be one of the main ways to use gold, both to obtain good bases and rings/amulets to generate perfect gems for upgrading runes, sometimes there just is not a good target to gamble for, since we are not looking for any particular item or base that we do not have like that, nor for additional gems to upgrade runes. Thus, we add a new relatively inefficient item to buy at NPCs, a Raw Jewel, costing 150000 gold and resulting in a random piece of Jewelry in the horadric cube. This, again, could be really good if landing a really valuable Jewelry like a high level rune or organ; or a waste of money, if landing a perfect gem or bad magic ring.\\
 
 \section{Consuming low gems}
 
@@ -3366,6 +3365,20 @@ One issue with this game sometimes is that a character easily becomes irrelevant
 \item +100\% gold dropped from monsters
 \item 5\% reduced vendor prices
 \end{itemize}
+
+To give a more meaningful loot-based incentive we create the mission-charm system. Under this system, we have one unique large charm associated to each class, that can drop at any level on any character, and only give a mild 5\% gold bonus:
+\begin{itemize}
+\item Amazon's Resolve
+\item Barbarian's Grudge
+\item Paladin's Duty
+\item Necromancer's Fixation
+\item Sorceress's Expediency
+\item Druid's Requital
+\item Assassin's Mark
+\item Warlock's Bond
+\end{itemize}
+
+These represent a mission associated with that class. We make Standard of Heroes a quest item, meaning that it cannot be transferred between characters and not more than 1 can be held. We then add a cube recipe that takes a class mission charm and a standard of heroes and outputs a lot of very valuable loot. We add standard of heroes to very high tier herald drops. But these recipes can only be used with the respective character class. This combination means that dropping a mission charm gives an incentive to play with a character for that class and aim for high level heralds, and that dropping a standard of heroes gives an incentive to play with another character on higher tier heralds until we can cash it in with a corresponding mission charm.
 
 \section{Not added to this document yet}
 
