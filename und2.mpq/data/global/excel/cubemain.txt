@@ -151,7 +151,7 @@ Staff of Kings + Amulet of the Viper -> Horadric Staff	1				0	28				2	msf	vip			
 1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
 1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1				100					4	tes	ceh	bet	fed				toa																																																																																							0
-Test: 2 keys -> Whatever	1				9					2	"key,qty=2"							cm2,uni																																																																																							0
+Test: 2 keys -> Whatever	1				9					2	"key,qty=2"							Annihilus																																																																																							0
 Test: item + key -> Whatever	1				100					2	any,mag	key						useitem				kill-skill		70	30	35	kill-skill		83	30	35	kill-skill		150	30	35	kill-skill		401	30	35																																																																0
 Test: key+pg -> Zod rune	1				100					2	key	gem4						r33																																																																																							0
 El + PG = Eld	1				100					2	r01	gem4						r02																																																																																							0
@@ -2196,8 +2196,8 @@ Unique weapon - 3UE Tal - Poison strength mutation	1				100					5	weap,uni	elx,q
 Unique weapon - 3UE Eld - Dexterity mutation	1				100					5	weap,uni	elx,qty=3	r02					useitem				dex			-15	-5	pierce-immunity-damage	4		300	300	att%	4		75	300	crush	4		15	75	aura	1	122	10	30																																																											0
 12 set essences - Random jewelry and perfect gem	1				100					12	hrb,qty=12							jwry	98																												gem4																																																										0
 12 unique essences - 2 Random jewelry and perfect gem	1				100					12	elx,qty=12							jwry	98																												jwry	98																												gem4																													0
-Torch -> 2 set amulets, 1 top jewelry	1				100					1	cm2,uni							amu,set	98																												amu,set	98																												tjw	98																												0
-Herald stash -> Top jewerly, Rune, set amulet	1				100					1	bps							rune	98																												amu,set	98																												tjw	98																												0
+Torch -> 2 set amulets, 1 top jewelry	1				100					1	Hellfire Torch							amu,set	98																												amu,set	98																												tjw	98																												0
+Herald stash -> Top jewelry, Rune, set amulet	1				100					1	bps							rune	98																												amu,set	98																												tjw	98																												0
 Amazon's Resolve + Standard of heroes -> 3 herald stash	1				100				ama	2	std	Amazon's Resolve						bps																													bps																													bps																													0
 Barbarian's grudge + Standard of heroes -> 3 herald stash	1				100				bar	2	std	Barbarian's Grudge						bps																													bps																													bps																													0
 Paladin's Duty + Standard of heroes -> 3 herald stash	1				100				pal	2	std	Paladin's Duty						bps																													bps																													bps																													0
