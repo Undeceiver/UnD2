@@ -499,10 +499,10 @@ Magic Torso - ZodJah - Werewolf	1				100					3	tors,mag	r33	r31					useitem				a
 Rare Torso - ZodJah - Werewolf	1				100					3	tors,rar	r33	r31					useitem				addxp			1	1	oskill		223	8	12	oskill		224	8	12																																																																					0
 Magic Ring - ZodJah - Werewolf	1				100					3	ring,mag	r33	r31					useitem				addxp			1	1	oskill		223	8	12	oskill		224	8	12																																																																					0
 Rare Ring - ZodJah - Werewolf	1				100					3	ring,rar	r33	r31					useitem				addxp			1	1	oskill		223	8	12	oskill		224	8	12																																																																					0
-Magic Torso - BerBer UE - Werebear	1				100					4	tors,mag	r30	r30	elx				useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
-Rare Torso - BerBer UE - Werebear	1				100					4	tors,rar	r30	r30	elx				useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
-Magic Ring - BerBer UE - Werebear	1				100					4	ring,mag	r30	r30	elx				useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
-Rare Ring - BerBer UE - Werebear	1				100					4	ring,rar	r30	r30	elx				useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
+Magic Torso - BerBer UE - Werebear	1				100					4	tors,mag	r30,qty=2	elx					useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
+Rare Torso - BerBer UE - Werebear	1				100					4	tors,rar	r30,qty=2	elx					useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
+Magic Ring - BerBer UE - Werebear	1				100					4	ring,mag	r30,qty=2	elx					useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
+Rare Ring - BerBer UE - Werebear	1				100					4	ring,rar	r30,qty=2	elx					useitem				addxp			1	1	oskill		228	8	12	oskill		224	8	12																																																																					0
 Magic Weapon - JahUm UE - Feral Rage	1				100					4	weap,mag	r31	r22	elx				useitem				addxp			1	1	oskill		232	5	10																																																																										0
 Rare Weapon - JahUm UE - Feral Rage	1				100					4	weap,rare	r31	r22	elx				useitem				addxp			1	1	oskill		232	5	10																																																																										0
 Magic Shield - JahUm UE - Feral Rage	1				100					4	shld,mag	r31	r22	elx				useitem				addxp			1	1	oskill		232	5	10																																																																										0
